@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+/* * {
+  font-family:
+} */
+
+.headerBar {
+    background-color: #1F5C70;
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    background-color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.instagram,
+.facebook,
+.twitter {
+    height: 25px;
+    margin: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu {
+    display: block;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    padding-top: 45px;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+    width: 69px;
+    height: 71px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list li {
+    flex: 3;
+}
+
+.list-footer {
+    list-style: none;
+    display: flex;
+}
+
+.list-footer li {
+    flex: 3;
+}
+
+.btn-donate {
+    background-color: #F25828;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 8px;
+    width: 138px;
+    height: 50px;
+}
+
+.footer {
+    color: #F2F2F2;
+    background-color: #1F5C70;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 205px;
+}
+
+.container-footer {
+    display: flex;
+}
+
+hr {
+    background: #F2F2F2;
+    margin-right: 80px;
+    margin-left: 80px;
 }
