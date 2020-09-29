@@ -1,18 +1,34 @@
+/* * {
+  font-family:
+} */
+
 .headerBar {
     background-color: #1F5C70;
     height: 42px;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    flex-direction: column;
 }
 
 .instagram,
 .facebook,
 .twitter {
-    height: 10px;
+    height: 25px;
+    margin: 8px;
 }
 
-.container-header {
-    display: flex;
-    justify-content: space-around;
+.menu {
+    display: block;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    padding-top: 45px;
 }
 
 .logo {
@@ -22,10 +38,19 @@
 
 .list {
     list-style: none;
-    display: inline-flex;
+    display: flex;
 }
 
 .list li {
+    flex: 3;
+}
+
+.list-footer {
+    list-style: none;
+    display: flex;
+}
+
+.list-footer li {
     flex: 3;
 }
 
@@ -41,4 +66,18 @@
 .footer {
     color: #F2F2F2;
     background-color: #1F5C70;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 205px;
+}
+
+.container-footer {
+    display: flex;
+}
+
+hr {
+    background: #F2F2F2;
+    margin-right: 80px;
+    margin-left: 80px;
 }

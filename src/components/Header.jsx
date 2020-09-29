@@ -8,13 +8,11 @@ import UpperBar from './UpperBar';
 const Header = () => {
 
   return (
-    <header >
+    <header className='header'>
       <UpperBar />
       <div className='container-header'>
-        <div>
-          <img src={Logo} className='logo' alt='logo' />
-        </div>
         <nav className='menu'>
+          <img src={Logo} className='logo' alt='logo' />
           <Router>
             <ul className='list'>
               <li><Link to='/aboutUs'>Sobre Nosotros</Link></li>
@@ -25,10 +23,8 @@ const Header = () => {
               <li><Link to='/contact'>Contacto</Link></li>
             </ul>
           </Router>
-        </nav>
-        <div>
           <BtnDonate />
-        </div>
+        </nav>
       </div>
     </header >
   );

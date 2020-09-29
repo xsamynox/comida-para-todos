@@ -9,12 +9,11 @@ function Home() {
       <div className="containerMenu">
         <Header />
       </div>
-      <div className=''>
+      <div className="containerFooter">
         <Footer />
       </div>
     </Fragment>
 
   );
 }
-
 export default Home;
