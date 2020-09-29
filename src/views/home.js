@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import '../App.js';
 import Header from '../components/Header';
-
+import Footer from '../components/Footer'
 
 function Home() {
   return (
-    <div className="menu">
-      <Header />
-    </div>
+    <Fragment>
+      <div className="containerMenu">
+        <Header />
+      </div>
+      <div className=''>
+        <Footer />
+      </div>
+    </Fragment>
 
   );
 }

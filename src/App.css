@@ -4,21 +4,29 @@
     width: 100%;
 }
 
+.instagram,
+.facebook,
+.twitter {
+    height: 10px;
+}
+
 .container-header {
     display: flex;
+    justify-content: space-around;
 }
 
 .logo {
-    /* width: 5.45vw;
-    height: 12.8vh; */
     width: 69px;
     height: 71px;
 }
 
 .list {
     list-style: none;
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+}
+
+.list li {
+    flex: 3;
 }
 
 .btn-donate {
@@ -26,6 +34,11 @@
     color: #F2F2F2;
     border: none;
     border-radius: 8px;
-    width: 98px;
+    width: 138px;
     height: 50px;
+}
+
+.footer {
+    color: #F2F2F2;
+    background-color: #1F5C70;
 }
