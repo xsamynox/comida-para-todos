@@ -1,14 +1,14 @@
 import React from 'react';
 import {
-  BrowserRouter as Router, Switch, Route, Link
+  BrowserRouter as Router, Switch, Route
 } from "react-router-dom";
 import Home from '../src/views/home'
-/* import aboutUs from '../src/views/aboutUs'
+import aboutUs from '../src/views/aboutUs'
 import campaigns from '../src/views/campaigns'
 import collaborators from '../src/views/collaborators'
 import contact from '../src/views/contact'
 import donate from '../src/views/donate'
-import transparency from '../src/views/transparency' */
+import transparency from '../src/views/transparency'
 import './App.css';
 
 function App() {

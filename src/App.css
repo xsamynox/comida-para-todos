@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+.headerBar {
+    background-color: #1F5C70;
+    height: 42px;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-header {
+    display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+    /* width: 5.45vw;
+    height: 12.8vh; */
+    width: 69px;
+    height: 71px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-donate {
+    background-color: #F25828;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 8px;
+    width: 98px;
+    height: 50px;
 }
