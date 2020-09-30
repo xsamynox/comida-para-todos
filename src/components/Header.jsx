@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../iconos/logo2.png';
+import Logo from '../images/iconos/logo2.png';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import BtnDonate from './Btn-donate';
 import UpperBar from './UpperBar';

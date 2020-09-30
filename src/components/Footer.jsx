@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import twitter from '../iconos/twitter.png';
-import facebook from '../iconos/facebook.png';
-import instagram from '../iconos/instagram.png';
+import twitter from '../images/iconos/twitter.png';
+import facebook from '../images/iconos/facebook.png';
+import instagram from '../images/iconos/instagram.png';
 
 const Footer = () => {
 
@@ -24,11 +24,13 @@ const Footer = () => {
         </nav>
       </div>
       <hr />
-      <div>
+      <div className='container-footer2'>
         <p>© 2020 Comida para Todos, todos los derechos reservados.</p>
-        <img src={instagram} className="instagram" alt="instagram" />
-        <img src={facebook} className="facebook" alt="logo-facebook" />
-        <img src={twitter} className="twitter" alt="logo-twitter" />
+        <div>
+          <img src={instagram} className="instagram" alt="instagram" />
+          <img src={facebook} className="facebook" alt="logo-facebook" />
+          <img src={twitter} className="twitter" alt="logo-twitter" />
+        </div>
       </div>
     </footer>
   );
