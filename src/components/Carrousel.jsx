@@ -1,4 +1,7 @@
 import React from 'react';
+import HuertosUrbanos from '../images/Huertos-urbanos.jpg';
+import Alimentos from '../images/Alimentos.jpg'
+import Voluntariado from '../images/Voluntariado.jpg'
 
 const Carrousel = () => {
   return(
@@ -11,26 +14,33 @@ const Carrousel = () => {
       </ol>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="..." className="d-block w-100" alt="..."></img>
+          <img src={HuertosUrbanos} className="d-block w-100" alt="Huertos urbanos"></img>
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h5>Huertos Urbanos</h5>
+              <p>Texto por definir.</p>
             </div>
-    </div>
+        </div>
           <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..."></img>
+            <img src="" className="d-block w-100" alt="Haz una clase"></img>
               <div className="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h5>Haz una clase</h5>
+                <p>Texto por definir.</p>
               </div>
-    </div>
+          </div>
             <div className="carousel-item">
-              <img src="..." className="d-block w-100" alt="..."></img>
+              <img src={Alimentos} className="d-block w-100" alt="..."></img>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  <h5>Alimentos</h5>
+                  <p>Texto por definir.</p>
                 </div>
-    </div>
+            </div>
+          <div className="carousel-item">
+            <img src={Voluntariado} className="d-block w-100" alt="..."></img>
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Voluntariado</h5>
+              <p>Texto por definir.</p>
+            </div>
+          </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -41,7 +51,7 @@ const Carrousel = () => {
               <span className="sr-only">Next</span>
             </a>
           </div>
-          </div>
+      </div>
   );
   }
 export default Carrousel;

@@ -1,5 +1,5 @@
 * {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Be Vietnam', 'Bebas Neue', sans-serif;
 }
 
 .headerBar {
@@ -43,6 +43,10 @@
 
 .list li {
     flex: 3;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .firstImg {
