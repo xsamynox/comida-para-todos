@@ -24,11 +24,13 @@ const Footer = () => {
         </nav>
       </div>
       <hr />
-      <div>
+      <div className='container-footer2'>
         <p>© 2020 Comida para Todos, todos los derechos reservados.</p>
-        <img src={instagram} className="instagram" alt="instagram" />
-        <img src={facebook} className="facebook" alt="logo-facebook" />
-        <img src={twitter} className="twitter" alt="logo-twitter" />
+        <div>
+          <img src={instagram} className="instagram" alt="instagram" />
+          <img src={facebook} className="facebook" alt="logo-facebook" />
+          <img src={twitter} className="twitter" alt="logo-twitter" />
+        </div>
       </div>
     </footer>
   );
