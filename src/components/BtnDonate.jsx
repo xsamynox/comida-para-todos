@@ -6,7 +6,7 @@ const BtnDonate = () => {
   return (
     <div>
       <Router>
-        <Link to='/donate'><button className="btn-donate" name='Dona Aqui'>Dona Aqui</button></Link>
+        <Link to='/donate'><button className="btn-donate" name='Dona Aqui'>Dona Aquí</button></Link>
       </Router>
     </div>
   );
