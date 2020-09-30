@@ -1,7 +1,7 @@
 import React from 'react';
-import twitter from '../iconos/twitter.png';
-import facebook from '../iconos/facebook.png';
-import instagram from '../iconos/instagram.png';
+import twitter from '../images/iconos/twitter.png';
+import facebook from '../images/iconos/facebook.png';
+import instagram from '../images/iconos/instagram.png';
 
 
 const UpperBar = () => {
