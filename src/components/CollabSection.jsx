@@ -4,8 +4,12 @@ import CafeSanJuan from '../images/cafe-san-juan 1.png';
 import Foodies from '../images/foodies 1.png';
 import Cultiva from '../images/logo-fundacion-cultiva 1.png';
 import Ñam from '../images/logo-niam 1.png';
+<<<<<<< HEAD
 
 
+=======
+import Hands from '../images/Image2.png'
+>>>>>>> 5a7dd69d26ece0cc245a60a5f2769aaed0d1e500
 
 
 const CollabSection = () => {
@@ -32,6 +36,10 @@ const CollabSection = () => {
         <img src={Cultiva} className="cultiva" style={{width:"35%"}} alt="cultiva" />
         <img src={Ñam} className="ñam" style={{width:"25%"}} alt="ñam" />
         </div>
+<<<<<<< HEAD
+=======
+        <div>
+>>>>>>> 5a7dd69d26ece0cc245a60a5f2769aaed0d1e500
         </div>
     );
 };
