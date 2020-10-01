@@ -21,7 +21,7 @@ const CollabSection = () => {
                     </div>
                 </p>
             </div>
-          ut  <div className="containerHands">
+            <div className="containerHands">
                 <img src={Hands} className="hands" alt="hands" />
             </div>
             <div className="companies">
