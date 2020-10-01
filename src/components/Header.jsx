@@ -14,6 +14,7 @@ const Header = () => {
           <Router>
             <ul className='list'>
               <li><img src={Logo} className='logo' alt='logo' /></li>
+              <hr className='vertLine' />
               <li><Link to='/aboutUs'>Sobre Nosotros</Link></li>
               <li><Link to='/projects'>Proyectos</Link></li>
               <li><Link to='/campaings'>Campaña</Link></li>
