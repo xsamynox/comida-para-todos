@@ -217,3 +217,42 @@ p {
     margin-right: 80px;
     margin-left: 80px;
 }
+
+/* container collaborators */
+
+.CollaborationSection {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5%;
+    margin-left: 5%;
+    /* justify-content:flex-start;
+    align-items: flex-start; */
+}
+.textContainer{
+    padding-inline-start: 5%;
+    text-align: left;
+}
+.collabTitle {
+    text-align: center;
+}
+.paragraph{
+    padding-top: 8%;
+}
+
+
+/* .containerHands {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+
+        } */
+.hands {
+    width: 400px;
+    height: 304px;
+    border-radius: 8px;
+
+}
+
+
+
+

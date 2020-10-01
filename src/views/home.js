@@ -5,6 +5,7 @@ import ImgPage from '../components/ImgPage'
 import Footer from '../components/Footer'
 import DonatePrice from '../components/Donate-price'
 import OtherDonate from '../components/OtherDonate'
+import CollabSection from '../components/CollabSection.jsx';
 
 function Home() {
   return (
@@ -19,6 +20,9 @@ function Home() {
         </div>
         <div>
           <OtherDonate />
+        </div>
+        <div>
+          <CollabSection />
         </div>
       </body>
       <div className="containerFooter">
