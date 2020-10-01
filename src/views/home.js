@@ -5,6 +5,7 @@ import ImgPage from '../components/ImgPage'
 import Footer from '../components/Footer'
 import DonatePrice from '../components/Donate-price'
 import OtherDonate from '../components/OtherDonate'
+import CollabSection from '../components/CollabSection.jsx';
 import Carrousel from '../components/Carrousel';
 import Insta from '../components/Instagram';
 
@@ -22,6 +23,9 @@ function Home() {
         <div className='container-otherDnt'>
           <Carrousel />
           <OtherDonate />
+        </div>
+        <div>
+          <CollabSection />
         </div>
         <Insta />
       </body>

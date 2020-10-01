@@ -1,3 +1,262 @@
+* {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.headerBar {
+    background-color: #1F5C70;
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram,
+.facebook,
+.twitter {
+    height: 25px;
+    margin: 8px;
+}
+
+.menu {
+    display: block;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    padding-top: 45px;
+}
+
+.logo {
+    width: 69px;
+    height: 71px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list li {
+    flex: 3;
+}
+
+.firstImg {
+    background-image: url('./images/Imagen-Home.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    color: #FFFFFF;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.firstLine {
+    background: #FFFFFF;
+    padding-left: 110px;
+    border: 0 none;
+    height: 2px;
+    margin-left: 0px;
+}
+
+.firstDiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.textButtons {
+    margin-left: 30px;
+    margin-top: -200px;
+}
+
+.volBtn {
+    background-color: #F25828;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 8px;
+    width: 190px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.moreBtn {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    width: 190px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1.25em;
+    cursor: pointer;
+    margin-left: 30px;
+    background-color: transparent
+}
+
+.list-footer {
+    list-style: none;
+    display: flex;
+}
+
+.list-footer li {
+    flex: 3;
+}
+
+.list-footer li a {
+    white-space: nowrap;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875em;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.btn-donate {
+    background-color: #F25828;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 8px;
+    width: 138px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+
+/* Titulos */
+
+h2 {
+    font-weight: 800;
+    font-size: 3.125em;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 2.5em;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.875em;
+}
+
+span {
+    color: #F25828;
+    font-weight: 400;
+    font-size: 1.5em;
+    font-family: 'Bebas Neue';
+}
+
+p {
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+
+/* container donate price */
+
+.ctn-dnt-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+    padding-left: 80px;
+    background: #F2F2F2;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 170px;
+}
+
+
+/* container other donate */
+
+.read-more {
+    color: #F25828;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.footer {
+    color: #F2F2F2;
+    background-color: #1F5C70;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 205px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+    padding-left: 80px;
+    margin-top: 30px;
+}
+
+.container-footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.footerLine {
+    background: #F2F2F2;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+/* container collaborators */
+
+.CollaborationSection {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5%;
+    margin-left: 5%;
+    /* justify-content:flex-start;
+    align-items: flex-start; */
+}
+.textContainer{
+    padding-inline-start: 5%;
+    text-align: left;
+}
+.collabTitle {
+    text-align: center;
+}
+.paragraph{
+    padding-top: 8%;
+}
+
+
+/* .containerHands {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+
+        } */
+.hands {
+    width: 400px;
+    height: 304px;
+    border-radius: 8px;
+
+}
+
+
+
+
+=======
     * {
         margin: 0;
         padding: 0;
