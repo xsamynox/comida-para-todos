@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Be Vietnam', 'Bebas Neue', sans-serif;
 }
 
@@ -11,10 +13,21 @@
     position: fixed;
 }
 
+.container-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+
 .header {
     background-color: rgba(255, 255, 255, 0.87);
     display: flex;
-    flex-direction: column;
+    height: 125px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .instagram,
@@ -24,13 +37,6 @@
     margin: 8px;
 }
 
-.menu {
-    display: block;
-    justify-content: space-between;
-    /* flex-direction: column; */
-    padding-top: 45px;
-}
-
 .logo {
     width: 69px;
     height: 71px;
@@ -38,11 +44,18 @@
 
 .list {
     list-style: none;
-    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* display: flex; */
 }
 
 .list li {
-    flex: 3;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 a:hover {
@@ -67,6 +80,7 @@ a:hover {
     border: 0 none;
     height: 2px;
     margin-left: 0px;
+    margin-top: 85px;
 }
 
 .firstDiv {
@@ -103,6 +117,12 @@ a:hover {
     cursor: pointer;
     margin-left: 30px;
     background-color: transparent
+}
+
+.App {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
 }
 
 .list-footer {
@@ -167,6 +187,51 @@ p {
 }
 
 
+/* Carrousel */
+
+.w-100 {
+    width: 599px !important;
+    border-radius: 8px;
+    height: 402px;
+    margin-top: 80px;
+}
+
+.carousel-caption {
+    right: 0%;
+    bottom: 0px;
+    left: 0%;
+    color: #fff;
+    background-color: rgba(31, 92, 112, 0.85);
+    border-radius: 0 0 8px 8px;
+}
+
+.carousel-indicators {
+    right: 38%;
+    bottom: -20px;
+}
+
+.carousel-control-next {
+    right: 2%;
+}
+
+.carousel-control-prev {
+    left: 2%;
+}
+
+.arrow-carrousel {
+    width: 72px;
+    height: 73px;
+}
+
+.carousel-item {
+    /* margin-left: 8%; */
+}
+
+.carousel-inner {
+    z-index: 0;
+}
+
+
 /* container donate price */
 
 .ctn-dnt-price {
@@ -183,6 +248,14 @@ p {
 
 
 /* container other donate */
+
+.container-otherDnt {
+    display: flex;
+}
+
+.ctn-otherdnt {
+    margin-top: 80px;
+}
 
 .read-more {
     color: #F25828;
