@@ -16,11 +16,14 @@
   display: flex;
   justify-content: flex-end;
   position: fixed;
+  padding-right: 80px;
 }
 
 .container-header {
   width: 100%;
   padding-top: 45px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .header {
@@ -56,8 +59,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .list ul {
@@ -82,7 +83,7 @@ a:hover {
   background-image: url('./images/Imagen-Home.png');
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
+  height: 798px;
   color: #FFFFFF;
   background-size: cover;
   display: flex;
@@ -102,12 +103,17 @@ a:hover {
 .firstDiv {
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
+  padding-left: 80px;
+}
+.text-initial{
+  padding-right: 760px;
+  text-align: inherit;
+  padding-top: 37px;
 }
 
 .textButtons {
-  margin-left: 30px;
-  margin-top: -200px;
+  margin-left: 80px;
+  margin-top: -280px;
 }
 
 .volBtn {
@@ -131,14 +137,25 @@ a:hover {
   font-weight: 700;
   font-size: 1.25em;
   cursor: pointer;
-  margin-left: 30px;
+  margin-left: 80px;
   background-color: transparent
 }
-
+/* Instagram */
+.container-ig{
+  background-color: #F2F2F2;
+  width: 1440px;
+  height: 771px;
+}
 .App {
   width: 100px;
+  height: 457px;
   display: flex;
   flex-direction: row;
+  padding: 80px;
+}
+.ig{
+  margin-right: 150px;
+  border-radius: 8px;
 }
 
 .list-footer {
@@ -172,10 +189,13 @@ a:hover {
   cursor: pointer;
 }
 /* Titulos */
-
-h2 {
+h1{
+  font-size: 3.75em;
   font-weight: 800;
-  font-size: 3.125em;
+}
+h2 {
+  font-weight: 900;
+  font-size: 2.6em;
 }
 
 h3 {
@@ -214,6 +234,14 @@ p {
   background-color: rgba(31, 92, 112, 0.85);
   border-radius: 0 0 8px 8px;
 }
+.carousel-caption2 {
+  right: 0%;
+  bottom: 0px;
+  left: 0%;
+  color: #fff;
+  background-color: rgba(31, 92, 112, 0.85);
+  border-radius: 0 0 8px 8px;
+}
 
 .carousel-indicators {
   right: 0%;
@@ -245,23 +273,59 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 70px;
+  padding-right: 80px;
   padding-left: 80px;
   background: #F2F2F2;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
   width: 100%;
   height: 170px;
   font-family: 'BebasNeue-Regular';
+  z-index: 0;
+  position: relative;
+  border-radius: 5px;
 }
  /* container other donate */
 
  .container-otherDnt {
   display: flex;
   padding: 80px;
+  background-color: #F2F2F2;
+  width: 1440px;
+  height: 569px;
 }
 
+
 .ctn-otherdnt {
-  margin-top: 80px;
+  margin-top: 20px;
+  padding-left: 80px;
+}
+/* container campaña */
+.container-campaign{
+  padding: 80px;
+  width: 1440px;
+  height: 569px;
+}
+.ctn-cmp{
+  display: flex;
+}
+.ctn-video{
+  margin-left: 80px;
+}
+/* Campaign */
+.img-impact{
+  background-image: url('./images/impact.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 557px;
+  background-size: cover;
+}
+.impact{
+  color: #fff;
+  padding: 80px;
+}
+.ctn-impact{
+  display: flex;
+  justify-content: space-around;
 }
 
 .read-more {
@@ -302,23 +366,35 @@ p {
   margin-left: 80px;
 } 
 /* container collaborators  */
+.ctn-collaboration{
+  padding: 80px;
+}
 .CollaborationSection {
     display: flex;
-    flex-direction: row-reverse;
-    margin-right: 5%;
-    margin-left: 5%;
+    /* flex-direction: row-reverse; */
+    /* margin-right: 5%;
+    margin-left: 5%; */
     /* justify-content:flex-start;
     align-items: flex-start; */
 }
+.img-clb{
+  width: 263px;
+  height: 104;
+  border: 1px solid black;
+  border-radius: 8px;
+}
 .textContainer{
-    padding-inline-start: 5%;
-    text-align: left;
+  padding-left: 80px;
+  padding-top: 20px;
+  text-align: left;
 }
-.collabTitle {
+/* .collabTitle {
     text-align: center;
-}
+} */
+
 .paragraph{
-    padding-top: 8%;
+  padding-top: 37px;
+  text-align: justify;
 }
 /* .containerHands {
     display: flex;
@@ -326,7 +402,7 @@ p {
     flex-flow: row wrap;
         } */
 .hands {
-    width: 400px;
-    height: 304px;
-    border-radius: 8px;
+  width: 590px;
+  height: 404px;
+  border-radius: 8px;
 }
