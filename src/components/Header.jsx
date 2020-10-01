@@ -10,22 +10,21 @@ const Header = () => {
   return (
     <header className='header'>
       <UpperBar />
-      <div className='container-header'>
-        <nav className='menu'>
-          <img src={Logo} className='logo' alt='logo' />
+        <nav className='container-header'>
           <Router>
             <ul className='list'>
+              <li><img src={Logo} className='logo' alt='logo' /></li>
+              <hr className='vertLine' />
               <li><Link to='/aboutUs'>Sobre Nosotros</Link></li>
               <li><Link to='/projects'>Proyectos</Link></li>
               <li><Link to='/campaings'>Campaña</Link></li>
               <li><Link to='/collaborators'>Colaboradores</Link></li>
               <li><Link to='/transparency'>Transparencia</Link></li>
               <li><Link to='/contact'>Contacto</Link></li>
+              <li><BtnDonate /></li>
             </ul>
           </Router>
-          <BtnDonate />
         </nav>
-      </div>
     </header >
   );
 }
