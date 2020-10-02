@@ -17,7 +17,7 @@ function Home() {
       <div className="containerMenu">
         <Header />
       </div>
-      <body>
+      <div>
         <ImgPage />
         <div>
           <DonatePrice />
@@ -36,7 +36,7 @@ function Home() {
           <CollabSection />
         </div>
         <Insta />
-      </body>
+      </div>
       <div className="containerFooter">
         <Footer />
       </div>
