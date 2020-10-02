@@ -8,7 +8,7 @@ import Projects from './views/projects';
 import Campaigns from './views/campaigns';
 import Collaborators from './views/collaborators';
 import Contact from './views/contact'
-import donate from '../src/views/donate';
+import Donate from '../src/views/donate';
 import Transparency from './views/transparency';
 import './App.css';
 
@@ -42,6 +42,10 @@ function App() {
         <Route 
         exact path="/contact" 
         render={ () => <Contact/> }
+        />
+        <Route 
+        exact path="/donate" 
+        render={ () => <Donate/> }
         />
       </Switch>
     </Router >
