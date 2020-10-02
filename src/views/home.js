@@ -8,6 +8,8 @@ import OtherDonate from '../components/OtherDonate'
 import CollabSection from '../components/CollabSection.jsx';
 import Carrousel from '../components/Carrousel';
 import Insta from '../components/Instagram';
+import Campaign from '../components/Campaign.jsx';
+import Impacto from '../components/Impacto.jsx';
 
 function Home() {
   return (
@@ -15,7 +17,7 @@ function Home() {
       <div className="containerMenu">
         <Header />
       </div>
-      <body>
+      <div>
         <ImgPage />
         <div>
           <DonatePrice />
@@ -24,11 +26,17 @@ function Home() {
           <Carrousel />
           <OtherDonate />
         </div>
+        <div className='container-campaign'>
+          <Campaign />
+        </div>
+        <div>
+          <Impacto />
+        </div>
         <div>
           <CollabSection />
         </div>
         <Insta />
-      </body>
+      </div>
       <div className="containerFooter">
         <Footer />
       </div>
