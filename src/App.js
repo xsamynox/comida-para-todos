@@ -2,34 +2,47 @@ import React from 'react';
 import {
   BrowserRouter as Router, Switch, Route
 } from "react-router-dom";
-import Home from '../src/views/home'
-import aboutUs from '../src/views/aboutUs'
-import campaigns from '../src/views/campaigns'
-import collaborators from '../src/views/collaborators'
-import contact from '../src/views/contact'
-import donate from '../src/views/donate'
-import transparency from '../src/views/transparency'
+import Home from './views/home';
+import AboutUs from './views/aboutUs';
+import Projects from './views/projects';
+import Campaigns from './views/campaigns';
+import Collaborators from './views/collaborators';
+import Contact from './views/contact'
+import donate from '../src/views/donate';
+import Transparency from './views/transparency';
 import './App.css';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/aboutUs">
-        </Route>
-        <Route exact path="/projects">
-        </Route>
-        <Route exact path="/campaings">
-        </Route>
-        <Route exact path="/collaborators">
-        </Route>
-        <Route exact path="/transparency">
-        </Route>
-        <Route exact path="/contact">
-        </Route>
+        <Route 
+        exact path="/" 
+        render={ () => <Home/> }
+        />
+        <Route 
+        exact path="/aboutUs"
+        render={ () => <AboutUs/> }
+        />
+        <Route 
+        exact path="/projects"
+        render={ () => <Projects/> }
+        />
+        <Route 
+        exact path="/campaings" 
+        render={ () => <Campaigns/> }
+        />
+        <Route 
+        exact path="/collaborators" render={ () => <Collaborators/> }
+        />
+        <Route 
+        exact path="/transparency" 
+        render={ () => <Transparency/> }
+        />
+        <Route 
+        exact path="/contact" 
+        render={ () => <Contact/> }
+        />
       </Switch>
     </Router >
   );

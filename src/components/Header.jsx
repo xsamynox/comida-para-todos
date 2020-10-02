@@ -13,14 +13,14 @@ const Header = () => {
         <nav className='container-header'>
           <Router>
             <ul className='list'>
-              <li><img src={Logo} className='logo' alt='logo' /></li>
+              <li><a href='/' ><img src={Logo} className='logo' alt='logo' /></a></li>
               <hr className='vertLine' />
-              <li><Link to='/aboutUs'>Sobre Nosotros</Link></li>
-              <li><Link to='/projects'>Proyectos</Link></li>
-              <li><Link to='/campaings'>Campaña</Link></li>
-              <li><Link to='/collaborators'>Colaboradores</Link></li>
-              <li><Link to='/transparency'>Transparencia</Link></li>
-              <li><Link to='/contact'>Contacto</Link></li>
+              <li><a href='/aboutUs'>Sobre Nosotros</a></li>
+              <li><a href='/projects'>Proyectos</a></li>
+              <li><a href='/campaings'>Campaña</a></li>
+              <li><a href='/collaborators'>Colaboradores</a></li>
+              <li><a href='/transparency'>Transparencia</a></li>
+              <li><a href='/contact'>Contacto</a></li>
               <li><BtnDonate /></li>
             </ul>
           </Router>

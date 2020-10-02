@@ -16,9 +16,9 @@ const CollabSection = () => {
                     A maxime labore deleniti rerum ipsum aut tempore perspiciatis
                     corrupti mollitia, adipisci placeat. Consequuntur, officiis labore
                     sed dicta dolor unde ullam sunt.
-            <div style={{ textAlign: "center", paddingTop: "5%" }}>
+            <section style={{ textAlign: "center", paddingTop: "5%" }}>
                         <p className="read-more">Leer Más</p>
-                    </div>
+                    </section>
                 </p>
             </div>
             <div className="containerHands">
