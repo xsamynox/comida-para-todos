@@ -10,6 +10,7 @@ import Carrousel from '../components/Carrousel';
 import Insta from '../components/Instagram';
 import Campaign from '../components/Campaign.jsx';
 import Impacto from '../components/Impacto.jsx';
+import ClbCarrousel from '../components/ClbCarrousel.jsx';
 
 function Home() {
   return (
@@ -34,6 +35,7 @@ function Home() {
         </div>
         <div>
           <CollabSection />
+          < ClbCarrousel />
         </div>
         <Insta />
       </div>

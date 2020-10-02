@@ -9,42 +9,54 @@ const Carrousel = () => {
   return (
     <div>
       <div id="carouselExampleCaptions" className="carousel carousel-fade" data-ride="carousel">
-        <ol className="carousel-indicators">
+        {/* <ol className="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-        </ol>
+        </ol> */}
         <div className="carousel-inner">
-          <div className="carousel-item active">
 
-            <img src={HuertosUrbanos} className="d-block w-100" alt="Huertos urbanos"></img>
+          <div className="carousel-item active">
+            <h5 className="carousel-caption2">Hazte Voluntario</h5>
+            <img src={Voluntariado} className="d-block w-100" alt="Voluntariado" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Huertos Urbanos</h5>
-              <p>Texto por definir.</p>
+              <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla.</p>
             </div>
           </div>
+
           <div className="carousel-item">
-            <img src={Alimentos} className="d-block w-100" alt="Haz una clase"></img>
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Haz una clase</h5>
-              <p>Texto por definir.</p>
-            </div>
-          </div>
-          <div className="carousel-item">
+            <h5 className="carousel-caption2">Alimentos</h5>
             <img src={Alimentos} className="d-block w-100" alt="Alimentos"></img>
             <div className="carousel-caption d-none d-md-block">
-              <h5>Alimentos</h5>
-              <p>Texto por definir.</p>
+              <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla.</p>
             </div>
           </div>
+
           <div className="carousel-item">
-            <img src={Voluntariado} className="d-block w-100" alt="Voluntariado"></img>
+            <h5 className="carousel-caption2">Huertos Urbanos</h5>
+            <img src={HuertosUrbanos} className="d-block w-100" alt="Huertos urbanos" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Voluntariado</h5>
-              <p>Texto por definir.</p>
+              <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla.</p>
             </div>
           </div>
+
+          <div className="carousel-item">
+            <h5 className="carousel-caption2">Dona tu Habilidad</h5>
+            <img src={Alimentos} className="d-block w-100" alt="Dona tu habilidad"></img>
+            <div className="carousel-caption d-none d-md-block">
+              <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla.</p>
+            </div>
+          </div>
+
+          <div className="carousel-item">
+            <h5 className="carousel-caption2">Dona una Clase</h5>
+            <img src={Alimentos} className="d-block w-100" alt="Haz una clase"></img>
+            <div className="carousel-caption d-none d-md-block">
+              <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla.</p>
+            </div>
+          </div>
+
         </div>
         <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
           <img src={arrowRight} className="arrow-carrousel" alt="flecha"></img>
