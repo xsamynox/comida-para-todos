@@ -1,116 +1,120 @@
 import React from 'react';
 import '../styles/UrbanGardensForm.css';
 import Plant from '../images/iconos/cil_plant.png';
-import Avatar from '../images/iconos/user-outlinet.png';
-import Post from '../images/iconos/carbon_email.png';
-import Cell from '../images/iconos/clarity_phone-handset-line.png';
-import Map from '../images/iconos/map-pin.png';
+import Avatar from '../images/iconos/ant-design_user-outlined.png';
+import Mail from '../images/iconos/carbon_email.png';
+import Phone from '../images/iconos/clarity_phone-handset-line.png';
+import Direction from '../images/iconos/map-pin.png';
 
-const UrbanGardensForm = () => {
+const UrbanGardenFrom = () => {
     const [meters, setMeters] = React.useState('');
-    const [name, setName] = React.useState ('');
-    const [email, setEmail] = React.useState ('');
-    const [phone, setPhone] = React.useState ('');
-    const [direction, setDirection] = React.useState ('');
+    const [name, setName] = React.useState('');
+    const [mail, setMail] = React.useState('');
+    const [phone, setPhone] = React.useState('');
+    const [direction, setDirection] =React.useState('');
 
     const saveData = (e) => {
         e.preventDefault()
-        if (!meters.trim()){
+
+        if(!meters.trim()){
             console.log('Campo vacío')
             return
         }
 
-        if (!name.trim()){
+        if(!name.trim()){
             console.log('Campo vacío')
             return
         }
 
-        if (!email.trim()){
+        if(!mail.trim()){
             console.log('Campo vacío')
             return
         }
 
-        if (!phone.trim()){
+        if(!phone.trim()){
             console.log('Campo vacío')
             return
         }
 
-        if (!direction.trim()){
+        if(!direction.trim()){
             console.log('Campo vacío')
             return
         }
 
-        // Si los datos están correctos, éstos son procesados
+        // Si los campos estan correctos, se procesan los datos
 
-        console.log('Procesando Datos...' + meters + name + email + phone + direction)
+        console.log('Procesando Datos... ' + meters + name + mail + phone + direction)
         e.target.reset()
         setMeters('')
         setName('')
-        setEmail('')
+        setMail('')
         setPhone('')
         setDirection('')
 
     }
+
     return (
-    <div>
-        <section className="containerForm">
-            <form onSubmit={ saveData}>
-                <h3>Completa tus Datos</h3>
-                <label>Metros de terreno a donar</label>
-                <img src={Plant} className="plant" alt="plant" />
-                <input type="text" placeholder="Ej: 5m2" className="meters" onChange={ (e) => setMeters(e.target.value)} />
-
-                <label>Nombre Completo</label>
-                <img src={Avatar} className="avatar" alt="avatar" />
-                <input type="text" placeholder="Ej: Camila Fernanda Sepulveda Carrasco" Classname="name" onChange={ (e)=> setName(e.target.value)} />
-
-                <label>Correo electrónico</label>
-                <img src={Post} className="post" alt="post" />
-                <input type="text" placeholder="Ej: Camila.sepulveda@gmail.com" Classname="email" onChange={ (e)=> setEmail(e.target.value)}/>
-
-                <label>Teléfono</label>
-                <img src={Cell} className="cell" alt="cell" />
-                <input type="text" placeholder="Ej: +569 " Classname="phone" onChange={ (e)=> setPhone(e.target.value)} />
-
-                <label>Dirección</label>
-                <img src={Map} className="map" alt="map" />
-                <input type="text" placeholder="" Classname="direction" onChange={ (e)=> setDirection(e.target.value)} />
-                {/* <button className="formButton" type="submit">Siguiente</button> */}
-                <input type="submit" />
-            </form>
-            </section>
+        <div className="form-container">
+        <div className="title-container">
+        <h1 className="font-title">Completa tus Datos</h1>
         </div>
-    );
-}
+            <form onSubmit={ saveData } className="form">
+            <img src={ Plant } className="icons"
+                /* style={{ left: "9.15%",
+                         right: "85.13%",
+                         top: "18.91%",
+                         Bottom: "76.22%"}}  */alt="icon" />
+                <label for="meters">Metros de Terreno a Donar</label>
+                <input
+                type="text"
+                placeholder="Ej: 5m2"
+                className="meters"
+                onChange={(e) =>setMeters(e.target.value)}
+                />
+                 <hr />
+                <img src={ Avatar } className="icons" alt="" />
+                <label for="name">Nombre Completo</label>
+                <input
+                type="text"
+                placeholder="Ej: Camila Fernanda Sepúlveda Carrasco"
+                className="name"
+                onChange={(e) =>setName(e.target.value)}
+                />
+                <hr />
+                <img src={ Mail } className="icons" alt="" />
+                <label for="mail">Correo Electrónico</label>
+                <input
+                type="email"
+                placeholder="Ej: camila.sepulveda@gmail.com"
+                className="mail"
+                onChange={(e) =>setMail(e.target.value)}
+                />
+                <hr />
+                <img src={ Phone } className="icons" alt="" />
+                <label for="phone">Teléfono</label>
+                <input
+                type="tel"
+                placeholder="Ej: +569 39425756"
+                className="phone"
+                onChange={(e) =>setPhone(e.target.value)}
+                />
+                <hr />
+                <img src={ Direction } className="icons" alt="" />
+                <label for="direction">Dirección</label>
+                <input
+                type="text"
+                placeholder="Ej: Litoral #320, Peñalolen"
+                className="direction"
+                onChange={(e) =>setDirection(e.target.value)}
+                />
+                <hr />
+                <input
+                type="submit"
+                value="Siguiente"/>
+            </form>
+        </div>
 
-export default UrbanGardensForm;
-
-
-/* const rootElement = document.getElementById("root"); */
-    /* ReactDOM.render(<UrbanGardensForm />, rootElement); */
-
-/* const { register, handleSubmit } = useForm();
-const onSubmit = data => {
-    alert(JSON.stringify(data));
-};
-
-return (
-    <div>
-        <form onSubmit={handleSubmit(onSubmit)}>
-            <h3>Completa tus Datos</h3>
-            <hr />
-            <label>Metros de terreno a donar</label>
-            <input name="meters" ref={register} />
-            <label>Nombre Completo</label>
-            <input name="name" ref={register} />
-            <label>Correo electrónico</label>
-            <input name="email" ref={register} />
-            <label>Teléfono</label>
-            <input name="phone" ref={register} />
-            <label>Dirección</label>
-            <input name="direction" ref={register} />
-            {/* <button className="formButton" type="submit">Siguiente</button> */
-     /*        <input type="submit" />
-        </form>
-    </div>
- */
+        );
+  };
+  
+  export default UrbanGardenFrom;
