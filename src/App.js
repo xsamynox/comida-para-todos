@@ -11,6 +11,7 @@ import Contact from './views/contact';
 import Donate from './views/donate';
 import Transparency from './views/transparency';
 import './App.css';
+import UrbanGardens from './views/urbanGardens';
 
 function App() {
   return (
@@ -47,9 +48,13 @@ function App() {
           exact path="/donate"
           render={() => <Donate />}
         />
-        <Route 
-        exact path="/donate" 
-        render={ () => <Donate/> }
+        <Route
+          exact path="/donate"
+          render={() => <Donate />}
+        />
+        <Route
+          exact path="/urbanGarden"
+          render={() => <UrbanGardens />}
         />
       </Switch>
     </Router >

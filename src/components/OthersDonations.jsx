@@ -57,7 +57,7 @@ const OthersDonations = () => {
                 <div className="card mb-2">
                   <p className='carousel-caption3'>Dona</p>
                   <h2 className='carousel-caption4 huertos'>Huertos Urbanos</h2>
-                  <img className="card-img-top" src={HuertosUrbanos} alt="Huertos Urbanos" />
+                  <a href="./urbanGarden"><img className="card-img-top" src={HuertosUrbanos} alt="Huertos Urbanos" /></a>
                   <div className="carousel-caption5">
                     <p className="">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
