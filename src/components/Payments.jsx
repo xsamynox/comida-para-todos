@@ -33,9 +33,14 @@ const Payments = () => {
             <label for="Solo-esta-vez">$30000 <br />10 Almuerzo</label>
           </div>
         </div>
-        <div className=''>
-          <input className='other' type="text" placeholder='$ Otro' />
-          <button className='volBtn'>Siguiente</button>
+        <div className='pay container-pay'>
+          <div>
+            <input className='other' type="text" placeholder='$ Otro' />
+          </div>
+          <div className='ctn-cmp'>
+            <button className='cancel-btn'>Cancelar</button>
+            <button className='volBtn'>Siguiente</button>
+          </div>
         </div>
       </div>
 
