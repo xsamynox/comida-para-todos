@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/UrbanGardensForm.css';
 import Plant from '../images/iconos/cil_plant.png';
-import Avatar from '../images/iconos/ant-design_user-outlined.png';
+import Avatar from '../images/iconos/user-outlined.png';
 import Mail from '../images/iconos/carbon_email.png';
 import Phone from '../images/iconos/clarity_phone-handset-line.png';
 import Direction from '../images/iconos/map-pin.png';
@@ -54,63 +54,67 @@ const UrbanGardenFrom = () => {
     }
 
     return (
-        <div className="form-container">
+        <div className="form">
+            <form onSubmit={ saveData } className="form-container">
         <div className="title-container">
         <h1 className="font-title">Completa tus Datos</h1>
         </div>
-            <form onSubmit={ saveData } className="form">
-            <img src={ Plant } className="icons"
-                /* style={{ left: "9.15%",
-                         right: "85.13%",
-                         top: "18.91%",
-                         Bottom: "76.22%"}}  */alt="icon" />
-                <label for="meters">Metros de Terreno a Donar</label>
+            <div className="items">
+            <img src={ Plant } className="icons"alt="icon" />
+            <label for="meters">Metros de Terreno a Donar</label>
                 <input
-                type="text"
-                placeholder="Ej: 5m2"
-                className="meters"
-                onChange={(e) =>setMeters(e.target.value)}
+                type = "text"
+                placeholder = "Ej: 5m²"
+                className = "space"
+                onChange = {(e) =>setMeters(e.target.value)}
                 />
-                 <hr />
-                <img src={ Avatar } className="icons" alt="" />
+                </div>
+                <div className="items">
+                <img src={ Avatar } className="icons" /* style={{ width: "25px", height:"25px" }} */ alt="" />
                 <label for="name">Nombre Completo</label>
                 <input
                 type="text"
                 placeholder="Ej: Camila Fernanda Sepúlveda Carrasco"
-                className="name"
+                className="space"
                 onChange={(e) =>setName(e.target.value)}
                 />
-                <hr />
+                </div>
+                <div className="items">
                 <img src={ Mail } className="icons" alt="" />
                 <label for="mail">Correo Electrónico</label>
                 <input
                 type="email"
                 placeholder="Ej: camila.sepulveda@gmail.com"
-                className="mail"
+                className="space"
                 onChange={(e) =>setMail(e.target.value)}
-                />
-                <hr />
+                /></div>
+                <div className="items">
                 <img src={ Phone } className="icons" alt="" />
                 <label for="phone">Teléfono</label>
                 <input
-                type="tel"
+                type="text"
                 placeholder="Ej: +569 39425756"
-                className="phone"
+                className="space"
                 onChange={(e) =>setPhone(e.target.value)}
                 />
-                <hr />
+                </div>
+                <div className="items">
                 <img src={ Direction } className="icons" alt="" />
                 <label for="direction">Dirección</label>
                 <input
                 type="text"
                 placeholder="Ej: Litoral #320, Peñalolen"
-                className="direction"
+                className="space"
                 onChange={(e) =>setDirection(e.target.value)}
                 />
-                <hr />
-                <input
+                </div>
+                {/* <input
+                className="formButton"
                 type="submit"
-                value="Siguiente"/>
+                value="Siguiente"/> */}
+                <div className="items">
+                <button className="formButton" type="submit">Siguiente</button>
+                </div>
             </form>
         </div>
 

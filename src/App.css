@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Be Vietnam', sans-serif;
+    /* font-family: 'Be Vietnam', sans-serif;  No poner estilo de letra aca porque
+    se aplica a todo el documento*/
 }
 
 @font-face {
