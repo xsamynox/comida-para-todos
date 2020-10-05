@@ -130,12 +130,12 @@
   text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
 }
 .carousel-caption3 {
-  bottom: 76%;
+  bottom: 84%;
   font-size: 1.875em;
 }
 
 .carousel-caption4 {
-  bottom: 66%;
+  bottom: 74%;
   font-size: 3em;
 }
 .carousel-caption5 {
@@ -146,19 +146,27 @@
   color: #fff;
   background-color: rgba(242, 88, 40, 0.85);
   border-radius: 0 0 8px 8px;
-  padding: 10px;
+  padding: 15px;
   font-size: 1em;
-  width: 405px;
-  height: 110px;
+  width: 365px;
+  height: 206px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
-.carousel-caption5:hover {
-  background-color:#F25828;
-}
+/* .carousel-caption5 p:hover:after{
+  background-color:#F25828; 
+  content: 'Dona Aqui';
+} */
 
 .card-img, .card-img-top {
-  border-top-left-radius: calc(.25rem - 1px);
-  border-top-right-radius: calc(.25rem - 1px);
-  height: 380px;
+  width: 365px;
+  height: 545px;
   border-radius: 8px;
+}
+.card{
+  border: none;
+}
+.mb-2, .my-2 {
+  margin-bottom: 0;
 }

@@ -5,7 +5,8 @@ const Payments = () => {
     <div className='cnt-payment'>
       <div className='ctn-pay '>
         <h2>Haz el cambio! Genera un<br /> Impacto</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla. Aliquam arcu id sollicitudin amet.</p>
+        <p>Con tu donación estarás alimentando la felicidad de miles de personas en nuestro país que lo necesitan a través de un almuerzo solidario nutritivo y de calidad.
+            <span className='span1'>¡Ayúdanos a combatir el hambre en Chile!</span></p>
       </div>
       <div className='ctn-pay pay ctn-pay2'>
         <div className='pay'>
@@ -38,13 +39,18 @@ const Payments = () => {
             <input className='other' type="text" placeholder='$ Otro' />
           </div>
           <div className='ctn-cmp'>
-            <button className='cancel-btn'>Cancelar</button>
-            <button className='volBtn'>Siguiente</button>
+            <button className="volBtn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Siguiente</button>
+          </div>
+          <div class="collapse" id="collapseExample">
+            <div class="">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
           </div>
         </div>
       </div>
 
-    </div>
+    </div >
   );
 }
 

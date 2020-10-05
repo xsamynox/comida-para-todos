@@ -10,7 +10,8 @@ const imgDonate = () => {
           <p>Donar</p>
           <h1>Dona $3000 para un<br /> Almuerzo</h1>
           <p className='text-initial'>
-            Somos una plataforma solidaria que nace de una unión de organizaciones sociales, que busca salvarguardar la <span>Seguridad Alimentaria</span> a través de la distribución de  alimentos, educar sobre alimentación saludable y capacitar en materias de gastronomía.
+            Ayúdanos a alimentar la esperanza de más de dos millones de personas en Chile que hoy enfrentan una crisis alimentaria
+            sin precedentes. Apóyanos donando un almuerzo solidario.
           </p>
         </div>
 

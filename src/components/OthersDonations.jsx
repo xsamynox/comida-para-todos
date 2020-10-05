@@ -12,12 +12,8 @@ const OthersDonations = () => {
   return (
     <div className='container-header'>
       <h2>Otras Formas de Ayudar</h2>
-      <p className='p-others'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla. Aliquam arcu id sollicitudin amet.</p>
+      <p className='p-others'><strong>Como fundación buscamos</strong> que todos podamos aportar de diferentes maneras desde ser voluntario hasta donar parte de tu tiempo dando clases sobre un tema que sientas que puedes aportar <strong>¡Súmate!</strong></p>
       <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-        {/* <div class="controls-top">
-          <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-          <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-        </div> */}
         <a className="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
           <img src={arrowRight} className="arrow-carrousel" alt="flecha"></img>
         </a>
@@ -31,37 +27,40 @@ const OthersDonations = () => {
 
               <div className="col-md-4">
                 <div className="card mb-2">
-                  <p className='carousel-caption3'>Hazte</p>
-                  <h2 className='carousel-caption4'>Voluntario</h2>
-                  <img className="card-img-top" src={Voluntariado} alt="Voluntariado" />
-                  <div className="carousel-caption5">
-                    <p className="">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  </div>
+                  <a href="/voluntary">
+                    <p className='carousel-caption3'>Hazte</p>
+                    <h2 className='carousel-caption4'>Voluntario</h2>
+                    <img className="card-img-top" src={Voluntariado} alt="Voluntariado" />
+                    <div className="carousel-caption5">
+                      <p className="">Hazte Voluntario y ayuda de manera libre en nuestra fundación. <strong>¡Inscríbete!.</strong></p>
+                    </div>
+                  </a>
                 </div>
               </div>
 
               <div className="col-md-4 clearfix d-none d-md-block">
                 <div className="card mb-2">
-                  <p className='carousel-caption3'>Dona</p>
-                  <h2 className='carousel-caption4'>Alimentos</h2>
-                  <img className="card-img-top" src={Alimentos} alt="Alimentos" />
-                  <div className="carousel-caption5">
-                    <p className="">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  </div>
+                  <a href="/donate/foods">
+                    <p className='carousel-caption3'>Dona</p>
+                    <h2 className='carousel-caption4'>Alimentos</h2>
+                    <img className="card-img-top" src={Alimentos} alt="Alimentos" />
+                    <div className="carousel-caption5">
+                      <p className="">Comida para todos busca llevar Alimentos a las diferentes familias de Chile que lo necesitan. Ayúdanos a llevar tu aporte a las mesas de los Chilenos en forma de un plato caliente.</p>
+                    </div>
+                  </a>
                 </div>
               </div>
 
               <div className="col-md-4 clearfix d-none d-md-block">
                 <div className="card mb-2">
-                  <p className='carousel-caption3'>Dona</p>
-                  <h2 className='carousel-caption4 huertos'>Huertos Urbanos</h2>
-                  <a href="./urbanGarden"><img className="card-img-top" src={HuertosUrbanos} alt="Huertos Urbanos" /></a>
-                  <div className="carousel-caption5">
-                    <p className="">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  </div>
+                  <a href="/donate/urbanGarden">
+                    <p className='carousel-caption3'>Dona</p>
+                    <h2 className='carousel-caption4 huertos'>Huertos Urbanos</h2>
+                    <a href="/urbanGarden"><img className="card-img-top" src={HuertosUrbanos} alt="Huertos Urbanos" /></a>
+                    <div className="carousel-caption5">
+                      <p className="">Dona un metro cuadrado para fomentar el cultivo y así aportar tu granito de arena con alimentos sanos directos de tu huerta.</p>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -72,25 +71,27 @@ const OthersDonations = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className="card mb-2">
-                  <p className='carousel-caption3'>Dona</p>
-                  <h2 className='carousel-caption4'>Tu Habilidad</h2>
-                  <img className="card-img-top" src={Habilidad} alt="Dona tu Habilidad" />
-                  <div className="carousel-caption5">
-                    <p className="">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  </div>
+                  <a href="/donate/hability">
+                    <p className='carousel-caption3'>Dona</p>
+                    <h2 className='carousel-caption4'>Tu Habilidad</h2>
+                    <img className="card-img-top" src={Habilidad} alt="Dona tu Habilidad" />
+                    <div className="carousel-caption5">
+                      <p className="">Dona una hora de tu tiempo con una habilidad que poseas a la comunidad, puede ser desde tus habilidades en la cocina o en la computación. <strong>¡Te esperamos!</strong></p>
+                    </div>
+                  </a>
                 </div>
               </div>
 
               <div className="col-md-4 clearfix d-none d-md-block">
                 <div className="card mb-2">
-                  <p className='carousel-caption3'>Dona</p>
-                  <h2 className='carousel-caption4'>Una Clase</h2>
-                  <img className="card-img-top" src={Clase} alt="Dona una Clase" />
-                  <div className="carousel-caption5">
-                    <p className="">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  </div>
+                  <a href="/donate/class">
+                    <p className='carousel-caption3'>Dona</p>
+                    <h2 className='carousel-caption4'>Una Clase</h2>
+                    <img className="card-img-top" src={Clase} alt="Dona una Clase" />
+                    <div className="carousel-caption5">
+                      <p className="">Dona una hora de clases para que otros aprendan de tus conocimientos. Pueden impartir clases de lo que tú crees que como fundación nos pueden ayudar. <strong>¡Súmate!</strong></p>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
