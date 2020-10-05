@@ -34,7 +34,7 @@ const OthersDonations = () => {
                   <p className='carousel-caption3'>Hazte</p>
                   <h2 className='carousel-caption4'>Voluntario</h2>
                   <img className="card-img-top" src={Voluntariado} alt="Voluntariado" />
-                  <div className="carousel-caption2">
+                  <div className="carousel-caption5">
                     <p className="">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                   </div>
@@ -46,7 +46,7 @@ const OthersDonations = () => {
                   <p className='carousel-caption3'>Dona</p>
                   <h2 className='carousel-caption4'>Alimentos</h2>
                   <img className="card-img-top" src={Alimentos} alt="Alimentos" />
-                  <div className="carousel-caption2">
+                  <div className="carousel-caption5">
                     <p className="">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                   </div>
@@ -58,7 +58,7 @@ const OthersDonations = () => {
                   <p className='carousel-caption3'>Dona</p>
                   <h2 className='carousel-caption4 huertos'>Huertos Urbanos</h2>
                   <img className="card-img-top" src={HuertosUrbanos} alt="Huertos Urbanos" />
-                  <div className="carousel-caption2">
+                  <div className="carousel-caption5">
                     <p className="">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                   </div>
@@ -75,7 +75,7 @@ const OthersDonations = () => {
                   <p className='carousel-caption3'>Dona</p>
                   <h2 className='carousel-caption4'>Tu Habilidad</h2>
                   <img className="card-img-top" src={Habilidad} alt="Dona tu Habilidad" />
-                  <div className="carousel-caption2">
+                  <div className="carousel-caption5">
                     <p className="">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                   </div>
@@ -87,7 +87,7 @@ const OthersDonations = () => {
                   <p className='carousel-caption3'>Dona</p>
                   <h2 className='carousel-caption4'>Una Clase</h2>
                   <img className="card-img-top" src={Clase} alt="Dona una Clase" />
-                  <div className="carousel-caption2">
+                  <div className="carousel-caption5">
                     <p className="">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                   </div>

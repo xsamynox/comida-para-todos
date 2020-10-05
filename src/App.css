@@ -537,21 +537,21 @@ p {
   bottom: 66%;
   font-size: 3em;
 }
-.carousel-caption2 {
+.carousel-caption5 {
+  position: absolute;
   right: 0%;
   bottom: 0px;
   left: 0%;
   color: #fff;
   background-color: rgba(242, 88, 40, 0.85);
   border-radius: 0 0 8px 8px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 10px;
   font-size: 1em;
   width: 405px;
   height: 110px;
   cursor: pointer;
 }
-.carousel-caption2:hover {
+.carousel-caption5:hover {
   background-color:#F25828;
 }
 
