@@ -6,6 +6,7 @@ import Clase from '../images/Clase.jpg'
 import Habilidad from '../images/Habilidad.jpg'
 import arrowRight from '../images/iconos/arrow-right.png'
 import arrowLeft from '../images/iconos/arrow-left.png'
+import '../styles/boostrap.css';
 
 const Carrousel = () => {
   return (
