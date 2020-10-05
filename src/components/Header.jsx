@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../images/iconos/logo2.png';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import BtnDonate from './BtnDonate';
 import UpperBar from './UpperBar';
 
