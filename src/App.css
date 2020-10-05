@@ -106,14 +106,17 @@ a:hover {
   padding-left: 80px;
 }
 .text-initial{
-  padding-right: 760px;
-  text-align: inherit;
-  padding-top: 37px;
+  padding-top: 24px;
+  width: 617px;
+  height: 136px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25;
+  line-height: 26px;
 }
 
 .textButtons {
-  margin-left: 80px;
-  margin-top: -280px;
+  margin-top: 80px;
   display: flex;
 }
 
@@ -122,6 +125,17 @@ a:hover {
   color: #F2F2F2;
   border: none;
   border-radius: 8px;
+  width: 190px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+.cancel-btn{
+  text-decoration: underline;
+  background-color: #FFFFFF;
+  color: #F25828;
+  border: none;
   width: 190px;
   height: 50px;
   font-weight: 700;
@@ -140,6 +154,10 @@ a:hover {
   cursor: pointer;
   margin-left: 80px;
   background-color: transparent
+}
+.moreBtn:hover{
+  background-color: #F25828;
+  border: none;
 }
 /* Instagram */
 .container-ig{
@@ -192,6 +210,10 @@ a:hover {
 }
 .btn-donate:hover{
   background-color: #D93400;
+  text-decoration: none;
+}
+.volBtn:hover{
+  background-color: #D93400;
 }
 
 /* Titulos y letras*/
@@ -225,11 +247,18 @@ span {
   font-size: 2em;
   font-family: 'BebasNeue-Regular';
 }
+.span1 {
+  color: #F25828;
+  font-weight: 600;
+  font-size: 1em;
+  font-family: 'Be Vietnam';
+}
 
 p {
   font-weight: 500;
   font-size: 1.25em;
   font-family: 'Be Vietnam';
+  margin: 0;
 }
 .p-others{
   padding: 20px 0;
@@ -274,8 +303,16 @@ p {
 .ctn-cmp{
   display: flex;
 }
+.ctn-btns{
+  display: flex;
+  padding: 96px 0px 20px;
+}
 .ctn-video{
   margin-left: 80px;
+}
+.video640{
+  width: 603px;
+  height: 396px;
 }
 /* Campaign */
 .img-impact{
@@ -334,13 +371,16 @@ p {
 }
 .textContainer{
   padding-left: 80px;
-  padding-top: 20px;
+  padding-top: 54px;
   text-align: left;
 }
 
 .paragraph{
   padding-top: 37px;
-  text-align: justify;
+  text-align: left;
+  width: 603px;
+  height: 99px;
+  line-height: 26.5px;
 }
 
 .hands {
@@ -374,7 +414,7 @@ p {
 }
 .ctn-pay{
   width: 50%;
-  padding: 1%;
+  padding: 2%;
 }
 .ctn-pay2{
   padding-top: 31px;
@@ -383,16 +423,19 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
+.container-pay{
+  display: flex;  
+  width: 100%;
+  justify-content: space-between;
+}
 .other{
   color: #BDBDBD;
   border: none;
   border-radius: 8px;
-  width: 180px;
+  width: 100px;
   height: 57px;
   font-weight: 700;
   font-size: 1.25em;
-  cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .radio-btn{
   width: 179px;
@@ -406,7 +449,7 @@ p {
   padding: 4%;
 }
 .huertos{
-  bottom: 52%;
+  bottom: 64%;
 }
 /* Contacto */
 .contactForm {

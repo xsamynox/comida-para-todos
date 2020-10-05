@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import BtnVolunteer from './BtnVolunteer';
+import BtnDonate from './BtnDonate'
 
 
 const Campaign = () => {
@@ -7,17 +8,14 @@ const Campaign = () => {
     <section className='ctn-cmp'>
       <div>
         <h4>Campaña</h4>
-        <h2>#Navidad para todos</h2>
-        <p className='paragraph'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        A maxime labore deleniti rerum ipsum aut tempore perspiciatis
-            corrupti mollitia, adipisci placeat.</p>
-        <Router>
-          <Link to='/campaings'>
-            <p className='read-more'>Leer Más</p>
-          </Link>
-        </Router>
+        <h2>#Un18ParaTodos</h2>
+        <p className='paragraph'>¡Celebremos juntos estas fiestas! Ayudemos a nuestra comunidad a tener un 18 digno y con comida de calidad, dona para un almuerzo asadero o súmate como voluntario en estas fiestas.</p>
+        <div className='ctn-btns'>
+          <BtnDonate />
+          <BtnVolunteer />
+        </div>
       </div>
-      <div className='ctn-video'>
+      <div className='ctn-video video640'>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/J-JuH8jwmHg" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
     </section>

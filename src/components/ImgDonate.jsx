@@ -9,7 +9,10 @@ const imgDonate = () => {
           <hr className='firstLine' />
           <p>Donar</p>
           <h1>Dona $3000 para un<br /> Almuerzo</h1>
-          <p className='text-initial'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla. Aliquam arcu id sollicitudin amet. </p>
+          <p className='text-initial'>
+            Ayúdanos a alimentar la esperanza de más de dos millones de personas en Chile que hoy enfrentan una crisis alimentaria
+            sin precedentes. Apóyanos donando un almuerzo solidario.
+          </p>
         </div>
 
 

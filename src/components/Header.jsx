@@ -21,7 +21,7 @@ const Header = () => {
             <li><a href='/collaborators'>Colaboradores</a></li>
             <li><a href='/transparency'>Transparencia</a></li>
             <li><a href='/contact'>Contacto</a></li>
-            <li><BtnDonate /></li>
+            <BtnDonate />
           </ul>
         </Router>
       </nav>
