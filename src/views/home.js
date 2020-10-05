@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import '../App.js';
 import Header from '../components/Header';
 import ImgPage from '../components/ImgPage'
