@@ -16,12 +16,12 @@ const CollabSection = () => {
             A maxime labore deleniti rerum ipsum aut tempore perspiciatis
             corrupti mollitia, adipisci placeat. Consequuntur, officiis labore
             sed dicta dolor unde ullam sunt.
-            <Router>
-              <Link to='/donate'>
-                <p className='read-more'>Leer Más</p>
-              </Link>
-            </Router>
           </p>
+          <Router>
+            <Link to='/donate'>
+              <p className='read-more'>Leer Más</p>
+            </Link>
+          </Router>
         </div>
       </div>
       <div className="companies">

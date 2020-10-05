@@ -26,7 +26,7 @@ const ClbCarrousel = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className="">
-                  <a href="https://www.instagram.com/cafesanjuansantiago_oficial/" target="_blank">
+                  <a href="https://www.instagram.com/cafesanjuansantiago_oficial/" target="_blank" rel="noopener noreferrer" >
                     <img className="d-block w-1002" src={CafeSanJuan} alt="Cafe San Juan" />
                   </a>
                 </div>
@@ -34,7 +34,7 @@ const ClbCarrousel = () => {
 
               <div className="col-md-4 clearfix d-none d-md-block">
                 <div className="">
-                  <a href="https://foodies.cl/store/index.php" target="_blank">
+                  <a href="https://foodies.cl/store/index.php" target="_blank" rel="noopener noreferrer">
                     <img className="d-block w-1002" src={Foodies} alt="Foodies" />
                   </a>
                 </div>
@@ -42,7 +42,7 @@ const ClbCarrousel = () => {
 
               <div className="col-md-4 clearfix d-none d-md-block">
                 <div className="">
-                  <a href="https://www.cultiva.cl/?lang=en" target="_blank">
+                  <a href="https://www.cultiva.cl/?lang=en" target="_blank" rel="noopener noreferrer">
                     <img className="d-block w-1002" src={Cultiva} alt="Cultiva" />
                   </a>
                 </div>
@@ -55,7 +55,7 @@ const ClbCarrousel = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className="">
-                  <a href="http://niam.cl/" target="_blank" >
+                  <a href="http://niam.cl/" target="_blank" rel="noopener noreferrer" >
                     <img className="d-block w-1002" src={Ñam} alt="Ñam" />
                   </a>
                 </div>
@@ -63,7 +63,7 @@ const ClbCarrousel = () => {
 
               <div className="col-md-4 clearfix d-none d-md-block">
                 <div className="">
-                  <a href="http://www.auroracocina.cl/" target="_blank">
+                  <a href="http://www.auroracocina.cl/" target="_blank" rel="noopener noreferrer">
                     <img className="d-block w-1002" src={Aurora} alt="Aurora" />
                   </a>
                 </div>
@@ -71,7 +71,7 @@ const ClbCarrousel = () => {
 
               <div className="col-md-4 clearfix d-none d-md-block">
                 <div className="">
-                  <a href="http://www.lacaperucitayellobo.cl/" target="_blank" >
+                  <a href="http://www.lacaperucitayellobo.cl/" target="_blank" rel="noopener noreferrer">
                     <img className="d-block w-1002" src={Caperucita} alt="La Caperucita y el Lobo" />
                   </a>
                 </div>
@@ -83,7 +83,7 @@ const ClbCarrousel = () => {
             <div className="row">
               <div className="col-md-4">
                 <div className="">
-                  <a href='https://colab.uc.cl/es/inicio/' target="_blank">
+                  <a href='https://colab.uc.cl/es/inicio/' target="_blank" rel="noopener noreferrer">
                     <img className="d-block w-1002" src={Colab} alt="Colab" />
                   </a>
                 </div>
@@ -91,13 +91,13 @@ const ClbCarrousel = () => {
 
               <div className="col-md-4 clearfix d-none d-md-block">
                 <div className="">
-                  <a href='https://99restaurante.com/' target="_blank"><img className="d-block w-1002" src={Logo99} alt="Logo99" /></a>
+                  <a href='https://99restaurante.com/' target="_blank" rel="noopener noreferrer"><img className="d-block w-1002" src={Logo99} alt="Logo99" /></a>
                 </div>
               </div>
 
               <div className="col-md-4 clearfix d-none d-md-block">
                 <div className="">
-                  <a href='https://lachimba.org/' target="_blank">
+                  <a href='https://lachimba.org/' target="_blank" rel="noopener noreferrer">
                     <img className="d-block w-1002" src={Chimba} alt="La Chimba" />
                   </a>
                 </div>

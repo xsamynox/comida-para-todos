@@ -31,7 +31,7 @@ const Footer = () => {
           </Router>
         </nav>
       </section>
-      <hr className='footerLine'/>
+      <hr className='footerLine' />
       <section className="container-footer2">
         <p>© 2020 Comida para Todos, todos los derechos reservados.</p>
         <div>
