@@ -53,7 +53,7 @@ function App() {
           render={() => <Donate />}
         />
         <Route
-          exact path="/urbanGarden"
+          exact path="/urbangarden"
           render={() => <UrbanGardens />}
         />
       </Switch>
