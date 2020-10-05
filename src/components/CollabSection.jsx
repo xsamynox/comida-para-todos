@@ -1,11 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import Hands from '../images/imagen4.png';
-import CafeSanJuan from '../images/cafe-san-juan 1.png';
-import Foodies from '../images/foodies 1.png';
-import Cultiva from '../images/logo-fundacion-cultiva 1.png';
-import Ñam from '../images/logo-niam 1.png';
-
 
 const CollabSection = () => {
   return (
@@ -21,7 +16,7 @@ const CollabSection = () => {
             A maxime labore deleniti rerum ipsum aut tempore perspiciatis
             corrupti mollitia, adipisci placeat. Consequuntur, officiis labore
             sed dicta dolor unde ullam sunt.
-          <Router>
+            <Router>
               <Link to='/donate'>
                 <p className='read-more'>Leer Más</p>
               </Link>
@@ -34,10 +29,10 @@ const CollabSection = () => {
         <img src={Foodies} className="foodies" style={{ width: "30%" }} alt="foodies" />
         <img src={Cultiva} className="cultiva" style={{ width: "35%" }} alt="cultiva" />
         <img src={Ñam} className="ñam" style={{ width: "25%" }} alt="ñam" /> */}
-        <img src={CafeSanJuan} style={{ width: "20%" }} className="img-clb" alt="cafeSanJuan" />
-        <img src={Foodies} className="img-clb" alt="foodies" />
-        <img src={Cultiva} className="img-clb" alt="cultiva" />
-        <img src={Ñam} className="img-clb" alt="ñam" />
+        {/* <img src={CafeSanJuan} style={{ width: "20%" }} className="img-clb" alt="cafeSanJuan" />
+        <img src={Foodies} style={{ width: "20%" }} className="img-clb" alt="foodies" />
+        <img src={Cultiva} style={{ width: "20%" }} className="img-clb" alt="cultiva" />
+        <img src={Ñam} style={{ width: "20%", height: '20%' }} className="img-clb" alt="ñam" /> */}
       </div>
       <div>
       </div>
