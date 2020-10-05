@@ -47,6 +47,10 @@ function App() {
           exact path="/donate"
           render={() => <Donate />}
         />
+        <Route 
+        exact path="/donate" 
+        render={ () => <Donate/> }
+        />
       </Switch>
     </Router >
   );
