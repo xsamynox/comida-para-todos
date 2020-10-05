@@ -6,7 +6,7 @@ const ContactImg = () => {
     <Fragment>
       <div className='contact-Img'>
         <div className='contactDiv'>
-          <p>Contáctanos</p>
+          <h1 className='contactWord'>Contáctanos</h1>
       </div>
       </div>
     </Fragment>

@@ -1,10 +1,110 @@
     /* Contacto */
     
-    .contactForm {
-        margin-top: -230px;
-        padding-left: 200px;
-        padding-right: 200px;
+    .form-cont {
+        width: 60%;
+        height: 600px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        border-radius: 8px 8px 8px 8px;
+        background: #F2F2F2;
+    }
+    
+    .formContact {
         display: flex;
+        flex-wrap: wrap;
+        /* width: 60%; */
+        /* height: 450px; */
+        justify-content: center;
+        /* top: 199px; */
+        /* margin-left: 25%; */
+        margin-top: -220px;
+        border-radius: 8px 8px 8px 8px;
+        /* box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25); */
+    }
+    
+    .itemsContact {
+        margin: 3% 25% 0% 0%;
+        height: 12%;
+    }
+    
+    .font-title {
+        position: absolute;
+        left: 10.3%;
+        right: 10.3%;
+        top: 3.9%;
+        bottom: 91.81%;
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .icons {
+        height: 30px;
+        width: 30px;
+        margin-left: 8%;
+    }
+    
+    .items-Cont {
+        margin: 3% 25% 0% 0%;
+        height: 10%;
+    }
+    
+    .btn-Cont {
+        margin-top: -40px;
+        height: 10%;
+    }
+    
+    .form-container input {
+        background: #F2F2F2;
+        margin-bottom: 8px;
+        border: none;
+        border-bottom: 1px solid black;
+        color: black;
+        font-size: 16px;
+    }
+    
+    .formButton {
+        /* Botón siguiente */
+        /* margin-top: 7%; */
+        font-family: 'Be Vietnam', sans-serif;
+        font-style: normal;
+        background-color: #F25828;
+        color: #F2F2F2;
+        border: none;
+        border-radius: 8px;
+        width: 131px;
+        height: 50px;
+        font-weight: 700;
+        font-size: 20px;
+        /* position: absolute; */
+        left: 85%;
+    }
+    
+    input {
+        display: grid;
+        position: relative;
+        width: 100%;
+    }
+    
+    label {
+        margin-left: 5%;
+    }
+    
+    select {
+        margin-left: 20%;
+    }
+    
+    input::placeholder {
+        position: relative;
+        font-size: 1em;
+    }
+    
+    button {
+        display: block;
+        appearance: none;
+        border-radius: 4px;
     }
     
     .contact-Img {
@@ -17,4 +117,8 @@
         align-items: center;
         flex-flow: row wrap;
         color: #fff;
+    }
+    
+    .contactWord {
+        margin-left: 80px;
     }
