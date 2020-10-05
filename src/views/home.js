@@ -3,7 +3,7 @@ import '../App.js';
 import Header from '../components/Header';
 import ImgPage from '../components/ImgPage'
 import Footer from '../components/Footer'
-import DonatePrice from '../components/Donate-price'
+import DonatePrice from '../components/DonatePrice'
 import OtherDonate from '../components/OtherDonate'
 import CollabSection from '../components/CollabSection.jsx';
 import Carrousel from '../components/Carrousel';

@@ -7,8 +7,8 @@ import AboutUs from './views/aboutUs';
 import Projects from './views/projects';
 import Campaigns from './views/campaigns';
 import Collaborators from './views/collaborators';
-import Contact from './views/contact'
-import Donate from '../src/views/donate';
+import Contact from './views/contact';
+import Donate from './views/donate';
 import Transparency from './views/transparency';
 import './App.css';
 
