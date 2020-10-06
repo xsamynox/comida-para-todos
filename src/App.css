@@ -212,6 +212,19 @@ a:hover {
   background-color: #D93400;
   text-decoration: none;
 }
+.btn-cancel {
+  background-color: #ffffff;
+  color: #F25828;
+  border: none;
+  text-decoration: underline;
+  border-radius: 8px;
+  width: 138px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 1.25em;
+  cursor: pointer;
+  font-family: 'Be Vietnam';
+}
 .volBtn:hover{
   background-color: #D93400;
 }
@@ -435,6 +448,13 @@ p {
   display: flex;  
   width: 100%;
   justify-content: space-between;
+  margin-top: 5%;
+}
+.btns-pay{
+  display: flex;
+  justify-content: flex-end;
+  padding: 80px 45px 0;
+  width: 100%;
 }
 .other{
   color: #BDBDBD;
@@ -446,7 +466,7 @@ p {
   font-size: 1.25em;
 }
 .radio-btn{
-  width: 179px;
+  width: 181px;
   height: 57px;
   margin-left: -1px;
   border: 1px solid #2B292D;

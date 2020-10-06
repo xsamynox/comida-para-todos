@@ -33,6 +33,10 @@ const PaymentsMethods = () => {
             <p>Transferencia Bancaria</p>
           </div>
         </div>
+        <div className='btns-pay'>
+          <button className="btn-cancel" type="button">Cancelar</button>
+          <button className="volBtn" type="button">Donar</button>
+        </div>
       </div>
 
     </div>
