@@ -11,7 +11,7 @@ const Campaign = () => {
         <h2>#Un18ParaTodos</h2>
         <p className='paragraph'>¡Celebremos juntos estas fiestas! Ayudemos a nuestra comunidad a tener un 18 digno y con comida de calidad, dona para un almuerzo asadero o súmate como voluntario en estas fiestas.</p>
         <div className='ctn-btns'>
-          <BtnDonate />
+          <BtnDonate className='separation' />
           <BtnVolunteer />
         </div>
       </div>

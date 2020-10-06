@@ -1,4 +1,5 @@
 import React from 'react';
+import PaymentsMethods from './PaymentsMethods';
 
 const Payments = () => {
   return (
@@ -43,8 +44,8 @@ const Payments = () => {
               Siguiente</button>
           </div>
           <div class="collapse" id="collapseExample">
-            <div class="">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            <div class="payments">
+              <PaymentsMethods />
             </div>
           </div>
         </div>

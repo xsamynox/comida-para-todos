@@ -307,6 +307,9 @@ p {
   display: flex;
   padding: 96px 0px 20px;
 }
+.ctn-btns a .btn-donate {
+  margin-right: 54px;
+}
 .ctn-video{
   margin-left: 80px;
 }
@@ -352,6 +355,7 @@ p {
   color: #F25828;
   text-decoration: underline;
   font-weight: 700;
+  margin-top: 70px;
 }
 .read-more:hover{
   color: #D93400;
@@ -423,6 +427,10 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
+.payments{
+  margin-top: 20%;
+  margin-left: -108%;
+}
 .container-pay{
   display: flex;  
   width: 100%;
@@ -444,6 +452,23 @@ p {
   border: 1px solid #2B292D;
   align-items: center;
   text-align: center;
+}
+.radio-btn-pay{
+  width: 572px;
+  height: 128px;
+  border: 1px solid #3A6270;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: initial;
+}
+.img-pay{
+  width: 175px;
+  height: 70px;
+}
+
+.radio-btn-pay input{
+  width: 10%;
 }
 .center{
   padding: 4%;
