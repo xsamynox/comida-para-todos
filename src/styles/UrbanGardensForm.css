@@ -71,30 +71,43 @@
     font-weight: 700;
     font-size: 20px;
     position: absolute;
-    left: 59.73%;
-}
-
-input {
-    display: grid;
-    position: relative;
-    width: 100%;
-}
-
-label {
-    margin-left: 5%;
-}
-
-input::placeholder {
-    position: relative;
-    font-size: 1em;
-}
-
-button {
+    left: 23.73%;
     display: block;
     appearance: none;
     border-radius: 4px;
 }
 
+
+/* input {
+    display: grid;
+    position: relative;
+    width: 100%;
+} */
+
+
+/* label {
+    margin-left: 5%;
+} */
+
+.lbl-form {
+    margin-left: 5%;
+}
+
+.space::placeholder {
+    position: relative;
+    font-size: 1em;
+}
+
+
+/* button {
+    display: block;
+    appearance: none;
+    border-radius: 4px;
+} */
+
 .space {
     margin-left: 20%;
+    display: grid;
+    position: relative;
+    width: 100%;
 }

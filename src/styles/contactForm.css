@@ -13,11 +13,7 @@
     .formContact {
         display: flex;
         flex-wrap: wrap;
-        /* width: 60%; */
-        /* height: 450px; */
         justify-content: center;
-        /* top: 199px; */
-        /* margin-left: 25%; */
         margin-top: -220px;
         border-radius: 8px;
     }
@@ -75,33 +71,24 @@
         margin-left: 160px;
     }
     
-    input {
-        display: grid;
-        position: relative;
-        width: 35%;
-        border: none;
-        border-bottom: 1px solid black;
-        background: #FFF;
-    }
-    
-    select {
-        margin-left: 17%;
-    }
-    
-    input::placeholder {
+    .spacectc::placeholder {
         position: relative;
         font-size: 1em;
     }
     
     .spacectc {
-        margin-left: 17%;
+        margin-left: 12%;
         width: 45%;
+        display: grid;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid black;
+        background: #FFF;
     }
     
     .txt-title {
         margin-top: -58px;
         margin-right: 340px;
-        padding-left: -90px;
     }
     
     .spacectc2 {
@@ -142,9 +129,16 @@
         background: #FFF;
         width: 45%;
         padding-left: 0px;
+        margin-left: 12%;
     }
     
     .coment-Cont {
         display: grid;
         float: right;
+    }
+    
+    .icons-c {
+        margin-right: 10px;
+        height: 30px;
+        margin-left: 8%;
     }

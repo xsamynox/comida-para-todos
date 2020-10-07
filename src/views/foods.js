@@ -14,7 +14,7 @@ function Foods() {
         <Header />
       </div>
       <div className='img-aliments'>
-        <div className='firstDiv'>
+        <div className='firstDiv text-color'>
           <hr className='firstLine' />
           <p>Dona</p>
           <h1>Alimentos</h1>

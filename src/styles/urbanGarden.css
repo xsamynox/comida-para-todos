@@ -1,4 +1,5 @@
 /* Section donate */
+
 .gardenImg {
     background-image: url('../images/Huertos-urbanos.jpg');
     background-repeat: no-repeat;
@@ -9,9 +10,9 @@
     display: flex;
     align-items: center;
     flex-flow: row wrap;
-  }
+}
 
-  .btn-project {
+.btn-project {
     background-color: #F25828;
     color: #F2F2F2;
     border: none;
@@ -22,11 +23,14 @@
     font-size: 1.25em;
     cursor: pointer;
     font-family: 'Be Vietnam';
-  }
-  .btn-proyect:hover{
-    background-color: #D93400;
+}
+
+.btn-project:hover {
+    background-color: #d93400;
     text-decoration: none;
-  }
+}
+
+
 /*   .cnt-payment{
     display: flex;
     background-color: #fff;
@@ -38,7 +42,9 @@
     margin-top: -8%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   } */
-  /* .ctn-pay{
+
+
+/* .ctn-pay{
     width: 50%;
     padding: 2%;
   }
@@ -109,8 +115,12 @@
   .huertos{
     bottom: 64%;
   } */
-  /* Contacto */
-  /* .contactForm {
+
+
+/* Contacto */
+
+
+/* .contactForm {
     margin-top: -230px;
     padding-left: 200px;
     padding-right: 200px;
@@ -127,8 +137,11 @@
     flex-flow: row wrap;
     color: #fff;
   } */
-  
-  /* Footer */
+
+
+/* Footer */
+
+
 /*   .footer {
     color: #F2F2F2;
     background-color: #1F5C70;
@@ -151,8 +164,12 @@
     justify-content: space-between;
     align-items: center;
   } */
-  /* Margin */
- /*  .container-footer2, .container-footer, .impact, .container-header, .ctn-dnt-price {
+
+
+/* Margin */
+
+
+/*  .container-footer2, .container-footer, .impact, .container-header, .ctn-dnt-price {
     padding-right: 80px;
     padding-left: 80px;
   }

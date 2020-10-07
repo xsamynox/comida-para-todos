@@ -42,7 +42,7 @@ const ContactForm = () => {
 
         // Si los campos estan correctos, se procesan los datos
 
-        console.log('Procesando Datos... '+ options + name + mail + phone +message )
+        console.log('Procesando Datos... ' + options + name + mail + phone + message)
         e.target.reset()
         setOptions('')
         setName('')
@@ -54,63 +54,63 @@ const ContactForm = () => {
 
     return (
         <Fragment >
-        <div className="formContact">
-            <form onSubmit={saveData} className="form-cont">
-                <div className="itemsContact">
-                <div className="form-group">
-                <img src={Edit} className="icons" alt="" />
-                <label for="options">Motivo</label>
-                <select className="form-control" id="exampleFormControlSelect1">
-                <option>Sobre voluntariado</option>
-                <option>Sobre donaciones</option>
-                <option>Sobre otras formas de ayudar</option>
-                <option>Sobre nosotros</option>
-                <option>Otro motivo</option>
-                </select>
-                </div>
-                </div>
-                <div className="coment-Cont">
-                    <label for="message" className="txt-title">Comentarios</label>
-                    <input
-                        type="text"
-                        placeholder="Mensaje."
-                        className="spacectc2"
-                        onChange={(e) => setMessage(e.target.value)}
-                    />
-                </div>
-                <div className="items-Cont">
-                    <img src={Avatar} className="icons" alt="" />
-                    <label for="name">Nombre Completo</label>
-                    <input
-                        type="text"
-                        placeholder=""
-                        className="spacectc"
-                        onChange={(e) => setName(e.target.value)}
-                    />
-                </div>
-                <div className="items-Cont">
-                    <img src={Mail} className="icons" alt="" />
-                    <label for="mail">Correo Electrónico</label>
-                    <input
-                        type="email"
-                        placeholder=""
-                        className="spacectc"
-                        onChange={(e) => setMail(e.target.value)}
-                    /></div>
-                <div className="items-Cont">
-                    <img src={Phone} className="icons" alt="" />
-                    <label for="phone">Teléfono</label>
-                    <input
-                        type="text"
-                        placeholder=""
-                        className="spacectc"
-                        onChange={(e) => setPhone(e.target.value)}
-                    />
-                </div>
-                <div className="btn-Cont">
-                    <button className="formButton" type="submit">Enviar</button>
-                </div>
-            </form>
+            <div className="formContact">
+                <form onSubmit={saveData} className="form-cont">
+                    <div className="itemsContact">
+                        <div className="form-group">
+                            <img src={Edit} className="icons-c" alt="" />
+                            <label for="options">Motivo</label>
+                            <select className="form-control" id="exampleFormControlSelect1">
+                                <option>Sobre voluntariado</option>
+                                <option>Sobre donaciones</option>
+                                <option>Sobre otras formas de ayudar</option>
+                                <option>Sobre nosotros</option>
+                                <option>Otro motivo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div className="coment-Cont">
+                        <label for="message" className="txt-title">Comentarios</label>
+                        <input
+                            type="text"
+                            placeholder="Mensaje."
+                            className="spacectc2"
+                            onChange={(e) => setMessage(e.target.value)}
+                        />
+                    </div>
+                    <div className="items-Cont">
+                        <img src={Avatar} className="icons-c" alt="" />
+                        <label for="name">Nombre Completo</label>
+                        <input
+                            type="text"
+                            placeholder=""
+                            className="spacectc"
+                            onChange={(e) => setName(e.target.value)}
+                        />
+                    </div>
+                    <div className="items-Cont">
+                        <img src={Mail} className="icons-c" alt="" />
+                        <label for="mail">Correo Electrónico</label>
+                        <input
+                            type="email"
+                            placeholder=""
+                            className="spacectc"
+                            onChange={(e) => setMail(e.target.value)}
+                        /></div>
+                    <div className="items-Cont">
+                        <img src={Phone} className="icons-c" alt="" />
+                        <label for="phone">Teléfono</label>
+                        <input
+                            type="text"
+                            placeholder=""
+                            className="spacectc"
+                            onChange={(e) => setPhone(e.target.value)}
+                        />
+                    </div>
+                    <div className="btn-Cont">
+                        <button className="formButton" type="submit">Enviar</button>
+                    </div>
+                </form>
             </div>
         </Fragment>
     )
