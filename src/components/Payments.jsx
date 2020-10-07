@@ -3,11 +3,10 @@ import PaymentsMethods from './PaymentsMethods';
 
 const Payments = () => {
   return (
-    <div className='cnt-payment'>
+    <section className='cnt-payment'>
       <div className='ctn-pay '>
         <h2>Haz el cambio! Genera un<br /> Impacto</h2>
-        <p>Con tu donación estarás alimentando la felicidad de miles de personas en nuestro país que lo necesitan a través de un almuerzo solidario nutritivo y de calidad.
-            <span className='span1'>¡Ayúdanos a combatir el hambre en Chile!</span></p>
+        <p>Con tu donación estarás alimentando la felicidad de miles de personas en nuestro país que lo necesitan a través de un almuerzo solidario nutritivo y de calidad.<span className='span1'>¡Ayúdanos a combatir el hambre en Chile!</span></p>
       </div>
 
       <form className='ctn-pay pay ctn-pay2'>
@@ -52,7 +51,7 @@ const Payments = () => {
         </div>
       </form>
 
-    </div >
+    </section >
   );
 }
 
