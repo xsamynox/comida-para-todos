@@ -13,29 +13,29 @@ const PaymentsMethods = () => {
         <div className='pay'>
           <div className='radio-btn-pay'>
             <input type="radio" name="WebPay" value="WebPay" />
-            <p>Pago con tarjeta de Débito o Crédito</p>
+            <p className='p-radio'>Pago con tarjeta de Débito o Crédito</p>
             <img className='img-pay' src={Webpay} alt="" />
           </div>
           <div className='radio-btn-pay'>
             <input type="radio" name="OnePay" value="OnePay" />
-            <p>Pago con tarjeta de crédito sin cuotas</p>
+            <p className='p-radio'>Pago con tarjeta de crédito sin cuotas</p>
             <img className='img-pay' src={OnePay} alt="" />
           </div>
         </div>
         <div className='pay'>
           <div className='radio-btn-pay'>
             <input type="radio" name="Match" value="Match" />
-            <p>Pago a través de Match</p>
-            <img className='img-pay' src={Match} alt="" />
+            <p className='p-radio'>Pago a través de Match</p>
+            <img className='img-match' src={Match} alt="" />
           </div>
           <div className='radio-btn-pay'>
             <input type="radio" name="Transferencia" value="Transferencia" />
-            <p>Transferencia Bancaria</p>
+            <p className='p-radio'>Transferencia Bancaria</p>
           </div>
         </div>
         <div className='btns-pay'>
-          <button className="btn-cancel" type="button">Cancelar</button>
-          <button className="volBtn" type="button">Donar</button>
+          <input className="btn-cancel" value='Cancel' type="reset" />
+          <button className="volBtn" type="submit">Donar</button>
         </div>
       </div>
 

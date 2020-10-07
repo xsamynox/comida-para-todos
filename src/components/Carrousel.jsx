@@ -18,7 +18,7 @@ const Carrousel = () => {
             <h5 className="carousel-caption2">Hazte Voluntario</h5>
             <img src={Voluntariado} className="d-block w-100" alt="Voluntariado" />
             <div className="carousel-caption d-none d-md-block">
-              <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla.</p>
+              <p className='description'>Hazte voluntario y ayuda de manera libre en nuestra fundación. ¡Inscríbete!</p>
             </div>
           </div>
 
@@ -26,7 +26,7 @@ const Carrousel = () => {
             <h5 className="carousel-caption2">Alimentos</h5>
             <img src={Alimentos} className="d-block w-100" alt="Alimentos"></img>
             <div className="carousel-caption d-none d-md-block">
-              <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla.</p>
+              <p className='description'>Comida para todos busca llevar Alimentos a las diferentes familias de Chile que lo necesitan. Ayúdanos a llevar tu aporte a las mesas de los Chilenos en forma de un plato caliente.</p>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const Carrousel = () => {
             <h5 className="carousel-caption2">Huertos Urbanos</h5>
             <img src={HuertosUrbanos} className="d-block w-100" alt="Huertos urbanos" />
             <div className="carousel-caption d-none d-md-block">
-              <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla.</p>
+              <p className='description'>Dona un metro cuadrado para fomentar el cultivo y así aportar tu granito de arena con alimentos sanos directos de tu huerta.</p>
             </div>
           </div>
 
@@ -42,7 +42,7 @@ const Carrousel = () => {
             <h5 className="carousel-caption2">Dona tu Habilidad</h5>
             <img src={Habilidad} className="d-block w-100" alt="Dona tu habilidad"></img>
             <div className="carousel-caption d-none d-md-block">
-              <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla.</p>
+              <p className='description'>Dona una hora de tu tiempo con una habilidad que poseas a la comunidad, puede ser desde tus habilidades en la cocina o en la computación. ¡Te esperamos!</p>
             </div>
           </div>
 
@@ -50,7 +50,7 @@ const Carrousel = () => {
             <h5 className="carousel-caption2">Dona una Clase</h5>
             <img src={Clase} className="d-block w-100" alt="Haz una clase"></img>
             <div className="carousel-caption d-none d-md-block">
-              <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis posuere sit sapien, ut suspendisse cursus. Congue phasellus tincidunt posuere sit fringilla.</p>
+              <p className='description'>Dona una hora de clases para que otros aprendan de tus conocimientos. Pueden impartir clases de lo que tú crees que como fundación nos pueden ayudar. ¡Súmate!</p>
             </div>
           </div>
 

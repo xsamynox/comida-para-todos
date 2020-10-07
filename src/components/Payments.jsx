@@ -3,36 +3,36 @@ import PaymentsMethods from './PaymentsMethods';
 
 const Payments = () => {
   return (
-    <div className='cnt-payment'>
+    <section className='cnt-payment'>
       <div className='ctn-pay '>
         <h2>Haz el cambio! Genera un<br /> Impacto</h2>
-        <p>Con tu donación estarás alimentando la felicidad de miles de personas en nuestro país que lo necesitan a través de un almuerzo solidario nutritivo y de calidad.
-            <span className='span1'>¡Ayúdanos a combatir el hambre en Chile!</span></p>
+        <p>Con tu donación estarás alimentando la felicidad de miles de personas en nuestro país que lo necesitan a través de un almuerzo solidario nutritivo y de calidad.<span className='span1'>¡Ayúdanos a combatir el hambre en Chile!</span></p>
       </div>
-      <div className='ctn-pay pay ctn-pay2'>
+
+      <form className='ctn-pay pay ctn-pay2'>
         <div className='pay'>
-          <div className='radio-btn center'>
+          <div className='radio-btn'>
             <input type="radio" name="mensual" value="Mensual" />
-            <label for="Mensual">Mensual</label>
+            <label for="Mensual"><p>Mensual</p></label>
           </div>
-          <div className='radio-btn center'>
+          <div className='radio-btn'>
             <input type="radio" name="Solo-esta-vez" value="Solo-esta-vez" />
-            <label for="Solo-esta-vez">Sólo está vez</label>
+            <label for="Solo-esta-vez"><p>Sólo esta vez</p></label>
           </div>
         </div>
 
         <div className='pay'>
           <div className='radio-btn'>
-            <input type="radio" name="mensual" value="Mensual" />
-            <label for="Mensual">$3000 <br />1 Almuerzo</label>
+            <input type="radio" value="3000" />
+            <label for="3000"><p>$3000</p>1 Almuerzo</label>
           </div>
           <div className='radio-btn'>
-            <input type="radio" name="Solo-esta-vez" value="Solo-esta-vez" />
-            <label for="Solo-esta-vez">$15000 <br />5 Almuerzo</label>
+            <input type="radio" value="15000" />
+            <label for="15000"><p>$15000</p>5 Almuerzos</label>
           </div>
           <div className='radio-btn'>
-            <input type="radio" name="Solo-esta-vez" value="Solo-esta-vez" />
-            <label for="Solo-esta-vez">$30000 <br />10 Almuerzo</label>
+            <input type="radio" value="30000" />
+            <label for="30000"><p>$30000</p>10 Almuerzos</label>
           </div>
         </div>
         <div className='pay container-pay'>
@@ -49,9 +49,9 @@ const Payments = () => {
             </div>
           </div>
         </div>
-      </div>
+      </form>
 
-    </div >
+    </section >
   );
 }
 
