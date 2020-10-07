@@ -6,6 +6,8 @@ import '../styles/foods.css';
 import FoodsForm from '../components/FoodsForm';
 import BancoAlimentos from '../images/banco-alimentos.jpg';
 import Claudio from '../images/Claudio.jpg';
+import Comillas from '../images/iconos/comillas.png'
+import ComillasCierre from '../images/iconos/comilla-cierre.png'
 
 function Foods() {
   return (
@@ -43,11 +45,13 @@ function Foods() {
         <div>
           <img src={Claudio} className="person" alt="banco de alimentos" />
         </div>
+        <img className='comillas1' src={Comillas} alt='comillas' />
         <div>
-          <p className='cite' >Todos deberíamos tener que comer al final del día, en esta ocasión yo doné legrumbres :)</p>
+          <p className='cite' >Todos deberíamos tener que comer al final del día, en esta ocasión yo doné legrumbres</p>
           <p>Claudio Palma ya hizo su aporte</p>
           <p>28/09/2020.</p>
         </div>
+        <img className='comillas2' src={ComillasCierre} alt='comillas' />
       </div>
       <div className="containerFooter">
         <Footer />
