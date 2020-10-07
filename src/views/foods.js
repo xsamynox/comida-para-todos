@@ -18,8 +18,8 @@ function Foods() {
           <hr className='firstLine' />
           <p>Dona</p>
           <h1>Alimentos</h1>
-          <p className='paragraph'>Donar tu alimento significa aportar de una manera diferente los alimentos que tienes en tu casa pero que ya no usarás, evitemos el desperdicio, dona tu alimento y ayuda a una persona. <br /> Te invitamos a ver el Proyecto de Banco de Alimentos.</p>
-          <a href="/aboutUs"><button className='volBtn btn-project'>Ir a Proyecto</button></a>
+          <p className='paragraph'>Donar tu alimento significa aportar de una manera diferente los alimentos que tienes en tu casa pero que ya no usarás, evitemos el desperdicio, dona tu alimento y ayuda a una persona. <br /> <br />Te invitamos a ver el Proyecto de Banco de Alimentos.</p>
+          <button className='volBtn btn-project'>Ir a Proyecto</button>
         </div>
         <FoodsForm />
       </div>
