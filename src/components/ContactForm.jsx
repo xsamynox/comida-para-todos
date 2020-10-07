@@ -69,13 +69,22 @@ const ContactForm = () => {
                 </select>
                 </div>
                 </div>
+                <div className="coment-Cont">
+                    <label for="message" className="txt-title">Comentarios</label>
+                    <input
+                        type="text"
+                        placeholder="Mensaje."
+                        className="spacectc2"
+                        onChange={(e) => setMessage(e.target.value)}
+                    />
+                </div>
                 <div className="items-Cont">
                     <img src={Avatar} className="icons" alt="" />
                     <label for="name">Nombre Completo</label>
                     <input
                         type="text"
-                        placeholder="Ej: Camila Fernanda Sepúlveda Carrasco"
-                        className="space"
+                        placeholder=""
+                        className="spacectc"
                         onChange={(e) => setName(e.target.value)}
                     />
                 </div>
@@ -84,8 +93,8 @@ const ContactForm = () => {
                     <label for="mail">Correo Electrónico</label>
                     <input
                         type="email"
-                        placeholder="Ej: camila.sepulveda@gmail.com"
-                        className="space"
+                        placeholder=""
+                        className="spacectc"
                         onChange={(e) => setMail(e.target.value)}
                     /></div>
                 <div className="items-Cont">
@@ -93,19 +102,9 @@ const ContactForm = () => {
                     <label for="phone">Teléfono</label>
                     <input
                         type="text"
-                        placeholder="Ej: +569 39425756"
-                        className="space"
+                        placeholder=""
+                        className="spacectc"
                         onChange={(e) => setPhone(e.target.value)}
-                    />
-                </div>
-                <div className="items-Cont">
-                    <img src={Edit} className="icons" alt="" />
-                    <label for="message">Comentarios</label>
-                    <input
-                        type="text"
-                        placeholder="Mensaje."
-                        className="space"
-                        onChange={(e) => setMessage(e.target.value)}
                     />
                 </div>
                 <div className="btn-Cont">
