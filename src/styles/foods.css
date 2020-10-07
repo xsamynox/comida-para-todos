@@ -42,3 +42,13 @@
 .text-color {
     color: #FFFFFF;
 }
+
+.text-form-foods {
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1F5C70;
+    margin-left: 29%;
+}

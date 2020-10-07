@@ -2,7 +2,7 @@
     
     .form-cont {
         width: 70%;
-        height: 500px;
+        height: 430px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         border-radius: 8px 8px 8px 8px;
@@ -54,9 +54,8 @@
         font-size: 16px;
     }
     
-    .formButton {
+    .formBtn {
         /* Botón siguiente */
-        /* margin-top: -10px; */
         font-family: 'Be Vietnam', sans-serif;
         font-style: normal;
         background-color: #F25828;
@@ -67,8 +66,12 @@
         height: 50px;
         font-weight: 700;
         font-size: 20px;
-        /* position: absolute; */
         margin-left: 160px;
+        display: block;
+        appearance: none;
+        border-radius: 4px;
+        margin-left: 836px;
+        margin-top: 25px;
     }
     
     .spacectc::placeholder {
@@ -98,12 +101,6 @@
         background: #fff;
         margin-top: -30px;
         margin-right: 30px;
-    }
-    
-    button {
-        display: block;
-        appearance: none;
-        border-radius: 4px;
     }
     
     .contact-Img {
@@ -140,5 +137,12 @@
     .icons-c {
         margin-right: 10px;
         height: 30px;
-        margin-left: 8%;
+        margin-left: 7%;
+    }
+    
+    .pf-link {
+        color: #F25828;
+        margin-left: 790px;
+        font-size: 14px;
+        text-decoration: underline;
     }

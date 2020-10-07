@@ -108,7 +108,9 @@ const ContactForm = () => {
                         />
                     </div>
                     <div className="btn-Cont">
-                        <button className="formButton" type="submit">Enviar</button>
+                        <button className="formBtn" type="submit">Enviar</button>
+                        <br />
+                        <a href='' className='pf-link'>Ir a preguntas frecuentes.</a>
                     </div>
                 </form>
             </div>

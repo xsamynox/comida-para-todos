@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/foods.css';
-import UrbanGardenForm from '../components/UrbanGardensForm';
+import FoodsForm from '../components/FoodsForm';
 import BancoAlimentos from '../images/banco-alimentos.jpg';
 import Claudio from '../images/Claudio.jpg';
 
@@ -21,7 +21,7 @@ function Foods() {
           <p className='paragraph'>Donar tu alimento significa aportar de una manera diferente los alimentos que tienes en tu casa pero que ya no usarás, evitemos el desperdicio, dona tu alimento y ayuda a una persona. <br /> Te invitamos a ver el Proyecto de Banco de Alimentos.</p>
           <a href="/aboutUs"><button className='volBtn btn-project'>Ir a Proyecto</button></a>
         </div>
-        <UrbanGardenForm />
+        <FoodsForm />
       </div>
 
       <div className="CollaborationSection ctn-collaboration color">
