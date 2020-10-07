@@ -56,7 +56,7 @@ const OthersDonations = () => {
                   <a href="/donate/urbanGarden">
                     <p className='carousel-caption3'>Dona</p>
                     <h2 className='carousel-caption4 huertos'>Huertos Urbanos</h2>
-                    <a href="/urbanGarden"><img className="card-img-top" src={HuertosUrbanos} alt="Huertos Urbanos" /></a>
+                    <img className="card-img-top" src={HuertosUrbanos} alt="Huertos Urbanos" />
                     <div className="carousel-caption5">
                       <p className="">Dona un metro cuadrado para fomentar el cultivo y así aportar tu granito de arena con alimentos sanos directos de tu huerta.</p>
                     </div>
