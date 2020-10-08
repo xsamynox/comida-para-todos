@@ -1,0 +1,36 @@
+.team {
+    margin-top: 40px;
+}
+
+.teamimg {
+    width: 207px;
+    border-radius: 8px;
+}
+
+.descriptions {
+    font-size: 18px;
+    color: #FFF;
+    font-family: 'Be Vietnam';
+    margin-left: -8px;
+}
+
+.lineTeam {
+    background: #FFF;
+    margin: -2px;
+    margin-left: -8px;
+}
+
+.container-img {
+    position: absolute;
+    /* text-align: center; */
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: #34616F;
+    /* margin-top: -78px; */
+    width: 207px;
+    top: 1025px;
+    color: #FFF;
+    opacity: 0.85;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
