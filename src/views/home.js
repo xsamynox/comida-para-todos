@@ -1,15 +1,16 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import '../App.js';
 import Header from '../components/Header';
 import ImgPage from '../components/ImgPage'
 import Footer from '../components/Footer'
-import DonatePrice from '../components/Donate-price'
+import DonatePrice from '../components/DonatePrice'
 import OtherDonate from '../components/OtherDonate'
 import CollabSection from '../components/CollabSection.jsx';
 import Carrousel from '../components/Carrousel';
 import Insta from '../components/Instagram';
 import Campaign from '../components/Campaign.jsx';
 import Impacto from '../components/Impacto.jsx';
+import ClbCarrousel from '../components/ClbCarrousel.jsx';
 
 function Home() {
   return (
@@ -34,6 +35,7 @@ function Home() {
         </div>
         <div>
           <CollabSection />
+          < ClbCarrousel />
         </div>
         <Insta />
       </div>

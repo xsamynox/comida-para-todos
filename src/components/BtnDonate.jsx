@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const BtnDonate = () => {
 
   return (
     <div>
       <Router>
-        <Link to='/donate'><button className="btn-donate" name='Dona Aqui'>Dona Aquí</button></Link>
+        <a href='/donate'><button className="btn-donate" name='Dona Aqui'>Dona Aquí</button></a>
       </Router>
     </div>
   );

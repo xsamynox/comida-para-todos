@@ -1,10 +1,13 @@
 import React, { Fragment } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const BtnKnow = () => {
 
-    return(
+    return (
         <Fragment>
-            <button className='moreBtn'>Conócenos más</button>
+            <Router>
+                <a href="/aboutUs"><button className='moreBtn'>Conócenos más</button></a>
+            </Router>
         </Fragment>
     )
 }

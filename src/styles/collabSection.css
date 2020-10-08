@@ -86,15 +86,12 @@
     height: 304px;
     border-radius: 8px;
 
-}/* 
-.companies {
+}
+/* .companies {
     display: none;
-    /* flex-direction: column;
+    flex-direction: column;
     align-items: flex-end;
     position: absolute;
-    flex-wrap: wrap-reverse; */
-    /* justify-content:space-between; */
-
-
-}
- */
+    flex-wrap: wrap-reverse;
+    justify-content:space-between;
+ } */
