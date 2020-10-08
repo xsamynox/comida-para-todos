@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "nuevo-fd754",
+    "default": "comida-paratodos",
     "comida-para-todos": "comida-paratodos"
   }
 }
