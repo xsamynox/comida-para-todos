@@ -2,14 +2,6 @@ import React from 'react';
 import { collaborators } from '../data/collaborators.json';
 
 const Collaborator = () => {
-  // collaborators.name.map((item, i) => {
-  //   return (
-  //     <option key={i} value={item}>
-  //       {item}
-  //     </option>
-  //   )
-  // });
-
   return (
     <div className="container">
       <div className="row">
