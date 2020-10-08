@@ -35,7 +35,8 @@ function App() {
           render={() => <Campaigns />}
         />
         <Route
-          exact path="/collaborators" render={() => <Collaborators />}
+          exact path="/collaborators"
+          render={() => <Collaborators />}
         />
         <Route
           exact path="/transparency"

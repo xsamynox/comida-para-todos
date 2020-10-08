@@ -6,7 +6,7 @@ import Mail from '../images/iconos/carbon_email.png';
 import Phone from '../images/iconos/clarity_phone-handset-line.png';
 import Direction from '../images/iconos/map-pin.png';
 
-const FoodsForm = () => {
+const CollaborationForm = () => {
   const [meters, setMeters] = React.useState('');
   const [name, setName] = React.useState('');
   const [mail, setMail] = React.useState('');
@@ -62,10 +62,10 @@ const FoodsForm = () => {
         <div>
           <div className="items">
             <img src={Plant} className="icons" alt="icon" />
-            <label className='lbl-form' for="meters">Tipo de Alimento<span className='cat'>*</span></label>
+            <label className='lbl-form' for="meters">Nombre de la Empresa<span className='cat'>*</span></label>
             <input
               type="text"
-              placeholder="Ej: Legumbres"
+              placeholder="Ej: Globant"
               className="space text-placeholder"
               style={{ fontSize: '0.75em' }}
               onChange={(e) => setMeters(e.target.value)}
@@ -107,16 +107,15 @@ const FoodsForm = () => {
           </div>
           <div className="items">
             <img src={Direction} className="icons" alt="" />
-            <label className='lbl-form' for="direction">Dirección<span className='cat'>*</span></label>
+            <label className='lbl-form' for="direction">Página Web<span className='cat'>*</span></label>
             <input
               type="text"
-              placeholder="Ej: Litoral #320, Peñalolen"
+              placeholder="Ej: https://www.globant.com/"
               className="space"
               style={{ fontSize: '0.75em' }}
               onChange={(e) => setDirection(e.target.value)}
             />
           </div>
-          <p className='text-form-foods'>No se pueden donar Alimentos vencidos</p>
           <div className="items">
             <button className="next-button" type="submit">Siguiente</button>
           </div>
@@ -127,4 +126,4 @@ const FoodsForm = () => {
   );
 };
 
-export default FoodsForm;
+export default CollaborationForm;
