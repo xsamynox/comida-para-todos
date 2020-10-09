@@ -1,7 +1,7 @@
 /*Aquí va la imagen de la vista Huertos urbanos */
 import React, { Fragment } from 'react';
 import BtnProject from './BtnProject';
-import GardenImg from '../images/Huertos-urbanos.jpg';
+import GardenImg from '../images/HuertoUrbano.png';
 import '../styles/urbanGarden.css'
 
 const ImgPage = () => {

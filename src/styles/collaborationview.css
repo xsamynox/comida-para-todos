@@ -14,10 +14,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* align-content: center; */
     width: 99.9vw;
     padding: 48px;
-
 }
 
 .radio-filter{

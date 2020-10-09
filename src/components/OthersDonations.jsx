@@ -1,9 +1,9 @@
 import React from 'react';
-import HuertosUrbanos from '../images/Huertos-urbanos.jpg';
-import Alimentos from '../images/Alimentos.jpg'
-import Voluntariado from '../images/Voluntariado.jpg'
+import HuertosUrbanos from '../images/HuertoUrbano.png';
+import Alimentos from '../images/Alimentos.png'
+import Voluntariado from '../images/Voluntariado.png'
 import Clase from '../images/Clase.jpg'
-import Habilidad from '../images/Habilidad.jpg'
+import Habilidad from '../images/habilidad.png'
 import arrowRight from '../images/iconos/arrow-right.png'
 import arrowLeft from '../images/iconos/arrow-left.png'
 
