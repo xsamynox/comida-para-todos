@@ -1,11 +1,11 @@
 import React from 'react';
-import HuertosUrbanos from '../images/HuertoUrbano.png';
-import Alimentos from '../images/Alimentos.png'
-import Voluntariado from '../images/Voluntariado.png'
-import Clase from '../images/Clase.jpg'
-import Habilidad from '../images/habilidad.png'
-import arrowRight from '../images/iconos/arrow-right.png'
-import arrowLeft from '../images/iconos/arrow-left.png'
+import HuertosUrbanos from '../images/Other-Donate/dona-huertos.png';
+import Alimentos from '../images/Other-Donate/dona-alimentos.png';
+import Voluntariado from '../images/Other-Donate/hazte-voluntario.png';
+import Clase from '../images/Other-Donate/dona-clase.png';
+import Habilidad from '../images/Other-Donate/dona-habilidad.png';
+import arrowRight from '../images/iconos/arrow-right.png';
+import arrowLeft from '../images/iconos/arrow-left.png';
 
 
 const OthersDonations = () => {
