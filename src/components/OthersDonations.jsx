@@ -102,7 +102,7 @@ const OthersDonations = () => {
       </div>
 
 
-    </div>
+    </div >
 
   );
 }
