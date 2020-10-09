@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 /* import '../styles/urbanGarden.css'; */
 import UrbanGardenForm from '../components/UrbanGardensForm'
 import ImgUrbanG from '../components/ImgUrbanG'
-import BtnProject from '../components/BtnProject';
+/* import BtnProject from '../components/BtnProject'; */
 
 function UrbanGardens() {
     return (
@@ -15,7 +15,7 @@ function UrbanGardens() {
             </div>
             <div className="gardenImg">
                 <ImgUrbanG />
-                <BtnProject />
+                {/* <BtnProject /> */}
             </div>
             <div>
                 <UrbanGardenForm />

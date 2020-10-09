@@ -1,5 +1,4 @@
 /* Section donate */
-
 .gardenImg {
     background-image: url('../images/Huertos-urbanos.jpg');
     background-repeat: no-repeat;
@@ -10,6 +9,30 @@
     display: flex;
     align-items: center;
     flex-flow: row wrap;
+}
+.gardenDiv {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+}
+
+.gardenLine {
+  background: #FFFFFF;
+  width: 90px;
+  border: 0 none;
+  height: 2px;
+  margin-left: 0px;
+  margin-top: 85px;
+}
+
+.text-garden {
+  padding-top: 24px;
+  width: 617px;
+  height: 136px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25;
+  line-height: 26px;
 }
 
 .btn-project {
@@ -30,7 +53,12 @@
     text-decoration: none;
 }
 
+.textButtons {
+  margin-top: 80px;
+  display: flex;
+}
 
+ 
 /*   .cnt-payment{
     display: flex;
     background-color: #fff;
