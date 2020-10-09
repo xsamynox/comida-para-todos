@@ -156,10 +156,6 @@
 }
 
 /* Hover */
-.container {
-  position: relative;
-  margin-bottom: 2em;
-}
 
 .carousel-caption5:hover::before {
   content: 'Dona Aqui';
