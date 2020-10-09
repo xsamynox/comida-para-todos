@@ -154,6 +154,25 @@
   display: flex;
   align-items: center;
 }
+
+/* Hover */
+.container {
+  position: relative;
+  margin-bottom: 2em;
+}
+
+.carousel-caption5:hover::before {
+  content: 'Dona Aqui';
+  position: absolute;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 103px solid #F25828;
+  border-radius: 8px;
+}
+
 /* .carousel-caption5 p:hover:after{
   background-color:#F25828; 
   content: 'Dona Aqui';
