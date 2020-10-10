@@ -2,7 +2,7 @@ import React from 'react';
 import HuertosUrbanos from '../images/HuertoUrbano.png';
 import Alimentos from '../images/Alimentos.png'
 import Voluntariado from '../images/Voluntariado.png'
-import Clase from '../images/Clase.jpg'
+import Clase from '../images/clase.png'
 import Habilidad from '../images/habilidad.png'
 import arrowRight from '../images/iconos/arrow-right.png'
 import arrowLeft from '../images/iconos/arrow-left.png'
