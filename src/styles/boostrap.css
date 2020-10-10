@@ -62,8 +62,8 @@
 /* Collaboraitors carrousel */
 .w-1002 {
   padding: 15px;
-  width: 170px !important;
-  height: 110px;
+  width: 18vw !important;
+  height: 180px;
   border: 1px solid black;
   border-radius: 8px;
 }
@@ -104,6 +104,9 @@
   display: flex;
   justify-content: space-around;
   padding-bottom: 80px;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
 }
 .carousel{
   padding-bottom: 20px
