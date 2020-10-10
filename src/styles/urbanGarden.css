@@ -58,6 +58,56 @@
   display: flex;
 }
 
+/* container collaborators  */
+
+.ctn-collaboration {
+  padding: 80px;
+}
+
+.CollaborationSection {
+  display: flex;
+}
+
+.img-clb {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.textContainer {
+  padding-left: 80px;
+  padding-top: 54px;
+  text-align: left;
+}
+
+.paragraph {
+  padding-top: 37px;
+  text-align: left;
+  width: 603px;
+  height: 99px;
+  line-height: 26.5px;
+}
+
+.garden {
+  width: 590px;
+  height: 404px;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 /*   .cnt-payment{
     display: flex;
