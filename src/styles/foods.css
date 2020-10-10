@@ -3,7 +3,7 @@
 .img-aliments {
     background-image: url('../images/Donate-Food/Portada.jpg');
     background-repeat: no-repeat;
-    width: 100%;
+    width: 105.7vw;
     height: 798px;
     background-size: cover;
     display: flex;
@@ -84,7 +84,7 @@
 .img-collaborators {
     background-image: url('../images/Collaborators.png');
     background-repeat: no-repeat;
-    width: 100%;
+    width: 105.7vw;
     height: 798px;
     background-size: cover;
     display: flex;

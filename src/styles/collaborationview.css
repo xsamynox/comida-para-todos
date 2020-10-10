@@ -14,7 +14,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 99.9vw;
+    width: 105.7vw;
     padding: 48px;
 }
 
@@ -29,6 +29,7 @@
     margin-bottom: 2em;
 }
 .cnt-filter{
+    width: 105.7vw;
     position: relative;
     display: flex;
     padding: 80px 80px 0;
