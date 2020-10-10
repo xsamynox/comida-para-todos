@@ -62,8 +62,8 @@
 /* Collaboraitors carrousel */
 .w-1002 {
   padding: 15px;
-  width: 170px !important;
-  height: 110px;
+  width: 18vw !important;
+  height: 180px;
   border: 1px solid black;
   border-radius: 8px;
 }
@@ -104,6 +104,9 @@
   display: flex;
   justify-content: space-around;
   padding-bottom: 80px;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
 }
 .carousel{
   padding-bottom: 20px
@@ -154,6 +157,21 @@
   display: flex;
   align-items: center;
 }
+
+/* Hover */
+
+.carousel-caption5:hover::before {
+  content: 'Dona Aqui';
+  position: absolute;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 103px solid #F25828;
+  border-radius: 8px;
+}
+
 /* .carousel-caption5 p:hover:after{
   background-color:#F25828; 
   content: 'Dona Aqui';

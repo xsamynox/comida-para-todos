@@ -1,6 +1,7 @@
 import React from 'react';
 import BtnVolunteer from './BtnVolunteer';
 import BtnDonate from './BtnDonate'
+import Video from '../images/Video/18-sept.mp4'
 
 
 const Campaign = () => {
@@ -16,7 +17,9 @@ const Campaign = () => {
         </div>
       </div>
       <div className='ctn-video video640'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/J-JuH8jwmHg" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <video width="600" controls>
+          <source src={Video} type="video/mp4" />
+        </video>
       </div>
     </section>
   );

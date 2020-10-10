@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
-import Hands from '../images/imagen4.png';
+import Hands from '../images/Colaboradores.jpg';
 
 const CollabSection = () => {
   return (

@@ -4,8 +4,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/foods.css';
 import FoodsForm from '../components/FoodsForm';
-import BancoAlimentos from '../images/banco-alimentos.jpg';
-import Claudio from '../images/Claudio.jpg';
+import BancoAlimentos from '../images/Donate-Food/banco-alimentos.jpg';
+import Claudio from '../images/Donate-Food/claudio.png';
 import Comillas from '../images/iconos/comillas.png'
 import ComillasCierre from '../images/iconos/comilla-cierre.png'
 

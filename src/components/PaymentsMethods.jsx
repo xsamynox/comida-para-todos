@@ -1,7 +1,7 @@
 import React from 'react';
 import OnePay from '../images/iconos/onepay.png'
 import Webpay from '../images/iconos/webpay.png'
-import Match from '../images/iconos/mach.png'
+import Mach from '../images/iconos/mach.png'
 
 
 
@@ -24,9 +24,9 @@ const PaymentsMethods = () => {
         </div>
         <div className='pay'>
           <div className='radio-btn-pay'>
-            <input type="radio" name="Match" value="Match" />
-            <p className='p-radio'>Pago a través de Match</p>
-            <img className='img-match' src={Match} alt="" />
+            <input type="radio" name="Match" value="Mach" />
+            <p className='p-radio'>Pago a través de Mach</p>
+            <img className='img-mach' src={Mach} alt="" />
           </div>
           <div className='radio-btn-pay'>
             <input type="radio" name="Transferencia" value="Transferencia" />
