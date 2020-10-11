@@ -1,22 +1,23 @@
+/* Segunda sección de la vista Dona una clase -Proyecto Escuela*/
+
 import React from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
-import CommunityGardens from '../images/DonaHuertos/HuertoCom.png';
+import Teacher from '../images/DonaClase/ProyectoEscuela.png';
 
-
-const SecondSection = () => {
+const SectionClass = () => {
     return (
       <section className="CollaborationSection ctn-collaboration color">
          {/* <div className="CollaborationSection"> */}
          <div className="containerGarden">
-         <img src={CommunityGardens} className="garden" alt="Huertos Comunitarios" />
+         <img src={Teacher} className="garden" alt="Huertos Comunitarios" />
          </div>
          <div className="textContainer">
          <p>Conoce más sobre el Proyecto</p>
-          <h2>Huertos Comunitarios</h2>
+          <h2>Escuela</h2>
           <p className="paragraph">
-            Los Huertos Comunitarios son diseñados con el próposito de poder educar sobre alimentación saludable,
-            abastecer a la comunidad, generar encuentro e inclusión y seguridad alimentaria como respuesta a la crisis
-            socioambiental existente.
+            Las Escuelas de Comida para Todos, desarrollarán talleres de formación en
+            cocina, alimentación saludable, entre otros temas, además de entregar un espacio para los emprendedores de
+            lo que aprendan en nuestras clases.
           </p>
           <Router>
             <Link to='/donate'>
@@ -29,19 +30,4 @@ const SecondSection = () => {
   );
 };
 
-export default SecondSection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default SectionClass;

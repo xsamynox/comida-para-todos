@@ -10,6 +10,45 @@
     align-items: center;
     flex-flow: row wrap;
 }
+
+.teacherImg {
+  background-image: url('../images/DonaClase/Portada.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 798px;
+  color: #FFFFFF;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.gardenImg {
+  background-image: url('../images/DonaHuertos/Portada2.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 798px;
+  color: #FFFFFF;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.gardenImg {
+  background-image: url('../images/DonaHuertos/Portada2.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 798px;
+  color: #FFFFFF;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+
 .gardenDiv {
   display: flex;
   flex-direction: column;
