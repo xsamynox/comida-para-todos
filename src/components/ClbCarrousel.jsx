@@ -215,7 +215,7 @@ const ClbCarrousel = () => {
 
               <div className="col-md-3 clearfix d-none d-md-block">
                 <div className="">
-                  <a href={collaborators[18].url} target="_blank" rel="noopener noreferrer">
+                   <a href={collaborators[18].url} target="_blank" rel="noopener noreferrer">
                     <img className="d-block w-1002" src={collaborators[18].img} alt={collaborators[18].name} />
                   </a>
                 </div>

@@ -2,12 +2,14 @@
     
     .form-cont {
         width: 70%;
-        height: 430px;
+        height: 40vh;
+        padding-bottom: 5vh;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         border-radius: 8px 8px 8px 8px;
         background: #FFF;
         box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+        margin-bottom: 5vh;
     }
     
     .formContact {
@@ -37,7 +39,7 @@
     }
     
     .items-Cont {
-        margin: 3% 25% 0% 0%;
+        margin: 5% 25% 0% 0%;
         height: 10%;
     }
     
@@ -66,12 +68,10 @@
         height: 50px;
         font-weight: 700;
         font-size: 20px;
-        margin-left: 160px;
         display: block;
         appearance: none;
         border-radius: 4px;
-        margin-left: 836px;
-        margin-top: 25px;
+        margin-left: 82%;
     }
     
     .spacectc::placeholder {
@@ -90,23 +90,23 @@
     }
     
     .txt-title {
-        margin-top: -58px;
+        margin-top: -48px;
         margin-right: 340px;
     }
     
     .spacectc2 {
         border: 1px solid #CACACA;
         border-radius: 8px;
-        padding-bottom: 150px;
+        padding-bottom: 100px;
         background: #fff;
-        margin-top: -30px;
+        margin-top: -5%;
         margin-right: 30px;
     }
     
     .contact-Img {
         background-image: url(../images/1copia.jpg);
         background-repeat: no-repeat;
-        width: 100%;
+        width: 100vw;
         height: 798px;
         background-size: cover;
         display: flex;
@@ -142,7 +142,7 @@
     
     .pf-link {
         color: #F25828;
-        margin-left: 790px;
+        margin-left: 75.2%;
         font-size: 14px;
         text-decoration: underline;
         font-weight: bold;
