@@ -1,0 +1,72 @@
+
+/* container other donate */
+
+.read-more {
+  color: #F25828;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.footer {
+  color: #F2F2F2;
+  background-color: #1F5C70;
+  bottom: 0;
+  width: 105.7vw;
+  height: 205px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 70px;
+  padding-left: 80px;
+  margin-top: 30px;
+}
+
+.container-footer2 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 70px;
+  padding-left: 80px;
+  align-items: center;
+}
+
+.footerLine {
+  background: #F2F2F2;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+/* container collaborators */
+
+.CollaborationSection {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.textContainer{
+  justify-content: flex-end;
+  padding-inline-start: 5%;
+  text-align: left; 
+}
+.collabTitle {
+  display: flex;
+  text-align: center;
+}
+.paragraph{
+  padding-top: 8%;
+}
+
+.containerHands {
+  position: relative;
+  right: 20%;
+}
+.hands {
+  width: 400px;
+  height: 304px;
+  border-radius: 8px;
+}
