@@ -11,7 +11,7 @@ const CollabSection = () => {
         </div>
         <div className="textContainer">
           <h2 className="collabTitle">Colaboradores</h2>
-          <p className="paragraph">
+          <p className="paragraph2">
             <strong>Comida para Todos</strong> se une junto a treinta y cuatro organizaciones que vienen a construir una red virtuosa, capaz de unir voluntades y construir sistemas que transforman el dolor en esperanza, donde descubrimos que juntos somos más.
           </p>
           <Router>

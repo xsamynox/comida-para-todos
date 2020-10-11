@@ -10,7 +10,7 @@ const Campaign = () => {
       <div>
         <h4>Campaña</h4>
         <h2>#Un18ParaTodos</h2>
-        <p className='paragraph'>¡Celebremos juntos estas fiestas! Ayudemos a nuestra comunidad a tener un 18 digno y con comida de calidad, dona para un almuerzo asadero o súmate como voluntario en estas fiestas.</p>
+        <p className='paragraph2'>¡Celebremos juntos estas fiestas! Ayudemos a nuestra comunidad a tener un 18 digno y con comida de calidad, dona para un almuerzo asadero o súmate como voluntario en estas fiestas.</p>
         <div className='ctn-btns'>
           <BtnDonate className='separation' />
           <BtnVolunteer />
