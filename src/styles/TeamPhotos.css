@@ -15,7 +15,8 @@
 .container-radio {
     display: flex;
     margin-top: 1%;
-    margin-right: 25%;
+    margin-right: 7%;
+    margin-bottom: 20px;
 }
 
 .radio-btn-filter {
@@ -101,7 +102,7 @@
     color: #FFF;
     background-color: #34616F;
     width: 207px;
-    top: 118.6%;
+    top: 119.4%;
     color: #FFF;
     opacity: 0.85;
     border-radius: 0px 0px 8px 8px;
@@ -114,7 +115,7 @@
     color: #FFF;
     background-color: #34616F;
     width: 207px;
-    top: 149.6%;
+    top: 148.6%;
     color: #FFF;
     opacity: 0.85;
     border-radius: 0px 0px 8px 8px;
@@ -127,7 +128,7 @@
     color: #FFF;
     background-color: #34616F;
     width: 207px;
-    top: 180.7%;
+    top: 177.9%;
     color: #FFF;
     opacity: 0.85;
     border-radius: 0px 0px 8px 8px;
