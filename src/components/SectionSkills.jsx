@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import SkillImg from '../images/DonaHabilidad/Portada.jpg';
+import SkillImg from '../images/DonaHabilidad/Habilidad.png';
 
 
 const SectionSkills = () => {
@@ -11,12 +11,12 @@ const SectionSkills = () => {
          <img src={SkillImg} className="garden" alt="Huertos Comunitarios" />
          </div>
          <div className="textContainer">
-         <p>Conoce más sobre el Proyecto</p>
-          <h2>Huertos Comunitarios</h2>
-          <h2 className="collabTitle">Colaboradores</h2>
+          <h2>¿Qué habilidades puedo Donar?</h2>
           <p className="paragraph">
-            <strong>Comida para Todos</strong> Los Huertos Comunitarios son diseñados con el próposito de poder educar sobre alimentación saludable,
-                                                abastecer a la comunidad, generar encuentro e inclusión y seguridad alimentaria como respuesta a la crisis socioambiental existente.
+          ¡Las que quieras! Si tienes ganas de ayudar, puedes hacero junto a nosotros,
+          tenemos personas que han aportado su granito de arena tanto con su habilidad en
+          construcción, en la cocina o informática, si sientes que puedes aportar a nuestra
+          fundación, hazlo! Te esperamos c:
           </p>
           <Router>
             <Link to='/donate'>

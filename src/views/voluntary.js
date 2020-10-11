@@ -2,10 +2,11 @@
 import React, { Fragment } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-/* import UrbanGardenForm from '../components/UrbanGardensForm'
-import ImgUrbanG from '../components/ImgUrbanG'
-import SecondSection from '../components/SecondSection';
-import VolunteerExperience from '../components/VolunteerExperience'; */
+import ImgVolunteer from '../components/ImgVolunteer';
+import VolunteerForm from '../components/VolunteerForm';
+import VoluntaryExperience from '../components/VoluntaryExperience';
+import SectionVolunteer from '../components/SectionsVolunteer';
+
 
 
 function volunteer () {
@@ -15,14 +16,12 @@ function volunteer () {
                 <Header />
             </div>
             <div className="gardenImg">
-                {/* <ImgUrbanG /> */}
-            </div>
-               {/*  <SecondSection /> */}
+                <ImgVolunteer />
+               <SectionVolunteer />
             <div className="textContainer">
-                {/* <VolunteerExperience /> */}
+               <VoluntaryExperience />
             </div>
-            <div>
-                {/* <UrbanGardenForm /> */}
+               <VolunteerForm />
             </div>
             <div className="containerFooter">
                 <Footer />

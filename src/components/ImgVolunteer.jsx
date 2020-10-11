@@ -7,7 +7,7 @@ const ImgVolunteer = () => {
 
   return (
     <Fragment>
-      <div className='gardenImg'>
+      <div className='voluntaryImg'>
         <div className='gardenDiv'>
           <hr className='gardenLine' />
           {/* <p>Dona</p> */}

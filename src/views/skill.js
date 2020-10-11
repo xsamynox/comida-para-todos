@@ -1,12 +1,12 @@
-// Pantalla Huertos Urbanos
+// Pantalla Dona tu habilidad
 import React, { Fragment } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-/* import UrbanGardenForm from '../components/UrbanGardensForm'
-import ImgUrbanG from '../components/ImgUrbanG'
-import SecondSection from '../components/SecondSection';
-import VolunteerExperience from '../components/VolunteerExperience';
- */
+import ImgSkills from '../components/ImgSkills';
+import SectionSkills from '../components/SectionSkills';
+import SkillForm from '../components/SkillForm';
+import ExDonateSkill from '../components/ExDonateSkill';
+
 
 function skill() {
     return (
@@ -15,14 +15,14 @@ function skill() {
                 <Header />
             </div>
             <div className="gardenImg">
-                {/* <ImgUrbanG /> */}
+                <ImgSkills />
             </div>
-                {/* <SecondSection /> */}
+                <SectionSkills />
             <div className="textContainer">
-                {/* <VolunteerExperience /> */}
+                <ExDonateSkill />
             </div>
             <div>
-               {/*  <UrbanGardenForm /> */}
+                <SkillForm />
             </div>
             <div className="containerFooter">
                 <Footer />

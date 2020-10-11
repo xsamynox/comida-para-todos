@@ -9,6 +9,8 @@ import ImgClass from '../components/ImgClass'
 import SectionClass from '../components/SectionClass';
 import ExTeachClasses from '../components/ExTeachClasses';
 
+
+
 function donateClass () {
     return (
         <Fragment>

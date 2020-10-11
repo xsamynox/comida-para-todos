@@ -1,13 +1,13 @@
 /*Aquí va la imagen de la vista Dona tu habilidad */
 import React, { Fragment } from 'react';
-import BtnProject from './BtnProject';
+/* import BtnProject from './BtnProject'; */
 import '../styles/urbanGarden.css'
 
 const ImgSkills = () => {
 
   return (
     <Fragment>
-      <div className='gardenImg'>
+      <div className='skillImg'>
         <div className='gardenDiv'>
           <hr className='gardenLine' />
           <p>Dona</p>
@@ -18,7 +18,7 @@ const ImgSkills = () => {
             piensas que puede aportar a Comida para todos.
           </p>
           <div className='gardenButtons'>
-            <BtnProject />
+           {/*  <BtnProject /> */}
           </div>
         </div>
       </div>
