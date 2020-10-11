@@ -6,7 +6,7 @@ const BtnVolunteer = () => {
   return (
     <Fragment>
       <Router>
-        <a href='/voluntary'><button className='volBtn'>Hazte voluntario</button></a>
+        <a href='/donate/voluntary'><button className='volBtn'>Hazte voluntario</button></a>
       </Router>
     </Fragment>
   )
