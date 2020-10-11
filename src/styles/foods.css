@@ -3,7 +3,7 @@
 .img-aliments {
     background-image: url('../images/Donate-Food/Portada.jpg');
     background-repeat: no-repeat;
-    width: 100%;
+    width: 105.7vw;
     height: 798px;
     background-size: cover;
     display: flex;
@@ -84,7 +84,7 @@
 .img-collaborators {
     background-image: url('../images/Collaborators.png');
     background-repeat: no-repeat;
-    width: 100%;
+    width: 105.7vw;
     height: 798px;
     background-size: cover;
     display: flex;
@@ -105,6 +105,7 @@
 }
 .close-modal{
     position: absolute;
+    top: 0;
     right: 0px;
     margin: 1%;
     cursor: pointer;
@@ -119,4 +120,17 @@
     position: absolute;
     color: #FFFFFF;
     padding: 80px;
+    display: flex;
+}
+.logo-cpt{
+    width: 25vw;
+    margin-top: 40px;
+}
+.margin-modal{
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.rrss{
+    margin-top: 40px;
+    display: flex;
 }
