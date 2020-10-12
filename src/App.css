@@ -478,17 +478,17 @@ p.radio {
     width: 40vw;
 }
 
-.paragraph {
+/* .paragraph {
     padding-top: 37px;
     padding-right: 6.3vw;
     text-align: left;
     width: 603px;
     height: 99px;
     line-height: 26.5px;
-}
+} */
 
 .hands {
-    width: 45vw;
+    width: 40vw;
     border-radius: 8px;
 }
 
@@ -619,9 +619,9 @@ p.radio {
     width: 10%;
 }
 
-/* .huertos {
+.huertos {
     bottom: 64%;
-} */
+}
 
 
 /* Contacto */
@@ -760,4 +760,7 @@ p.radio {
     .img-mach{
         margin-left: 8vw;
     }
+    .huertos {
+    bottom: 0;
+}
 }
