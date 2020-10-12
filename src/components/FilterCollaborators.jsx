@@ -8,7 +8,7 @@ const FilterCollaborators = () => {
                 <h2>Filtrar por</h2>
             </div>
 
-            <div className='ctn-cmp'>
+            <div className='ctn-cmp1'>
                 <div className='radio-filter'>
                     <input type='radio' />
                     <label htmlFor="Todos"><p>Todos</p></label>
