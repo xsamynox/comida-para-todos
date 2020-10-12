@@ -446,7 +446,7 @@ p.radio {
     color: #F25828;
     text-decoration: underline;
     font-weight: 700;
-    margin-top: 70px;
+    margin-top: 8vw;
 }
 
 .read-more:hover {
@@ -463,6 +463,7 @@ p.radio {
 
 .CollaborationSection {
     display: flex;
+    width: 105.7vw;
 }
 
 .img-clb {
@@ -479,6 +480,7 @@ p.radio {
 
 .paragraph {
     padding-top: 37px;
+    padding-right: 6.3vw;
     text-align: left;
     width: 603px;
     height: 99px;
@@ -496,7 +498,7 @@ p.radio {
 .img-donate {
     background-image: url('./images/Portada-dona-aqui.jpg');
     background-repeat: no-repeat;
-    width: 100%;
+    width: 105.7vw;
     height: 798px;
     color: #FFFFFF;
     background-size: cover;
@@ -506,6 +508,7 @@ p.radio {
 }
 
 .cnt-payment {
+    width: 93.2vw;
     display: flex;
     background-color: #fff;
     color: #2B292D;
@@ -566,7 +569,7 @@ p.radio {
 }
 
 .radio-btn {
-    width: 179px;
+    width: 13.1vw;
     height: 57px;
     margin-left: -1px;
     border: 1px solid #2B292D;
