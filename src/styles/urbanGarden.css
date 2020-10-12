@@ -105,6 +105,7 @@
 
 .CollaborationSection {
   display: flex;
+  width: 100%;
 }
 
 .img-clb {
@@ -121,7 +122,7 @@
 .paragraph {
   padding-top: 37px;
   text-align: left;
-  width: 603px;
+  width: 42vw;
   height: 99px;
   line-height: 26.5px;
 }
@@ -130,6 +131,16 @@
   width: 590px;
   height: 404px;
   border-radius: 8px;
+}
+@media (min-width: 1920px) and (max-width: 2560px) 
+{
+    .ctn-collaboration{
+      padding-right: 5.55vw;
+      padding-left: 5.55vw;
+    }
+    .paragraph{
+      width: 46vw;
+    }
 }
 
 

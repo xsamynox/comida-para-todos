@@ -3,7 +3,7 @@
 .img-aliments {
     background-image: url('../images/Donate-Food/Portada.jpg');
     background-repeat: no-repeat;
-    width: 105.7vw;
+    width: 100vw;
     height: 798px;
     background-size: cover;
     display: flex;
@@ -84,7 +84,7 @@
 .img-collaborators {
     background-image: url('../images/Collaborators.png');
     background-repeat: no-repeat;
-    width: 105.7vw;
+    width: 100vw;
     height: 798px;
     background-size: cover;
     display: flex;
@@ -133,4 +133,12 @@
 .rrss{
     margin-top: 40px;
     display: flex;
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .btn-project{
+        margin-top: 6vw;
+    }
+    .img-aliments{
+        height: 45vw;
+    }
 }
