@@ -458,12 +458,11 @@ p.radio {
 
 .ctn-collaboration {
     padding: 80px;
-    width: 100vw;
 }
 
 .CollaborationSection {
     display: flex;
-    width: 105.7vw;
+    width: 100vw;
 }
 
 .img-clb {
