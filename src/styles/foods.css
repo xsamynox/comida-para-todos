@@ -141,4 +141,14 @@
     .img-aliments{
         height: 45vw;
     }
+    .rrss{
+    display: block;
+    }
+    .ctn-modal{
+    padding: 50px 30px;
+    }   
+    .logo-cpt{
+    width: 15vw;
+    margin: 70px;
+    }
 }

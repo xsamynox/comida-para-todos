@@ -42,3 +42,20 @@
 }
 
 /* HOVER */
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .radio-filter{
+        height: 8vh;
+        width: 13.6vw;
+    }
+    .cnt-filter{
+        padding-right: 5.55vw;
+        padding-left: 5.55vw;
+    }
+    .ctn-cmp1 {
+    width: 67.5vw;
+    }
+    .container-collaborators{
+        padding: 0 80px;
+    }
+}
