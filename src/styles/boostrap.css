@@ -183,7 +183,7 @@
 .mb-2, .my-2 {
   margin-bottom: 0;
 }
-@media (min-width: 1200px)
+@media (min-width: 1920px) and (max-width: 2560px) 
 {
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 77vw;

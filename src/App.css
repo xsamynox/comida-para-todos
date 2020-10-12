@@ -753,5 +753,11 @@ p.radio {
     }
     .cnt-payment{
         width: 89vw;
+        margin: 5.5vw;
+        position: relative;
+        margin-top: -8vh;
+    }
+    .img-mach{
+        margin-left: 8vw;
     }
 }

@@ -132,6 +132,16 @@
   height: 404px;
   border-radius: 8px;
 }
+@media (min-width: 1920px) and (max-width: 2560px) 
+{
+    .ctn-collaboration{
+      padding-right: 5.55vw;
+      padding-left: 5.55vw;
+    }
+    .paragraph{
+      width: 46vw;
+    }
+}
 
 
 
