@@ -15,7 +15,7 @@ import UrbanGardens from './views/urbanGardens';
 import Foods from './views/foods';
 import Class from './views/class';
 import Skills from './views/skill'
-import Voluntary from './views/voluntary';
+import BeVolunteer from './views/beVolunteer';
 
 function App() {
   return (
@@ -54,8 +54,8 @@ function App() {
           render={() => <Donate />}
         />
           <Route
-          exact path="/donate/voluntary"
-          render={() => <Voluntary />}
+          exact path="/donate/beVolunteer"
+          render={() => <BeVolunteer />}
         />
         <Route
           exact path="/donate/urbangarden"
@@ -73,7 +73,6 @@ function App() {
           exact path="/donate/Hability"
           render={() => <Skills />}
         />
-      
       </Switch>
     </Router >
   );
