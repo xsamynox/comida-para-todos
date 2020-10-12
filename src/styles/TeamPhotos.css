@@ -63,7 +63,7 @@
     justify-content: space-around;
     align-content: center;
     margin: 3%;
-    width: 93vw;
+    width: 69.7vw;
 }
 
 .team {
@@ -71,7 +71,7 @@
 }
 
 .teamimg {
-    width: 207px;
+    width: 16.17vw;
     border-radius: 8px;
 }
 
@@ -101,8 +101,8 @@
     padding: 10px 20px 10px 20px;
     color: #FFF;
     background-color: #34616F;
-    width: 207px;
-    top: 119.4%;
+    width: 16.17vw;
+    top: 135.2%;
     color: #FFF;
     opacity: 0.85;
     border-radius: 0px 0px 8px 8px;
@@ -114,8 +114,8 @@
     padding: 10px 20px 10px 20px;
     color: #FFF;
     background-color: #34616F;
-    width: 207px;
-    top: 148.6%;
+    width: 16.17vw;
+    top: 173.7%;
     color: #FFF;
     opacity: 0.85;
     border-radius: 0px 0px 8px 8px;
@@ -127,10 +127,38 @@
     padding: 10px 20px 10px 20px;
     color: #FFF;
     background-color: #34616F;
-    width: 207px;
-    top: 177.9%;
+    width: 16.17vw;
+    top: 212.3%;
     color: #FFF;
     opacity: 0.85;
     border-radius: 0px 0px 8px 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .descriptionsname {
+        font-size: 20px;
+        margin-left: -2px;
+    }
+    .descriptions {
+        font-size: 18px;
+        margin-left: -2px;
+    }
+    .lineTeam {
+        background: #FFF;
+        margin: 2px;
+        margin-left: -2px;
+    }
+    .container-img {
+        padding: 1%;
+        top: 123.6%;
+    }
+    .container-img2 {
+        padding: 1%;
+        top: 163%;
+    }
+    .container-img3 {
+        padding: 1%;
+        top: 202.5%;
+    }
 }

@@ -2,7 +2,7 @@
     
     .form-cont {
         width: 70%;
-        height: 40vh;
+        height: 52vh;
         padding-bottom: 5vh;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
@@ -146,4 +146,40 @@
         font-size: 14px;
         text-decoration: underline;
         font-weight: bold;
+    }
+    
+    @media (min-width: 1920px) and (max-width: 2560px) {
+        label {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        .itemsContact {
+            margin: 4% 25% 0% 0%;
+            height: 14%;
+        }
+        .btn-Cont {
+            margin-top: -90px;
+        }
+        .formBtn {
+            /* Botón siguiente */
+            margin-left: 86%;
+        }
+        .txt-title {
+            margin-top: -65px;
+            margin-left: -40%;
+        }
+        .spacectc2 {
+            padding-bottom: 140px;
+            margin-top: -5%;
+            margin-left: -40%;
+            margin-right: 13%;
+            padding-left: 1.5%;
+        }
+        .icons-c {
+            height: 40px;
+        }
+        .pf-link {
+            margin-left: 76.5%;
+            font-size: 1.2rem;
+        }
     }
