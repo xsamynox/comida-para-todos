@@ -16,26 +16,32 @@
     height: 42px;
     justify-content: flex-end;
     padding-right: 80px;
+    width: 100vw;
 }
 
 .headerBar,
 .header {
     display: flex;
     position: fixed;
-    width: 100%;
+    width: 100vw;
 }
 
 .container-header {
-    width: 100%;
+    width: 100vw;
     padding-top: 45px;
 }
 
 .header {
     background-color: rgba(255, 255, 255, 0.87);
-    height: 125px;
+    width: 100vw;
+    height: 18vh;
     z-index: 2;
     font-family: 'Be Vietnam';
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.containerMenu {
+    width: 100vw;
 }
 
 
@@ -93,8 +99,8 @@ a:hover {
 .firstImg {
     background-image: url('./images/Portada.jpg');
     background-repeat: no-repeat;
-    width: 100%;
-    height: 798px;
+    width: 100vw;
+    height: 88.4vh;
     color: #FFFFFF;
     background-size: cover;
     display: flex;
@@ -179,21 +185,28 @@ a:hover {
 
 .container-ig {
     background-color: #F2F2F2;
-   /*  width: 1440px; */
-    height: 880px;
+    width: 100vw;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .App {
-    width: 100px;
-    height: 457px;
     display: flex;
     flex-direction: row;
-    padding: 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    /* width: 100px;
+    height: 457px; */
+    padding-top: 4%;
 }
 
 .ig {
-    margin-right: 150px;
+    margin-right: 3vw;
+    margin-left: 3vw;
     border-radius: 8px;
+    align-items: center;
 }
 
 .list-footer {
@@ -283,7 +296,7 @@ span {
     color: #F25828;
     font-weight: 400;
     font-size: 2em;
-    font-family: 'BebasNeue-Regular';
+    /* font-family: 'BebasNeue-Regular'; */
 }
 
 .span1 {
@@ -319,7 +332,7 @@ p.radio {
     align-items: center;
     background: #F2F2F2;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
-    width: 100%;
+    width: 100vw;
     height: 170px;
     font-family: 'BebasNeue-Regular';
     z-index: 0;
@@ -332,33 +345,46 @@ p.radio {
 
 .container-otherDnt {
     display: flex;
-    padding: 80px;
+    padding-left: 5%;
     background-color: #F2F2F2;
-   /*  width: 1440px; */
-    height: 569px;
+    width: 100vw;
+    height: 75vh;
+    padding-top: 5%;
+    padding-right: 5%;
 }
 
 .ctn-otherdnt {
     margin-top: 20px;
-    padding-left: 80px;
+    padding-left: 2%;
+    width: 50vw;
+}
+
+.paragraph1 {
+    width: 50vw;
+    font-weight: 500;
+    font-size: 1em;
+    font-family: 'Be Vietnam';
+    padding-right: 11%;
 }
 
 
 /* container campaña */
 
 .container-campaign {
-    padding: 80px;
-    width: 1440px;
-    height: 569px;
+    padding-top: 5%;
+    width: 100vw;
+    height: 67vh;
+    padding-left: 5%;
 }
 
 .ctn-cmp {
     display: flex;
+    width: 90vw;
 }
 
 .ctn-btns {
     display: flex;
-    padding: 96px 0px 20px;
+    padding: 35px 0px 20px;
 }
 
 .ctn-btns a .btn-donate {
@@ -388,6 +414,7 @@ p.radio {
 .impact {
     color: #fff;
     padding-top: 80px;
+    width: 100vw;
 }
 
 .ctn-impact {
@@ -419,7 +446,7 @@ p.radio {
     color: #F25828;
     text-decoration: underline;
     font-weight: 700;
-    margin-top: 70px;
+    margin-top: 8vw;
 }
 
 .read-more:hover {
@@ -431,10 +458,12 @@ p.radio {
 
 .ctn-collaboration {
     padding: 80px;
+    width: 100vw;
 }
 
 .CollaborationSection {
     display: flex;
+    width: 105.7vw;
 }
 
 .img-clb {
@@ -443,13 +472,15 @@ p.radio {
 }
 
 .textContainer {
-    padding-left: 80px;
-    padding-top: 54px;
+    padding-left: 6%;
+    padding-top: 3%;
     text-align: left;
+    width: 40vw;
 }
 
 .paragraph {
     padding-top: 37px;
+    padding-right: 6.3vw;
     text-align: left;
     width: 603px;
     height: 99px;
@@ -457,8 +488,7 @@ p.radio {
 }
 
 .hands {
-    width: 590px;
-    height: 404px;
+    width: 45vw;
     border-radius: 8px;
 }
 
@@ -468,7 +498,7 @@ p.radio {
 .img-donate {
     background-image: url('./images/Portada-dona-aqui.jpg');
     background-repeat: no-repeat;
-    width: 100%;
+    width: 105.7vw;
     height: 798px;
     color: #FFFFFF;
     background-size: cover;
@@ -478,6 +508,7 @@ p.radio {
 }
 
 .cnt-payment {
+    width: 93.2vw;
     display: flex;
     background-color: #fff;
     color: #2B292D;
@@ -538,7 +569,7 @@ p.radio {
 }
 
 .radio-btn {
-    width: 179px;
+    width: 13.1vw;
     height: 57px;
     margin-left: -1px;
     border: 1px solid #2B292D;
@@ -605,7 +636,7 @@ p.radio {
 .contact-Img {
     background-image: url('./images/1copia.jpg');
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 798px;
     background-size: cover;
     display: flex;
@@ -621,8 +652,8 @@ p.radio {
     color: #F2F2F2;
     background-color: #1F5C70;
     bottom: 0;
-    width: 100%;
-    height: 205px;
+    width: 100vw;
+    height: 25vh;
     font-family: 'Be Vietnam';
 }
 
@@ -630,10 +661,12 @@ p.radio {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
     padding-top: 30px;
 }
 
 .container-footer2 {
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -647,12 +680,69 @@ p.radio {
 .impact,
 .container-header,
 .ctn-dnt-price {
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 6.2%;
+    padding-left: 6.2%;
 }
 
 .footerLine {
     background: #F2F2F2;
     margin-right: 80px;
     margin-left: 80px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .header {
+        height: 12vh;
+    }
+    .firstImg {
+        height: 80vh;
+    }
+    h3 {
+        font-size: 4em;
+    }
+    span {
+        font-weight: 400;
+        font-size: 2em;
+    }
+    .paragraph1 {
+        width: 60vw;
+        font-size: 1.5em;
+        padding-right: 15%;
+    }
+    .ctn-otherdnt {
+        margin-top: 20px;
+        padding-left: 10%;
+        width: 50vw;
+    }
+    .container-otherDnt {
+        display: flex;
+        padding-left: 5%;
+        background-color: #F2F2F2;
+        width: 100vw;
+        height: 53vh;
+        padding-top: 5%;
+        padding-right: 5%;
+    }
+    .container-campaign {
+        height: 45vh;
+    }
+    p {
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+    .impact {
+        padding: 3% 2% 5% 10.5%;
+    }
+    .container-ig {
+        height: 80vh;
+    }
+    .App {
+        margin: 0% 10% 0% 10%;
+    }
+    .footer {
+        height: 20vh;
+    }
 }
