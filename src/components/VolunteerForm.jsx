@@ -5,6 +5,13 @@ import Avatar from '../images/iconos/user-outlined.png';
 import Mail from '../images/iconos/carbon_email.png';
 import Phone from '../images/iconos/clarity_phone-handset-line.png';
 import Direction from '../images/iconos/map-pin.png';
+import Modal from '../images/Donate-Food/modal.jpg'
+import close from '../images/iconos/close.png'
+import instagram from '../images/iconos/instagram.png'
+import facebook from '../images/iconos/facebook.png'
+import twitter from '../images/iconos/twitter.png'
+import logo from '../images/Donate-Food/logo.png';
+
 
 const VolunteerForm= () => {
     const [meters, setMeters] = React.useState('');
@@ -115,12 +122,39 @@ const VolunteerForm= () => {
                         onChange={(e) => setDirection(e.target.value)}
                     />
                 </div>
-                {/* <input
-                className="formButton"
-                type="submit"
-                value="Siguiente"/> */}
                 <div className="items">
-                    <button className="formButton" type="submit">Siguiente</button>
+                    {/* <button className="formButton" type="submit">Siguiente</button> */}
+                    <button className="next-button" type="submit" data-toggle="modal" data-target="#exampleModal">Siguiente</button>
+                    {/* Modal */}
+                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-dialog-centered modal-xl">
+                            <div className="modal-content">
+                                <img className='img-modal' src={Modal} alt="gracias por aportar" />
+                                <div className='ctn-modal'>
+                                    <a className='close-modal' data-dismiss="modal"><img src={close}></img></a>
+                                    <div>
+                                        <img className='logo-cpt' src={logo} alt='logo-cpt' />
+                                    </div>
+                                        <div className='margin-modal'>
+                                            <h2>¡Gracias, futuro voluntario!</h2>
+                                            <p><strong>Nos comunicaremos contigo por medio de tu correo para que formes parte de nuestro equipo. </strong></p>
+                                            <div className='rrss'>
+                                                <h4>Comparte en tus Redes Sociales</h4>
+                                                <a href="https://www.instagram.com/comida_para_todos_cl/" target="_blank" rel="noopener noreferrer">
+                                                    <img src={instagram} className="instagram" alt="instagram " />
+                                                    </a>
+                                                    <a href="https://www.facebook.com/Comida-para-Todos-100133851719302" target="_blank" rel="noopener noreferrer">
+                                                        <img src={facebook} className="facebook" alt="logo-facebook" />
+                                                        </a>
+                                                        <a href="https://twitter.com/ChileComida" target="_blank" rel="noopener noreferrer">
+                                                            <img src={twitter} className="twitter" alt="logo-twitter" />
+                                                        </a>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </form>
         </div>
