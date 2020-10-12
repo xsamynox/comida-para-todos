@@ -314,7 +314,7 @@ p {
 }
 
 .p-others {
-    padding: 20px 0;
+    padding: 10px 0 50px;
     font-family: 'Be Vietnam';
 }
 
@@ -570,7 +570,7 @@ p.radio {
 
 .radio-btn {
     width: 12vw;
-    height: 57px;
+    height: 75px;
     margin-left: -1px;
     border: 1px solid #2B292D;
     align-items: center;
@@ -619,9 +619,9 @@ p.radio {
     width: 10%;
 }
 
-.huertos {
+/* .huertos {
     bottom: 64%;
-}
+} */
 
 
 /* Contacto */
@@ -708,9 +708,9 @@ p.radio {
         font-size: 2em;
     }
     .paragraph1 {
-        width: 60vw;
+        width: 54vw;
         font-size: 1.5em;
-        padding-right: 15%;
+        /* padding-right: 15%; */
     }
     .ctn-otherdnt {
         margin-top: 20px;
@@ -743,6 +743,15 @@ p.radio {
         margin: 0% 10% 0% 10%;
     }
     .footer {
-        height: 20vh;
+        height: 28.7vh;
+    }
+
+    /* Media View Donate */
+    .container-footer2, .container-footer, .impact, .container-header, .ctn-dnt-price, .headerBar, .firstDiv{
+    padding-right: 5.55vw;
+    padding-left: 5.55vw;
+    }
+    .cnt-payment{
+        width: 89vw;
     }
 }
