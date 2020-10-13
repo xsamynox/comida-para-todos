@@ -15,6 +15,7 @@ import UrbanGardens from './views/urbanGardens';
 import Foods from './views/foods';
 import Class from './views/class';
 import Skills from './views/skill'
+import AboutUs2 from './views/aboutUs2';
 import BeVolunteer from './views/beVolunteer';
 
 function App() {
@@ -26,8 +27,12 @@ function App() {
           render={() => <Home />}
         />
         <Route
-          exact path="/aboutUs"
+          exact path="/aboutus/AboutUs"
           render={() => <AboutUs />}
+        />
+          <Route
+          exact path="/aboutus/AboutUs2"
+          render={() => <AboutUs2 />}
         />
         <Route
           exact path="/projects"

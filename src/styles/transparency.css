@@ -114,4 +114,23 @@
 .arrow-work{
   width: 25px;
 }
+.ctn-transparency p {
+    font-size: 1.7em;
+    width: 218px;
+    margin-left: 30px;
+}
+.transparency {
+    width: 50%;
+    height: auto;
+}
+.section-work{
+  padding-bottom: 80px;
+}
+.view, .view2{
+  width: 60%;
+}
+.icon-carousel{
+  width: 130px;
+}
+
 }
