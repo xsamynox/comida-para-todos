@@ -10,13 +10,15 @@ const Distribution = () => {
           <h4>Distribución</h4>
           <h2>Costos de la donación</h2>
           <p><strong>El 65% de los recursos de la Fundación</strong> se destinan a los Restaurantes, los que se encargan de realizar las comidas, apadrinar  comunidades vunerables entregándoles capacitaciones, además de compartir buenas prácticas sobre alimentación saludable.</p>
-          <ul>
-            <li><p>Restaurantes</p></li>
-            <li><p>Operaciones</p></li>
-            <li><p>Comunicaciones</p></li>
-            <li><p>Administración</p></li>
-            <li><p>Transporte</p></li>
-          </ul>
+          <div className='list-distribution'>
+            <ul>
+              <li><p>Restaurantes</p></li>
+              <li><p>Operaciones</p></li>
+              <li><p>Comunicaciones</p></li>
+              <li><p>Administración</p></li>
+              <li><p>Transporte</p></li>
+            </ul>
+          </div>
         </div>
         <div>
           <img src={charts} alt='grafica' />
