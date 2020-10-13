@@ -21,7 +21,7 @@ const Distribution = () => {
           </div>
         </div>
         <div>
-          <img src={charts} alt='grafica' />
+          <img className='charts' src={charts} alt='grafica' />
         </div>
       </div>
       <div className='ctn-documents'>

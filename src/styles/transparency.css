@@ -94,19 +94,22 @@
   width: 25px;
 }
 .ctn-transparency p {
-    font-size: 1.7em;
+    font-size: 1.25em;
     width: 218px;
     margin-left: 30px;
 }
 .transparency {
-    width: 50%;
-    height: auto;
-}
-.section-work{
-  padding-bottom: 80px;
+    width: 87vw;
+    height: 27.5vw;
 }
 .icon-carousel{
-  width: 130px;
+  width: 43vw;
+}
+.charts{
+  width: 25vw;
+}
+.ctn-distribution {
+    padding-right: 15%;
 }
 
 }
