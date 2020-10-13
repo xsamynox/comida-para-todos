@@ -105,6 +105,7 @@
 
 .CollaborationSection {
   display: flex;
+  width: 100%;
 }
 
 .img-clb {
@@ -121,7 +122,7 @@
 .paragraph {
   padding-top: 37px;
   text-align: left;
-  width: 603px;
+  width: 42vw;
   height: 99px;
   line-height: 26.5px;
 }
@@ -131,7 +132,91 @@
   height: 404px;
   border-radius: 8px;
 }
+@media (min-width: 1920px) and (max-width: 2560px) 
+{
+    .ctn-collaboration{
+      padding-right: 5.55vw;
+      padding-left: 5.55vw;
+    }
+    .paragraph{
+      width: 46vw;
+    }
+}
 
 
 
 
+
+/* Media Queries */
+
+/* @media (min-width: 1920px) and (max-width: 2560px) {
+  .header {
+      height: 12vh;
+  }
+  .firstImg {
+      height: 80vh;
+  }
+  h3 {
+      font-size: 4em;
+  }
+  span {
+      font-weight: 400;
+      font-size: 2em;
+  }
+  .paragraph1 {
+      width: 54vw;
+      font-size: 1.5em;
+      /* padding-right: 15%;
+  } */
+  /* .ctn-otherdnt {
+      margin-top: 20px;
+      padding-left: 10%;
+      width: 50vw;
+  }
+  .container-otherDnt {
+      display: flex;
+      padding-left: 5%;
+      background-color: #F2F2F2;
+      width: 100vw;
+      height: 53vh;
+      padding-top: 5%;
+      padding-right: 5%;
+  }
+  .container-campaign {
+      height: 45vh;
+  }
+  p {
+      font-weight: 500;
+      font-size: 1.5em;
+  }
+  .impact {
+      padding: 3% 2% 5% 10.5%;
+  }
+  .container-ig {
+      height: 80vh;
+  }
+  .App {
+      margin: 0% 10% 0% 10%;
+  }
+  .footer {
+      height: 28.7vh;
+  } */
+
+  /* Media View Donate */
+ /*  .container-footer2, .container-footer, .impact, .container-header, .ctn-dnt-price, .headerBar, .firstDiv{
+  padding-right: 5.55vw;
+  padding-left: 5.55vw;
+  }
+  .cnt-payment{
+      width: 89vw;
+      margin: 5.5vw;
+      position: relative;
+      margin-top: -8vh;
+  }
+  .img-mach{
+      margin-left: 8vw;
+  }
+  .huertos {
+  bottom: 0;
+}
+ */

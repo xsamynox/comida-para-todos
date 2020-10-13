@@ -70,7 +70,10 @@
 }
 
 .hands {
-    width: 400px;
-    height: 304px;
-    border-radius: 8px;
+  width: 400px;
+  height: 304px;
+  border-radius: 8px;
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+ 
 }

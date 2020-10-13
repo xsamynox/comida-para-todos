@@ -18,7 +18,7 @@ function Foods() {
       <div className='img-aliments'>
         <div className='firstDiv text-color'>
           <hr className='firstLine' />
-          <p>Dona</p>
+          <h4 style={{ fontSize: '2.3em' }}>Dona</h4>
           <h1>Alimentos</h1>
           <p className='paragraph'>Donar tu alimento significa aportar de una manera diferente los alimentos que tienes en tu casa pero que ya no usarás, evitemos el desperdicio, dona tu alimento y ayuda a una persona. <br /> <br />Te invitamos a ver el Proyecto de Banco de Alimentos.</p>
           <button className='volBtn btn-project'>Ir a Proyecto</button>

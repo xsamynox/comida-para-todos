@@ -14,8 +14,8 @@ const ImgPage = () => {
           <h1>Una Clase</h1>
           <p className='text-garden'>
           Donar una clase significa entregar una parte de lo que sabes para ayudar a que otros ayuden en
-           diferentes áreas de la fundación, puede ser desde una clase de sanitización o gastronomía. 
-           Te invitamos a ver el Proyecto de Escuela.
+          diferentes áreas de la fundación, puede ser desde una clase de sanitización o gastronomía.
+          Te invitamos a ver el Proyecto de Escuela.
           </p>
           <div className='gardenButtons'>
             <BtnProject />

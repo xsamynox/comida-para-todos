@@ -5,9 +5,8 @@ import ComillasCierre from '../images/iconos/comilla-cierre.png'
 
 const VoluntaryExperience = () => {
     return (
-         
-         <div className="ctn-collaboration div-order">
-         <img src={Eduardo} className="person" alt="" />
+      <div className="ctn-collaboration div-order">
+        <img src={Eduardo} className="person" alt="" />
         <img className='comillas1' src={Comillas} alt='comillas' />
         <div>
           <p className='cite' >Me siento feliz ver como entre vecinos nos ayudamos en tener un Chile más sano</p>
@@ -18,6 +17,5 @@ const VoluntaryExperience = () => {
       </div>
     )
 }
-  
 
 export default VoluntaryExperience;

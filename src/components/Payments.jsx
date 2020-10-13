@@ -5,7 +5,7 @@ const Payments = () => {
   return (
     <section className='cnt-payment'>
       <div className='ctn-pay '>
-        <h2>Haz el cambio! Genera un<br /> Impacto</h2>
+        <h2>Haz el cambio! Genera un impacto</h2>
         <p>Con tu donación estarás alimentando la felicidad de miles de personas en nuestro país que lo necesitan a través de un almuerzo solidario nutritivo y de calidad.<span className='span1'>¡Ayúdanos a combatir el hambre en Chile!</span></p>
       </div>
 
@@ -39,7 +39,7 @@ const Payments = () => {
           <div>
             <input className='other' type="text" placeholder='$ Otro' />
           </div>
-          <div className='ctn-cmp'>
+          <div>
             <button className="volBtn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               Siguiente</button>
           </div>

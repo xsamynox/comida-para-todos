@@ -314,7 +314,7 @@ p {
 }
 
 .p-others {
-    padding: 20px 0;
+    padding: 10px 0 50px;
     font-family: 'Be Vietnam';
 }
 
@@ -360,7 +360,7 @@ p.radio {
 }
 
 .paragraph1 {
-    width: 50vw;
+    width: 45vw;
     font-weight: 500;
     font-size: 1em;
     font-family: 'Be Vietnam';
@@ -470,24 +470,24 @@ p.radio {
     border-radius: 8px;
 }
 
-.textContainer {
+/* .textContainer {
     padding-left: 6%;
     padding-top: 3%;
     text-align: left;
     width: 40vw;
-}
+} */
 
-.paragraph {
+/* .paragraph {
     padding-top: 37px;
     padding-right: 6.3vw;
     text-align: left;
     width: 603px;
     height: 99px;
     line-height: 26.5px;
-}
+} */
 
 .hands {
-    width: 45vw;
+    width: 40vw;
     border-radius: 8px;
 }
 
@@ -497,7 +497,7 @@ p.radio {
 .img-donate {
     background-image: url('./images/Portada-dona-aqui.jpg');
     background-repeat: no-repeat;
-    width: 105.7vw;
+    width: 100vw;
     height: 798px;
     color: #FFFFFF;
     background-size: cover;
@@ -507,7 +507,7 @@ p.radio {
 }
 
 .cnt-payment {
-    width: 93.2vw;
+    width: 87.5vw;
     display: flex;
     background-color: #fff;
     color: #2B292D;
@@ -539,13 +539,13 @@ p.radio {
 }
 
 .payments {
-    margin-top: 10%;
-    margin-left: -104%;
+    margin-top: 20%;
+    margin-left: -40vw;
 }
 
 .container-pay {
     display: flex;
-    width: 100%;
+    width: 36vw;
     justify-content: space-between;
     margin-top: 5%;
 }
@@ -553,7 +553,7 @@ p.radio {
 .btns-pay {
     display: flex;
     justify-content: flex-end;
-    padding: 80px 22px 0;
+    padding: 80px 0 0;
     width: 100%;
 }
 
@@ -568,8 +568,8 @@ p.radio {
 }
 
 .radio-btn {
-    width: 13.1vw;
-    height: 57px;
+    width: 12vw;
+    height: 75px;
     margin-left: -1px;
     border: 1px solid #2B292D;
     align-items: center;
@@ -586,7 +586,7 @@ p.radio {
 }
 
 .radio-btn-pay {
-    width: 572px;
+    width: 38vw;
     height: 128px;
     margin-left: -1px;
     border: 1px solid #3A6270;
@@ -610,7 +610,7 @@ p.radio {
 .img-mach {
     width: 157px;
     height: auto;
-    margin-left: 22%;
+    margin-left: 4vw;
 }
 
 .radio-btn-pay input,
@@ -707,9 +707,9 @@ p.radio {
         font-size: 2em;
     }
     .paragraph1 {
-        width: 60vw;
+        width: 54vw;
         font-size: 1.5em;
-        padding-right: 15%;
+        /* padding-right: 15%; */
     }
     .ctn-otherdnt {
         margin-top: 20px;
@@ -742,6 +742,24 @@ p.radio {
         margin: 0% 10% 0% 10%;
     }
     .footer {
-        height: 20vh;
+        height: 28.7vh;
     }
+
+    /* Media View Donate */
+    .container-footer2, .container-footer, .impact, .container-header, .ctn-dnt-price, .headerBar, .firstDiv{
+    padding-right: 5.55vw;
+    padding-left: 5.55vw;
+    }
+    .cnt-payment{
+        width: 89vw;
+        margin: 5.5vw;
+        position: relative;
+        margin-top: -8vh;
+    }
+    .img-mach{
+        margin-left: 8vw;
+    }
+    .huertos {
+    bottom: 74%;
+}
 }

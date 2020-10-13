@@ -9,19 +9,21 @@ import SectionVolunteer from '../components/SectionsVolunteer';
 
 
 
-function volunteer () {
+function volunteerView () {
     return (
         <Fragment>
             <div className="containerMenu">
                 <Header />
             </div>
-            <div className="gardenImg">
+            <div className="">
                 <ImgVolunteer />
-               <SectionVolunteer />
-            <div className="textContainer">
-               <VoluntaryExperience />
+            <div className="">
+                <SectionVolunteer />
+                <div className="">
+                    <VoluntaryExperience />
+                </div>
             </div>
-               <VolunteerForm />
+            <VolunteerForm />
             </div>
             <div className="containerFooter">
                 <Footer />
@@ -29,4 +31,4 @@ function volunteer () {
         </Fragment>
     );
 }
-export default volunteer;
+export default volunteerView;

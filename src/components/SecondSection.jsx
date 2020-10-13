@@ -7,11 +7,11 @@ const SecondSection = () => {
     return (
       <section className="CollaborationSection ctn-collaboration color">
          {/* <div className="CollaborationSection"> */}
-         <div className="containerGarden">
-         <img src={CommunityGardens} className="garden" alt="Huertos Comunitarios" />
-         </div>
-         <div className="textContainer">
-         <p>Conoce más sobre el Proyecto</p>
+        <div className="containerGarden">
+          <img src={CommunityGardens} className="garden" alt="Huertos Comunitarios" />
+        </div>
+        <div className="textContainer">
+          <p>Conoce más sobre el Proyecto</p>
           <h2>Huertos Comunitarios</h2>
           <p className="paragraph">
             Los Huertos Comunitarios son diseñados con el próposito de poder educar sobre alimentación saludable,

@@ -1,39 +1,12 @@
 import React from 'react';
 import { collaborators } from '../data/collaborators.json';
-// import CafeSanJuan from '../images/cafe-san-juan 1.png';
-// import Foodies from '../images/foodies 1.png';
-// import Cultiva from '../images/logo-fundacion-cultiva 1.png';
-// import Ñam from '../images/logo-niam 1.png';
-
-// const Collaborator = () => {
-//   return (
-//     <div className="container-collaborators">
-//       {collaborators.map((collaborator) => {
-//         return <img className="col-sm-2 contorn" key={collaborator.name} src={collaborator.img} />
-//       })}
-//     </div>
-//   );
-// }
-
-
-// {
-//   collaborators.map((collaborator) => {
-//     return <div className="col-md-4">
-//       <div>
-//         <a href="https://www.instagram.com/cafesanjuansantiago_oficial/" target="_blank" rel="noopener noreferrer" >
-//           <img className="d-block w-100" key={collaborator.name} src={collaborator.img} />
-//         </a>
-//       </div>
-//     </div>
-//   })
-// }
 
 const ClbCarrousel = () => {
   return (
     <div className='container'>
       <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
 
-        <ol className="carousel-indicators">
+        <ol className="carousel-indicators carrousel1">
           <li data-target="#multi-item-example" data-slide-to="0" className="active"></li>
           <li data-target="#multi-item-example" data-slide-to="1"></li>
           <li data-target="#multi-item-example" data-slide-to="2"></li>
@@ -215,7 +188,7 @@ const ClbCarrousel = () => {
 
               <div className="col-md-3 clearfix d-none d-md-block">
                 <div className="">
-                   <a href={collaborators[18].url} target="_blank" rel="noopener noreferrer">
+                  <a href={collaborators[18].url} target="_blank" rel="noopener noreferrer">
                     <img className="d-block w-1002" src={collaborators[18].img} alt={collaborators[18].name} />
                   </a>
                 </div>

@@ -1,0 +1,117 @@
+.img-transparency{
+  background-image: url('../images//transparency/portada.png');
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 800px;
+  color: #FFFFFF;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25); 
+}
+.section-transparency{
+  padding: 80px;
+  background-color: #F2F2F2;
+}
+.icon-trn{
+  width: 160px;
+  height: auto;
+}
+.arrow-work{
+  margin: 7px;
+}
+.ctn-transparency{
+  display: flex;
+  margin-top: 70px;
+}
+.ctn-arrow{
+  margin-top: 5%;
+}
+.ctn-transparency p {
+  font-style: normal;
+  font-size: 1.25em;
+  line-height: 26px;
+  width: 163px;
+}
+.transparency {
+  width: 512px;
+  height: 361px;
+  border-radius: 8px;
+}
+.section-work{
+  padding: 80px 80px 0;
+  display: flex;
+}
+.textWork{
+  margin-left: 80px;
+}
+.section-distribution{
+  padding: 80px;
+  background-color: #F2F2F2;
+  display: flex;
+}
+.ctn-distribution{
+  padding-right: 80px;
+}
+.ctn-documents{
+  display: flex;
+  height: 230px;
+  justify-content: space-between;
+  padding: 80px;
+}
+/* Carousel transparency */
+.view{
+  background-color: #1F5C70;
+  border-radius: 8px;
+  display: flex;
+  width: 530px;
+  height: 232px;
+  padding: 30px;
+  margin-top: 30px;
+}
+.view2{
+  background-color: #F25828;
+  border-radius: 8px;
+  display: flex;
+  width: 530px;
+  height: 232px;
+  padding: 30px;
+  margin-top: 30px;
+   
+}
+.icon-carousel{
+  width: 105px;
+  height: 163px;
+}
+.icon-carousel2{
+  width: 160px;
+  height: auto;
+}
+.font-trp-crs{
+  color: #FFFFFF;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.carousel-indicators li{
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.list-distribution{
+  margin-left: 5%;
+  columns: 2;
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .ctn-documents, .section-distribution, .section-work, .section-transparency{
+  padding-right: 5.55vw;
+  padding-left: 5.55vw;
+  }
+  .icon-trn {
+    width: 254px;
+}
+.arrow-work{
+  width: 25px;
+}
+}

@@ -3,7 +3,7 @@
 .img-aliments {
     background-image: url('../images/Donate-Food/Portada.jpg');
     background-repeat: no-repeat;
-    width: 105.7vw;
+    width: 100vw;
     height: 798px;
     background-size: cover;
     display: flex;
@@ -56,7 +56,7 @@
 }
 
 .next-button {
-    margin-top: -6px;
+    margin-top: -1px;
     font-family: 'Be Vietnam', sans-serif;
     background-color: #F25828;
     color: #F2F2F2;
@@ -84,7 +84,7 @@
 .img-collaborators {
     background-image: url('../images/Collaborators.png');
     background-repeat: no-repeat;
-    width: 105.7vw;
+    width: 100vw;
     height: 798px;
     background-size: cover;
     display: flex;
@@ -133,4 +133,22 @@
 .rrss{
     margin-top: 40px;
     display: flex;
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .btn-project{
+        margin-top: 6vw;
+    }
+    .img-aliments{
+        height: 45vw;
+    }
+    .rrss{
+    display: block;
+    }
+    .ctn-modal{
+    padding: 50px 30px;
+    }   
+    .logo-cpt{
+    width: 15vw;
+    margin: 70px;
+    }
 }
