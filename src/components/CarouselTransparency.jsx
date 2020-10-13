@@ -5,7 +5,7 @@ import capacitación from '../images/Transparency/tarjeta-capacitación.png';
 
 const CarouselTransparency = () => {
   return (
-    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carousel-example-2" className="carousel slide carousel-fade" data-ride="carousel">
 
       <ol className="carousel-indicators">
         <li data-target="#carousel-example-2" data-slide-to="0" className="active"></li>
