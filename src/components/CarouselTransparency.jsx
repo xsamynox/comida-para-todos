@@ -1,40 +1,37 @@
 import React from 'react';
-import services from '../images/transparency/servicios.png';
-import apadrinar from '../images/transparency/comunidad.png';
-import sembrar from '../images/transparency/sembrar.png';
+import restaurant from '../images/Transparency/tarjeta-restaurant.png';
+import comunidad from '../images/Transparency/tarjeta-comunidad.png';
+import capacitación from '../images/Transparency/tarjeta-capacitación.png';
 
 const CarouselTransparency = () => {
   return (
-    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carousel-example-2" className="carousel slide carousel-fade" data-ride="carousel">
 
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <ol className="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" className="active"></li>
         <li data-target="#carousel-example-2" data-slide-to="1"></li>
         <li data-target="#carousel-example-2" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner" role="listbox">
+      <div className="carousel-inner" role="listbox">
 
-        <div class="carousel-item active">
-          <div class="view">
-            <img className='icon-carousel' src={services}
+        <div className="carousel-item active">
+          <div>
+            <img className='icon-carousel' src={restaurant}
               alt="cubiertos" />
-            <p className='font-trp-crs'>Restaurantes y productores de la alianza ponen a disposición sus conocimientos.</p>
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="view2">
-            <img className='icon-carousel' src={apadrinar}
+        <div className="carousel-item">
+          <div>
+            <img className='icon-carousel' src={comunidad}
               alt="conversación" />
-            <p className='font-trp-crs'>Comunidad, comedores sociales y cocinerías de las comunas vulnerables beneficiarias reciben capacitación.</p>
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="view">
-            <img className='icon-carousel' src={sembrar}
-              alt="sembrar" />
-            <p className='font-trp-crs'>Restaurantes capacitando en 4 temáticas: Alimentación Saludable, Emprendimiento, Permacultura y Buenas prácticas</p>
+        <div className="carousel-item">
+          <div>
+            <img className='icon-carousel' src={capacitación}
+              alt="capacitación" />
           </div>
         </div>
 

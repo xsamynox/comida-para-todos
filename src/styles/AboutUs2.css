@@ -10,6 +10,15 @@
     flex-flow: row wrap;
 }
 
+.ctn-video2 {
+    margin-left: 60%;
+    margin-top: -450px;
+}
+
+.video6402 {
+    width: 60vw;
+}
+
 .white-bg {
     width: 100vw;
     display: flex;
@@ -114,6 +123,15 @@
     font-weight: bold;
 }
 
+.img-car {
+    margin-top: 8%;
+    width: 10vw;
+}
+
+.img-carousel {
+    width: 40vw;
+}
+
 .gif-cnt {
     width: 50vw;
 }
@@ -159,7 +177,7 @@
     opacity: 0.85;
 }
 
-.descriptions {
+.descriptionsblock {
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: bold;

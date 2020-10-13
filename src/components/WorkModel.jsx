@@ -1,11 +1,11 @@
 import React from 'react';
-import web from '../images/transparency/internet.png';
-import donate from '../images/transparency/dona.png';
-import restaurant from '../images/transparency/restaurants.png';
-import transport from '../images/transparency/transporte.png';
-import sectores from '../images/transparency/sectores.png';
-import apadrina from '../images/transparency/apadrinar.png';
-import arrow from '../images/transparency/arrow.png';
+import web from '../images/Transparency/internet.png';
+import donate from '../images/Transparency/dona.png';
+import restaurant from '../images/Transparency/restaurants.png';
+import transport from '../images/Transparency/transporte.png';
+import sectores from '../images/Transparency/sectores.png';
+import apadrina from '../images/Transparency/apadrinar.png';
+import arrow from '../images/Transparency/arrow.png';
 
 const WorkModel = () => {
   return (

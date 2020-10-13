@@ -6,7 +6,7 @@ const Collaborator = () => {
   return (
     <div className="container-collaborators">
       {collaborators.map((collaborator) => {
-        return <img className="col-sm-2 contorn" alt=""  key={collaborator.name} src={collaborator.img} />
+        return <a className="col-sm-2 contorn" href={collaborator.url} key={collaborator.name}><img alt='colaboradores' src={collaborator.img} /></a>
       })}
     </div>
   );

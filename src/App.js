@@ -17,6 +17,7 @@ import Class from './views/class';
 import Skills from './views/skill'
 import AboutUs2 from './views/aboutUs2';
 import BeVolunteer from './views/beVolunteer';
+import SchoolProj from './views/schoolProject';
 
 function App() {
   return (
@@ -27,16 +28,20 @@ function App() {
           render={() => <Home />}
         />
         <Route
-          exact path="/aboutus/AboutUs"
+          exact path="/aboutus/aboutus"
           render={() => <AboutUs />}
         />
           <Route
-          exact path="/aboutus/AboutUs2"
+          exact path="/aboutus/aboutus2"
           render={() => <AboutUs2 />}
         />
         <Route
           exact path="/projects"
           render={() => <Projects />}
+        />
+         <Route
+          exact path="/projects/schoolproj"
+          render={() => <SchoolProj />}
         />
         <Route
           exact path="/campaings"
@@ -59,7 +64,7 @@ function App() {
           render={() => <Donate />}
         />
           <Route
-          exact path="/donate/beVolunteer"
+          exact path="/donate/bevolunteer"
           render={() => <BeVolunteer />}
         />
         <Route
@@ -75,7 +80,7 @@ function App() {
           render={() => <Class />}
         />
         <Route
-          exact path="/donate/Hability"
+          exact path="/donate/hability"
           render={() => <Skills />}
         />
       </Switch>

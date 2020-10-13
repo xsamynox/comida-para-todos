@@ -13,7 +13,7 @@ const OthersDonations = () => {
     <div className='container-header'>
       <h2>Otras Formas de Ayudar</h2>
       <p className='p-others'><strong>Como fundación buscamos</strong> que todos podamos aportar de diferentes maneras desde ser voluntario hasta donar parte de tu tiempo dando clases sobre un tema que sientas que puedes aportar <strong>¡Súmate!</strong></p>
-      <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+      <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
         <a className="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
           <img src={arrowRight} className="arrow-carrousel" alt="flecha"></img>
         </a>

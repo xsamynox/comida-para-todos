@@ -1,5 +1,5 @@
 .img-transparency{
-  background-image: url('../images//transparency/portada.png');
+  background-image: url('../images/Transparency/portada.png');
   background-repeat: no-repeat;
   width: 100vw;
   height: 800px;
@@ -35,7 +35,7 @@
   width: 163px;
 }
 .transparency {
-  width: 512px;
+  width: 542px;
   height: 361px;
   border-radius: 8px;
 }
@@ -45,6 +45,7 @@
 }
 .textWork{
   margin-left: 80px;
+  width: 100%;
 }
 .section-distribution{
   padding: 80px;
@@ -61,32 +62,10 @@
   padding: 80px;
 }
 /* Carousel transparency */
-.view{
-  background-color: #1F5C70;
-  border-radius: 8px;
-  display: flex;
-  width: 530px;
-  height: 232px;
-  padding: 30px;
-  margin-top: 30px;
-}
-.view2{
-  background-color: #F25828;
-  border-radius: 8px;
-  display: flex;
-  width: 530px;
-  height: 232px;
-  padding: 30px;
-  margin-top: 30px;
-   
-}
 .icon-carousel{
-  width: 105px;
-  height: 163px;
-}
-.icon-carousel2{
-  width: 160px;
+  width: 500px;
   height: auto;
+  margin-top: 13%;
 }
 .font-trp-crs{
   color: #FFFFFF;
@@ -104,33 +83,33 @@
   columns: 2;
 }
 @media (min-width: 1920px) and (max-width: 2560px) {
-  .ctn-documents, .section-distribution, .section-work, .section-transparency{
+.ctn-documents, .section-distribution, .section-work, .section-transparency{
   padding-right: 5.55vw;
   padding-left: 5.55vw;
-  }
-  .icon-trn {
-    width: 254px;
+}
+.icon-trn {
+  width: 254px;
 }
 .arrow-work{
   width: 25px;
 }
 .ctn-transparency p {
-    font-size: 1.7em;
-    width: 218px;
-    margin-left: 30px;
+  font-size: 1.25em;
+  width: 218px;
+  margin-left: 30px;
 }
 .transparency {
-    width: 50%;
-    height: auto;
-}
-.section-work{
-  padding-bottom: 80px;
-}
-.view, .view2{
-  width: 60%;
+  width: 87vw;
+  height: 27.5vw;
 }
 .icon-carousel{
-  width: 130px;
+  width: 43vw;
+}
+.charts{
+  width: 25vw;
+}
+.ctn-distribution {
+  padding-right: 15%;
 }
 
 }

@@ -13,26 +13,26 @@ const Payments = () => {
         <div className='pay'>
           <div className='radio-btn'>
             <input type="radio" name="mensual" value="Mensual" />
-            <label for="Mensual"><p>Mensual</p></label>
+            <label htmlFor="Mensual"><p>Mensual</p></label>
           </div>
           <div className='radio-btn'>
             <input type="radio" name="Solo-esta-vez" value="Solo-esta-vez" />
-            <label for="Solo-esta-vez"><p>Sólo esta vez</p></label>
+            <label htmlFor="Solo-esta-vez"><p>Sólo esta vez</p></label>
           </div>
         </div>
 
         <div className='pay'>
           <div className='radio-btn'>
             <input type="radio" value="3000" />
-            <label for="3000"><p>$3000</p>1 Almuerzo</label>
+            <label htmlFor="3000"><p>$3000</p>1 Almuerzo</label>
           </div>
           <div className='radio-btn'>
             <input type="radio" value="15000" />
-            <label for="15000"><p>$15000</p>5 Almuerzos</label>
+            <label htmlFor="15000"><p>$15000</p>5 Almuerzos</label>
           </div>
           <div className='radio-btn'>
             <input type="radio" value="30000" />
-            <label for="30000"><p>$30000</p>10 Almuerzos</label>
+            <label htmlFor="30000"><p>$30000</p>10 Almuerzos</label>
           </div>
         </div>
         <div className='pay container-pay'>
@@ -43,8 +43,8 @@ const Payments = () => {
             <button className="volBtn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               Siguiente</button>
           </div>
-          <div class="collapse" id="collapseExample">
-            <div class="payments">
+          <div className="collapse" id="collapseExample">
+            <div className="payments">
               <PaymentsMethods />
             </div>
           </div>
