@@ -70,3 +70,24 @@
   color: #2B292D;
   font-size: 1.87em;
 }
+@media (min-width: 1920px) and (max-width: 2560px) 
+{
+.ctn-troublesome, .ctn-porcentaje, .section-transparency1, .expect-impact{
+  padding-right: 5.55vw;
+  padding-left: 5.55vw;
+}
+.icon-trn1{
+  width: 300px;
+}
+.arrow-work1{
+  width: 25px;
+  margin-top: 70%;
+}
+.line-blue h4{
+  text-align: center;
+}
+.img-desperdicios {
+    width: 40vw;
+    height: auto;
+}
+}
