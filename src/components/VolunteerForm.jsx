@@ -5,11 +5,11 @@ import Avatar from '../images/iconos/user-outlined.png';
 import Mail from '../images/iconos/carbon_email.png';
 import Phone from '../images/iconos/clarity_phone-handset-line.png';
 import Direction from '../images/iconos/map-pin.png';
-import Modal from '../images/Donate-Food/modal.jpg'
-import close from '../images/iconos/close.png'
-import instagram from '../images/iconos/instagram.png'
-import facebook from '../images/iconos/facebook.png'
-import twitter from '../images/iconos/twitter.png'
+import Modal from '../images/HazteVol/unnamed 1.png';
+import close from '../images/iconos/close.png';
+import instagram from '../images/iconos/instagram.png';
+import facebook from '../images/iconos/facebook.png';
+import twitter from '../images/iconos/twitter.png';
 import logo from '../images/Donate-Food/logo.png';
 
 
