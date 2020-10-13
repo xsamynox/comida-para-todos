@@ -14,7 +14,7 @@ const ImgSkills = () => {
           <h1>Tu Habilidad</h1>
           <p className='text-garden'>
           Aporta desde tus conocimientos en un área y donar parte de tu tiempo a la fundación,
-           significa entregar horas de trabajo al mes con un conocimiento de algo que sepas y que
+          significa entregar horas de trabajo al mes con un conocimiento de algo que sepas y que
             piensas que puede aportar a Comida para todos.
           </p>
           <div className='gardenButtons'>

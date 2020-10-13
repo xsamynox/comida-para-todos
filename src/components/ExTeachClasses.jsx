@@ -5,9 +5,8 @@ import ComillasCierre from '../images/iconos/comilla-cierre.png'
 
 const ExTeachClasses = () => {
     return (
-         
-         <div className="ctn-collaboration div-order">
-         <img src={Roberto} className="person" alt="" />
+    <div className="ctn-collaboration div-order">
+      <img src={Roberto} className="person" alt="" />
         <img className='comillas1' src={Comillas} alt='comillas' />
         <div>
           <p className='cite' >Yo done una clase de cocina, para ayudar a preparar comida de calidad para las personas</p>
@@ -18,6 +17,5 @@ const ExTeachClasses = () => {
       </div>
     )
 }
-  
 
 export default ExTeachClasses;

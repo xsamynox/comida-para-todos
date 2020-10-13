@@ -131,7 +131,7 @@ const VolunteerForm= () => {
                             <div className="modal-content">
                                 <img className='img-modal' src={Modal} alt="gracias por aportar" />
                                 <div className='ctn-modal'>
-                                    <a className='close-modal' data-dismiss="modal"><img src={close}></img></a>
+                                    <a href className='close-modal' data-dismiss="modal"><img src={close} alt=""></img></a>
                                     <div>
                                         <img className='logo-cpt' src={logo} alt='logo-cpt' />
                                     </div>

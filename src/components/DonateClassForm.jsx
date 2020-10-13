@@ -5,7 +5,7 @@ import Avatar from '../images/iconos/user-outlined.png';
 import Mail from '../images/iconos/carbon_email.png';
 import Phone from '../images/iconos/clarity_phone-handset-line.png';
 import Direction from '../images/iconos/map-pin.png';
-import Modal from '../images/Donate-Food/modal.jpg'
+import Modal from '../images/DonaClase/donaclase.png'
 import close from '../images/iconos/close.png'
 import instagram from '../images/iconos/instagram.png'
 import facebook from '../images/iconos/facebook.png'
@@ -131,7 +131,7 @@ const DonateClassForm = () => {
                             <div className="modal-content">
                                 <img className='img-modal' src={Modal} alt="gracias por aportar" />
                                 <div className='ctn-modal'>
-                                    <a className='close-modal' data-dismiss="modal"><img src={close}></img></a>
+                                    <a href className='close-modal' data-dismiss="modal"><img src={close} alt=""></img></a>
                                     <div>
                                         <img className='logo-cpt' src={logo} alt='logo-cpt' />
                                     </div>

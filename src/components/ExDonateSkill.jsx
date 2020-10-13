@@ -5,8 +5,8 @@ import ComillasCierre from '../images/iconos/comilla-cierre.png'
 
 const ExDonateSkill = () => {
     return (
-         <div className="ctn-collaboration div-order">
-         <img src={Camila} className="person" alt="" />
+    <div className="ctn-collaboration div-order">
+      <img src={Camila} className="person" alt="" />
         <img className='comillas1' src={Comillas} alt='comillas' />
         <div>
           <p className='cite' >Entregué mis conocimientos en informática, ayudando de tiempo parcial en la página web</p>
@@ -17,6 +17,5 @@ const ExDonateSkill = () => {
       </div>
     )
 }
-  
 
 export default ExDonateSkill;

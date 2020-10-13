@@ -3,7 +3,6 @@ import { withRouter } from 'react-router-dom';
 import Header from '../components/Header.jsx';
 import Footer from '../components/Footer';
 import Collaborator from '../components/Collaborators'
-import Filter from '../components/FilterCollaborators'
 import CollaborationForm from '../components/CollaborationForm.jsx';
 import FAO from '../images/iconos/FAO.png';
 import FilterCollaborators from '../components/FilterCollaborators';
@@ -26,7 +25,6 @@ function CollaboratorsView() {
             <p style={{ fontSize: '14px', marginLeft: '4%' }}>Con la Colaboración técnica de <br /> Naciones Unidas para la alimentación y la Agricultura</p>
           </div>
         </div>
-
         <CollaborationForm />
       </div>
       <FilterCollaborators />

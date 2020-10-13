@@ -5,9 +5,8 @@ import ComillasCierre from '../images/iconos/comilla-cierre.png'
 
 const VolunteerExperience = () => {
     return (
-         
-         <div className="ctn-collaboration div-order">
-         <img src={Alejandra} className="person" alt="" />
+      <div className="ctn-collaboration div-order">
+        <img src={Alejandra} className="person" alt="" />
         <img className='comillas1' src={Comillas} alt='comillas' />
         <div>
           <p className='cite' >Tu donación ayuda a que más personas puedan tener un alimento de calidad</p>
@@ -18,7 +17,7 @@ const VolunteerExperience = () => {
       </div>
     )
 }
-  
+
 
 export default VolunteerExperience;
 

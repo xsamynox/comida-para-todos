@@ -21,9 +21,9 @@ function volunteerView () {
                 <SectionVolunteer />
                 <div className="">
                     <VoluntaryExperience />
-                  </div>
+                </div>
             </div>
-               <VolunteerForm />
+            <VolunteerForm />
             </div>
             <div className="containerFooter">
                 <Footer />
