@@ -1,6 +1,6 @@
 import React from 'react';
 import services from '../images/transparency/servicios.png';
-import apadrinar from '../images/transparency/apadrinar.png';
+import apadrinar from '../images/transparency/comunidad.png';
 import sembrar from '../images/transparency/sembrar.png';
 
 const CarouselTransparency = () => {
@@ -24,7 +24,7 @@ const CarouselTransparency = () => {
 
         <div class="carousel-item">
           <div class="view2">
-            <img className='icon-carousel2' src={apadrinar}
+            <img className='icon-carousel' src={apadrinar}
               alt="conversación" />
             <p className='font-trp-crs'>Comunidad, comedores sociales y cocinerías de las comunas vulnerables beneficiarias reciben capacitación.</p>
           </div>
