@@ -1,0 +1,72 @@
+.img-foodbank{
+  background-image: url('../images/FoodBank/portada.jpg');
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 800px;
+  color: #FFFFFF;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25); 
+}
+.img-desperdicios{
+    width: 500px;
+    height: 329px;
+    border-radius: 8px;
+    margin-right: 80px;
+}
+.ctn-troublesome{
+  padding: 80px;
+  display: flex;
+}
+.font-span{
+  font-size: 1em;
+  font-weight: 800;
+}
+.img-porcentaje{
+  width: 45%;
+  height: auto;
+}
+.ctn-porcentaje{
+  padding: 0 80px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.line-blue{
+  background-color: #1F5C70;
+  color: #FFFFFF;
+  padding: 30px 130px 30px 130px;
+}
+.icon-trn1 {
+  width: 190px;
+  height: auto;
+}
+.arrow-work1 {
+  margin: 13px;
+  margin-top: 50%;
+}
+.text-work p{
+  text-align: center;
+  margin-left: 7%;
+}
+.expect-impact{
+  background-color: #F2F2F2;
+  width: 100vw;
+  height: 390px;
+  padding: 20px 80px;
+}
+.section-transparency1{
+  background-color: #FFFFFF;
+  padding: 80px;
+}
+.number-impact1{
+  font-size: 7.5em;
+  font-weight: normal;
+  font-family: 'Bebas Neue';
+  color: #1F5C70;
+}
+.font-impact{
+  color: #2B292D;
+  font-size: 1.87em;
+}

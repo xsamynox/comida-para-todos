@@ -1,7 +1,7 @@
 import React from 'react';
-import restaurant from '../images/transparency/tarjeta-restaurant.png';
-import comunidad from '../images/transparency/tarjeta-comunidad.png';
-import capacitación from '../images/transparency/tarjeta-capacitación.png';
+import restaurant from '../images/Transparency/tarjeta-restaurant.png';
+import comunidad from '../images/Transparency/tarjeta-comunidad.png';
+import capacitación from '../images/Transparency/tarjeta-capacitación.png';
 
 const CarouselTransparency = () => {
   return (

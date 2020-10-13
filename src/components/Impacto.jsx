@@ -5,7 +5,7 @@ const Impacto = () => {
     <div className='img-impact'>
       <h2 className='impact'>Impacto</h2>
       <div className='ctn-impact' style={{ color: "white" }}>
-        <div className=''>
+        <div>
           <p className='number-impact'>46M</p>
           <p className='letter-impact'>Donaciones</p>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import transparency from '../images/transparency/transparencia.png';
+import transparency from '../images/Transparency/transparencia.png';
 import CarouselTransparency from './CarouselTransparency';
 
 const CapabilitiesSection = () => {
