@@ -1,0 +1,148 @@
+.us-Img {
+    background-image: url('../images/AboutUs/PortQuienes-Somos.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 88.4vh;
+    color: #FFFFFF;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.white-bg {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.ft-title {
+    color: #F25828;
+    font-weight: bold;
+    margin-bottom: 2%;
+    font-size: 1.3rem;
+}
+
+.text-black {
+    font-style: italic;
+    margin-bottom: 3%;
+    font-size: 1.3rem;
+}
+
+.text-onu {
+    font-size: 0.85rem;
+    text-align: end;
+}
+
+.problematic-cnt {
+    background-color: #F25828;
+    display: flex;
+    width: 100vw;
+    padding: 4%;
+}
+
+.divImgDish {
+    width: 50vw;
+}
+
+.emptyDish {
+    width: 110%;
+}
+
+.ProblematicTxt {
+    margin-left: 15%;
+    color: #FFFFFF;
+}
+
+.ProblematicTxt1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.ProblematicTxt2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.ProblematicTxt3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.ProblematicTxt4 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.ProblematicLine {
+    background: #FFFFFF;
+    border: 0 none;
+    width: 44vw;
+    height: 2px;
+}
+
+.ProblematicTxt5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.prop-bg {
+    background-color: #F2F2F2;
+    display: flex;
+    width: 100vw;
+    padding: 2% 2% 2% 8%;
+}
+
+.prop-cnt {
+    width: 50vw;
+}
+
+.prop-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.text-prop,
+.span-txt1 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.gif-cnt {
+    width: 50vw;
+}
+
+.foodDish {
+    height: 60vh;
+    margin-left: 15%;
+}
+
+.divBenef {
+    width: 100vw;
+    padding: 2%;
+}
+
+.benTitle {
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+
+.container-benef {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benef-ph {
+    height: 50px;
+}
+
+.benefimg {
+    height: 10vh;
+}

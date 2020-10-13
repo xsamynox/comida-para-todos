@@ -4,7 +4,7 @@ const Teamph = () => {
 
   return (
     <Fragment>
-      <div className='firstImg'>
+      <div className='teamImg'>
         <div className='firstDiv'>
           <hr className='firstLine' />
           <p>Sobre Nosotros</p>
