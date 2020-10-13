@@ -6,7 +6,7 @@ const ClbCarrousel = () => {
     <div className='container'>
       <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
 
-        <ol className="carousel-indicators">
+        <ol className="carousel-indicators carrousel1">
           <li data-target="#multi-item-example" data-slide-to="0" className="active"></li>
           <li data-target="#multi-item-example" data-slide-to="1"></li>
           <li data-target="#multi-item-example" data-slide-to="2"></li>
