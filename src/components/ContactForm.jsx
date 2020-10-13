@@ -110,7 +110,7 @@ const ContactForm = () => {
                     <div className="btn-Cont">
                         <button className="formBtn" type="submit">Enviar</button>
                         <br />
-                        <a className='pf-link'>Ir a preguntas frecuentes.</a>
+                        <a href className='pf-link'>Ir a preguntas frecuentes.</a>
                     </div>
                 </form>
             </div>

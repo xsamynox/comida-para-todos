@@ -6,7 +6,7 @@ import Teamph from '../components/Teamph';
 import TeamPhotos from '../components/TeamPhotos'
 
 function AboutUs() {
-  
+
     return(
         <Fragment>
             <Header />

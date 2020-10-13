@@ -9,7 +9,6 @@ import Capabilities from '../components/CapabilitiesSection.jsx';
 import Distribution from '../components/Distribution.jsx'
 
 function Transparency() {
-
     return (
         <Fragment>
             <Header />
@@ -19,6 +18,6 @@ function Transparency() {
             <Distribution />
             <Footer />
         </Fragment>
-    )
+    );
 }
 export default withRouter(Transparency);

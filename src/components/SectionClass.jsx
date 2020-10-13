@@ -8,11 +8,11 @@ const SectionClass = () => {
     return (
       <section className="CollaborationSection ctn-collaboration color">
          {/* <div className="CollaborationSection"> */}
-         <div className="containerGarden">
-         <img src={Teacher} className="garden" alt="Huertos Comunitarios" />
-         </div>
-         <div className="textContainer">
-         <p>Conoce más sobre el Proyecto</p>
+        <div className="containerGarden">
+          <img src={Teacher} className="garden" alt="Huertos Comunitarios" />
+        </div>
+        <div className="textContainer">
+          <p>Conoce más sobre el Proyecto</p>
           <h2>Escuela</h2>
           <p className="paragraph">
             Las Escuelas de Comida para Todos, desarrollarán talleres de formación en
