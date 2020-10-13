@@ -1,7 +1,7 @@
 import React from 'react';
-import services from '../images/transparency/servicios.png';
-import apadrinar from '../images/transparency/comunidad.png';
-import sembrar from '../images/transparency/sembrar.png';
+import restaurant from '../images/transparency/tarjeta-restaurant.png';
+import comunidad from '../images/transparency/tarjeta-comunidad.png';
+import capacitación from '../images/transparency/tarjeta-capacitación.png';
 
 const CarouselTransparency = () => {
   return (
@@ -15,26 +15,23 @@ const CarouselTransparency = () => {
       <div class="carousel-inner" role="listbox">
 
         <div class="carousel-item active">
-          <div class="view">
-            <img className='icon-carousel' src={services}
+          <div>
+            <img className='icon-carousel' src={restaurant}
               alt="cubiertos" />
-            <p className='font-trp-crs'>Restaurantes y productores de la alianza ponen a disposición sus conocimientos.</p>
           </div>
         </div>
 
         <div class="carousel-item">
-          <div class="view2">
-            <img className='icon-carousel' src={apadrinar}
+          <div>
+            <img className='icon-carousel' src={comunidad}
               alt="conversación" />
-            <p className='font-trp-crs'>Comunidad, comedores sociales y cocinerías de las comunas vulnerables beneficiarias reciben capacitación.</p>
           </div>
         </div>
 
         <div class="carousel-item">
-          <div class="view">
-            <img className='icon-carousel' src={sembrar}
-              alt="sembrar" />
-            <p className='font-trp-crs'>Restaurantes capacitando en 4 temáticas: Alimentación Saludable, Emprendimiento, Permacultura y Buenas prácticas</p>
+          <div>
+            <img className='icon-carousel' src={capacitación}
+              alt="capacitación" />
           </div>
         </div>
 

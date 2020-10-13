@@ -35,7 +35,7 @@
   width: 163px;
 }
 .transparency {
-  width: 512px;
+  width: 542px;
   height: 361px;
   border-radius: 8px;
 }
@@ -45,6 +45,7 @@
 }
 .textWork{
   margin-left: 80px;
+  width: 100%;
 }
 .section-distribution{
   padding: 80px;
@@ -61,32 +62,10 @@
   padding: 80px;
 }
 /* Carousel transparency */
-.view{
-  background-color: #1F5C70;
-  border-radius: 8px;
-  display: flex;
-  width: 530px;
-  height: 232px;
-  padding: 30px;
-  margin-top: 30px;
-}
-.view2{
-  background-color: #F25828;
-  border-radius: 8px;
-  display: flex;
-  width: 530px;
-  height: 232px;
-  padding: 30px;
-  margin-top: 30px;
-   
-}
 .icon-carousel{
-  width: 105px;
-  height: 163px;
-}
-.icon-carousel2{
-  width: 160px;
+  width: 500px;
   height: auto;
+  margin-top: 13%;
 }
 .font-trp-crs{
   color: #FFFFFF;
@@ -125,9 +104,6 @@
 }
 .section-work{
   padding-bottom: 80px;
-}
-.view, .view2{
-  width: 60%;
 }
 .icon-carousel{
   width: 130px;
