@@ -2,7 +2,6 @@ import React from 'react';
 import desperdicios from '../images/FoodBank/desperdicios.jpg';
 import porcentaje1 from '../images/FoodBank/porcentaje1.png';
 import porcentaje2 from '../images/FoodBank/porcentaje2.png';
-import descargar from '../images/Transparency/descargar.png'
 
 const TroublesomeFoodBank = () => {
   return (

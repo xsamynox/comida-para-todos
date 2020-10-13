@@ -12,7 +12,7 @@ const FilterCollaborators = () => {
                 <div className='radio-filter'>
                     <input type='radio' />
                     <label htmlFor="Todos"><p>Todos</p></label>
-                    <div class="border"></div>
+                    <div className="border"></div>
                 </div>
                 <div className='radio-filter'>
                     <input type='radio' />

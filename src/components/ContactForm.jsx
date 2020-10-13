@@ -59,7 +59,7 @@ const ContactForm = () => {
                     <div className="itemsContact">
                         <div className="form-group">
                             <img src={Edit} className="icons-c" alt="" />
-                            <label for="options">Motivo</label>
+                            <label htmlFor="options">Motivo</label>
                             <select className="form-control" id="exampleFormControlSelect1">
                                 <option>Sobre voluntariado</option>
                                 <option>Sobre donaciones</option>
@@ -70,7 +70,7 @@ const ContactForm = () => {
                         </div>
                     </div>
                     <div className="coment-Cont">
-                        <label for="message" className="txt-title">Comentarios</label>
+                        <label htmlFor="message" className="txt-title">Comentarios</label>
                         <input
                             type="text"
                             placeholder="Mensaje."
@@ -80,7 +80,7 @@ const ContactForm = () => {
                     </div>
                     <div className="items-Cont">
                         <img src={Avatar} className="icons-c" alt="" />
-                        <label for="name">Nombre Completo</label>
+                        <label htmlFor="name">Nombre Completo</label>
                         <input
                             type="text"
                             placeholder=""
@@ -90,7 +90,7 @@ const ContactForm = () => {
                     </div>
                     <div className="items-Cont">
                         <img src={Mail} className="icons-c" alt="" />
-                        <label for="mail">Correo Electrónico</label>
+                        <label htmlFor="mail">Correo Electrónico</label>
                         <input
                             type="email"
                             placeholder=""
@@ -99,7 +99,7 @@ const ContactForm = () => {
                         /></div>
                     <div className="items-Cont">
                         <img src={Phone} className="icons-c" alt="" />
-                        <label for="phone">Teléfono</label>
+                        <label htmlFor="phone">Teléfono</label>
                         <input
                             type="text"
                             placeholder=""
