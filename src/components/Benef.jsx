@@ -14,31 +14,31 @@ const Benef = () => {
           <div className="benef-ph">
             <img src={Comunidades} className="benefimg" alt="Beneficiarios" />
             <div className="container-imgb">
-              <p className='descriptions'>Comunidades Vulnerables</p>
+              <p className='descriptionsblock'>Comunidades Vulnerables</p>
             </div>
             </div>
             <div className="benef-ph">
             <img src={Restaurant} className="benefimg" alt="Beneficiarios" />
             <div className="container-imgb">
-              <p className='descriptions'>Restaurantes</p>
+              <p className='descriptionsblock'>Restaurantes</p>
             </div>
             </div>
             <div className="benef-ph">
             <img src={Productores} className="benefimg" alt="Beneficiarios" />
             <div className="container-imgb">
-              <p className='descriptions'>Pequeños Productores</p>
+              <p className='descriptionsblock'>Pequeños Productores</p>
             </div>
             </div>
             <div className="benef-ph">
             <img src={Transportistas} className="benefimg" alt="Beneficiarios" />
             <div className="container-imgb">
-              <p className='descriptions'>Transportistas pasajeros</p>
+              <p className='descriptionsblock'>Transportistas pasajeros</p>
             </div>
             </div>
         </div>
         <div className='div-goTeam'>
           <p className='titleGo'>Conoce a nuestro Equipo</p>
-          <button className='volBtn'>Ir a Nuestro Equipo</button>
+          <a href='/aboutus/aboutus'><button className='volBtn'>Ir a Nuestro Equipo</button></a>
         </div>
         </Fragment>
     )
