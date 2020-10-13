@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
-import Comunidades from '../images/AboutUs/comvul.jpg';
-import Restaurant from '../images/AboutUs/restaurantes.jpg';
-import Productores from '../images/AboutUs/productores.jpg';
-import Transportistas from '../images/AboutUs/furgon-escolar.jpg';
+import Comunidades from '../images/AboutUs/comvul.png';
+import Restaurant from '../images/AboutUs/restaurantes.png';
+import Productores from '../images/AboutUs/productores.png';
+import Transportistas from '../images/AboutUs/furgon-escolar.png';
 
 const Benef = () => {
     return(
@@ -24,17 +24,21 @@ const Benef = () => {
             </div>
             </div>
             <div className="benef-ph">
-            <img src={Productores} className="teamimg" alt="Beneficiarios" />
+            <img src={Productores} className="benefimg" alt="Beneficiarios" />
             <div className="container-imgb">
               <p className='descriptions'>Pequeños Productores</p>
             </div>
             </div>
             <div className="benef-ph">
-            <img src={Transportistas} className="teamimg" alt="Beneficiarios" />
+            <img src={Transportistas} className="benefimg" alt="Beneficiarios" />
             <div className="container-imgb">
               <p className='descriptions'>Transportistas pasajeros</p>
             </div>
             </div>
+        </div>
+        <div className='div-goTeam'>
+          <p className='titleGo'>Conoce a nuestro Equipo</p>
+          <button className='volBtn'>Ir a Nuestro Equipo</button>
         </div>
         </Fragment>
     )
