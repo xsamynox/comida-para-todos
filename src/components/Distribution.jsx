@@ -1,6 +1,6 @@
 import React from 'react';
-import charts from '../images/Transparency/charts.png';
-import descargar from '../images/Transparency/descargar.png';
+import charts from '../images/transparency/charts.png';
+import descargar from '../images/transparency/descargar.png';
 import details from '../images/FoodBank/detailscharts.png';
 
 const Distribution = () => {
