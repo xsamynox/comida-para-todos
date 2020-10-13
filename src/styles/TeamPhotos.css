@@ -1,3 +1,15 @@
+.teamImg {
+    background-image: url('../images/AboutUs/Portada_Equipo.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 88.4vh;
+    color: #FFFFFF;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 .divFilters {
     display: flex;
     justify-content: space-between;
