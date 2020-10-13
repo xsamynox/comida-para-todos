@@ -65,10 +65,16 @@
     background: #222;
 }
 
+ul,
+ol {
+    list-style: none;
+}
+
 .list {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -87,13 +93,52 @@
 }
 
 .list li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: #2B292D;
 }
 
 a:hover {
     text-decoration: none;
     color: #F25828;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .hidden {
+    display: none;
+    background-color: #F25828;
+    height: 60px;
+    width: 130px;
+    padding: 2%;
+} */
+
+
+/* .hidden li ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #F25828;
+    height: 60px;
+    width: 130px;
+    padding: 2%;
+} */
+
+
+/* .submenu {
+    display: flex;
+    flex-direction: column;
+    background-color: #F25828;
+    height: 60px;
+    width: 130px;
+    padding: 2%;
+} */
+
+.submenu.active {
+    position: absolute;
+    min-width: 140px;
 }
 
 .firstImg {
@@ -470,12 +515,14 @@ p.radio {
     border-radius: 8px;
 }
 
+
 /* .textContainer {
     padding-left: 6%;
     padding-top: 3%;
     text-align: left;
     width: 40vw;
 } */
+
 
 /* .paragraph {
     padding-top: 37px;
@@ -744,22 +791,27 @@ p.radio {
     .footer {
         height: 28.7vh;
     }
-
     /* Media View Donate */
-    .container-footer2, .container-footer, .impact, .container-header, .ctn-dnt-price, .headerBar, .firstDiv{
-    padding-right: 5.55vw;
-    padding-left: 5.55vw;
+    .container-footer2,
+    .container-footer,
+    .impact,
+    .container-header,
+    .ctn-dnt-price,
+    .headerBar,
+    .firstDiv {
+        padding-right: 5.55vw;
+        padding-left: 5.55vw;
     }
-    .cnt-payment{
+    .cnt-payment {
         width: 89vw;
         margin: 5.5vw;
         position: relative;
         margin-top: -8vh;
     }
-    .img-mach{
+    .img-mach {
         margin-left: 8vw;
     }
     .huertos {
-    bottom: 74%;
-}
+        bottom: 74%;
+    }
 }

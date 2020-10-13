@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import PlatoGif from '../images/AboutUs/plato.gif';
+import CarrouselUs from './CarrouselUs.jsx'
 
 const Proposit = () => {
 
@@ -12,7 +13,7 @@ const Proposit = () => {
           <p className='text-prop'>“Nuestro próposito es <span className='span-txt1'>salvaguardar la Seguridad
           <br/>
           Alimentaria</span>, a través de:</p>
-          <img src="" alt="Carrusel"/>
+          <CarrouselUs />
           </div>
       <div className='gif-cnt'>
               <img className='foodDish' src={PlatoGif} alt="plato"/>
