@@ -1,3 +1,94 @@
+# Rediseño Comida Para Todos
+
+## Índice:
+
+* [1. Comida Para Todos.](#1-Comida-Para-Todos)
+* [2. Comenzando a usarla.](#2-Comenzando-a-usarla)
+* [3. Investigación.](#3-Investigación)
+* [4. Proceso de prototipado.](#4-Proceso-de-Prototipado)
+* [5. Historias de usuario.](#5-Historias-de-usuario)
+* [6. Objetivos de Aprendizaje.](#6-Objetivos-de-Aprendizaje)
+* [7. Despliegue.](#8-Despliegue)
+* [8. Herramientas.](#9-Herramientas)
+* [9. Autoras.](#10-Autoras)
+
+***
+
+![Logo](src/img/neightalk.png)
+
+## 1. Comida Para Todos.
+
+
+Neightalk es una red social enfocada a la comunidad. Un servicio que sus usuarios agradecerán al dejar atrás los grupos de comunas en Facebook o rescatando lo mejor de la inmediatez de twitter.
+Neightalk viene a cubrir la necesidad de un grupo de personas entregando las herramientas para que cualquiera de sus usuarios pueda reportar sucesos o eventos en la comuna en la que se encuentre.
+Puedes conocerla y probarla [aquí](https://comida-paratodos.web.app/).
+
+## 2. Comenzando a usarla 🚀
+
+Neightalk está pensada como un SPA(Single Page Aplication) Responsive pensada y desarrollada con la técnica Mobile First, sin embargo, también se puede utilizar desde el navegador que el usuario elija.
+Basta con registrarse a través de un correo electrónico o contraseña, o, iniciar sesión con Google para acceder a la app y poder hacer publicaciones.
+
+![App](src/img/CP1.png) ![App](src/img/CP2.png)
+
+## 3. Investigación :busts_in_silhouette:
+
+Para poder lograr una propuesta ideal y acorde a Comida Para Todos, fue necesario realizar una amplia investigación que consto de lo siguiente:
+
+- Entrevista con Cliente.
+- Análisis Heurístico.
+- Benchmark.
+- Entrevista con Usuarios.
+    - [Anne Carrere](https://drive.google.com/file/d/1PecRQcU9cwgfxkNmqEYRPWdkKLkxk8r5/view)
+    - [Daniel Alfonzo](https://drive.google.com/file/d/1TSiZQgKV1YDS8qR3Uh9BWe2yYANnCpTw/view)
+    - [Matias Carrasco](https://drive.google.com/file/d/1qgdxpoAPZppx7yUh1mZcpMoqlnWHeG0w/view)
+    - [Yanira Flores](https://drive.google.com/file/d/1pYVRCxuhVBrEMKq-IAvme8p_XG9clCtZ/view)
+- User Persona.
+- Journey Map.
+- Affinity Map
+- Insights.
+
+## 4. Proceso de prototipado 📋
+
+#### Sketch:
+Comenzamos construyendo diferentes Sketch.
+Puedes revisarlo [aquí](https://www.figma.com/file/05HHF7BKZ4ydeePsR6vgSm/Comida-Para-Todos?node-id=1%3A2)
+
+#### Prototipo de alta fidelidad:
+El prototipo de alta fidelidad fue diseñado a través de la plataforma que ofrece Figma, dando énfasis en cómo luciría y el funcionamiento planeado.
+Puedes revisarlo [aquí](https://www.figma.com/file/05HHF7BKZ4ydeePsR6vgSm/Comida-Para-Todos?node-id=1060%3A16).
+![Desktop](src/img/AFD.png) ![Mobile](src/img/AFM.png)
+
+## 5. Historias de usuario ✅
+
+## 7. Despliegue 📦
+
+Puedes acceder al deploy de nuestro proyecto [aquí](https://comida-paratodos.web.app/).
+
+## 8. Herramientas 🛠️
+
+En éste proyecto fueron utilizadas varias herramientas para llegar al resultado del producto entregado.
+Las herramientas usadas fueron:
+
+* [Figma.](https://www.figma.com/file/05HHF7BKZ4ydeePsR6vgSm/Comida-Para-Todos?node-id=1153%3A3130) – Para el prototipado de alta fidelidad y testeo en usuarios.
+* [Trello](https://trello.com/b/15mYPGhr/comida-para-todos) – Para la planificación.
+* [Firebase](https://firebase.google.com) – Para el hosting.
+* [Git y GitHub](https://github.com/xsamynox/comida-para-todos) – Para el trabajo colaborativo.
+
+## 9. Autoras ✒️
+
+Éste proyecto fue realizado en conjunto por alumnas de la generación 014 de Santiago, Chile de Laboratoria.
+
+* **Iara Carrillo** [GitHub](https://github.com/aneacevedo) :octocat: - Front-end Developer
+* **Jeniffer Genoves** [GitHub](https://github.com/JenifferGenoves) :octocat: - Front-end Developer
+* **Anelisse Acevedo** [GitHub](https://github.com/aneacevedo) :octocat: - Front-end Developer
+* **Samantha Moreno** [GitHub](https://github.com/xsamynox) :octocat: - UX/UI Designer
+
+
+
+
+
+
+
 # Rediseño: Comida Para Todos
 
 ## Índice
@@ -45,8 +136,7 @@ Puedes ver aca nuestra webapp implentada : https://comida-paratodos.web.app/
     - [Anne Carrere](https://drive.google.com/file/d/1PecRQcU9cwgfxkNmqEYRPWdkKLkxk8r5/view)
     - [Daniel Alfonzo](https://drive.google.com/file/d/1TSiZQgKV1YDS8qR3Uh9BWe2yYANnCpTw/view)
     - [Matias Carrasco](https://drive.google.com/file/d/1qgdxpoAPZppx7yUh1mZcpMoqlnWHeG0w/view)
-    -
-bsdhashjdhas
+    - [Yanira Flores](https://drive.google.com/file/d/1pYVRCxuhVBrEMKq-IAvme8p_XG9clCtZ/view)
 
 
 
@@ -100,10 +190,3 @@ La fuente que utilizamos en la interfaz fue: **Be Vietnam**, aportando sentido y
 
 - Interfaz implementada en React-Hooks.
 - Uso de Hosting Firebase.
-
-## 7. Autores
-
-- Iara Carrillo - UX/UI Designer
-- Jeniffer Genoves - Front-end Developer
-- Anelisse Acevedo - Front-end Developer
-- Samantha Moreno - Front-end Developer
