@@ -43,6 +43,11 @@
     padding-left: 5px;
 }
 
+.radio-btn-filter input:checked + p {
+	color: #F25828;
+    box-shadow: none;
+}
+
 .p-radio-team {
     padding-left: 13px;
     font-size: 16px;
