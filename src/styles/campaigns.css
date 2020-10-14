@@ -162,20 +162,6 @@
   align-items: center;
 }
 
-/* Hover */
-
-.carousel-caption5:hover::before {
-  content: 'Dona Aqui';
-  position: absolute;
-  align-items: center;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border: 103px solid #F25828;
-  border-radius: 8px;
-}
-
 .card-img, .card-img-top {
   width: 365px;
   height: 400px;

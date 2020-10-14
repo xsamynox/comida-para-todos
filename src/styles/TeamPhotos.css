@@ -90,6 +90,7 @@
 .teamimg {
     width: 16.17vw;
     border-radius: 8px;
+    margin-bottom: 70px;
 }
 
 .descriptionsname {
@@ -132,7 +133,7 @@
     color: #FFF;
     background-color: #34616F;
     width: 16.17vw;
-    top: 173.7%;
+    top: 183.5%;
     color: #FFF;
     opacity: 0.85;
     border-radius: 0px 0px 8px 8px;
@@ -145,7 +146,7 @@
     color: #FFF;
     background-color: #34616F;
     width: 16.17vw;
-    top: 212.3%;
+    top: 231.6%;
     color: #FFF;
     opacity: 0.85;
     border-radius: 0px 0px 8px 8px;
@@ -168,14 +169,14 @@
     }
     .container-img {
         padding: 1%;
-        top: 123.6%;
+        top: 131.8%;
     }
     .container-img2 {
         padding: 1%;
-        top: 163%;
+        top: 177.8%;
     }
     .container-img3 {
         padding: 1%;
-        top: 202.5%;
+        top: 223.9%;
     }
 }
