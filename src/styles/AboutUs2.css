@@ -197,3 +197,22 @@
     font-size: 2rem;
     font-weight: bold;
 }
+
+
+/* Media Queries */
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .ctn-video2 {
+        margin-left: 65%;
+        margin-top: -700px;
+    }
+    .video6402 {
+        width: 70vw;
+    }
+    .ProblematicTxt1 {
+        margin-top: 10%;
+    }
+    .container-imgb {
+        margin-top: -108px;
+    }
+}

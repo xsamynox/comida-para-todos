@@ -164,7 +164,7 @@
 
 /* Hover */
 
-.carousel-caption5:hover::before {
+/* .carousel-caption5:hover::before {
   content: 'Dona Aqui';
   position: absolute;
   align-items: center;
@@ -174,7 +174,7 @@
   right: 0;
   border: 103px solid #F25828;
   border-radius: 8px;
-}
+} */
 
 .card-img, .card-img-top {
   width: 365px;
