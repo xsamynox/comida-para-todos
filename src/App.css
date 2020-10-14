@@ -626,29 +626,10 @@ p.radio {
     border-radius: 8px;
 }
 
-
-/* .textContainer {
-    padding-left: 6%;
-    padding-top: 3%;
-    text-align: left;
-    width: 40vw;
-} */
-
-
-/* .paragraph {
-    padding-top: 37px;
-    padding-right: 6.3vw;
-    text-align: left;
-    width: 603px;
-    height: 99px;
-    line-height: 26.5px;
-} */
-
 .hands {
     width: 40vw;
     border-radius: 8px;
 }
-
 
 /* Section donate */
 
@@ -780,7 +761,6 @@ p.radio {
     bottom: 64%;
 }
 
-
 /* Contacto */
 
 .contactForm {
@@ -801,7 +781,6 @@ p.radio {
     flex-flow: row wrap;
     color: #fff;
 }
-
 
 /* Footer */
 
@@ -828,7 +807,6 @@ p.radio {
     justify-content: space-between;
     align-items: center;
 }
-
 
 /* Margin */
 
@@ -924,5 +902,13 @@ p.radio {
     }
     .huertos {
         bottom: 74%;
+    }
+    .menu{
+      right: 73.5%;
+      width: 270px;
+    }
+    .menu1{
+      right: 62.5%;
+      width: 227px;
     }
 }
