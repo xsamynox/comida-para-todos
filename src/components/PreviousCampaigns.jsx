@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Video from '../images/Video/18-sept.mp4';
+import Video from '../images/Campañas/video.mp4';
 import CarrouselCamp from './CarrouselCamp';
 
 /* import ChocolatEggs from '../images/Campañas/SemanaSanta.png';
