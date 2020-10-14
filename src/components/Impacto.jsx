@@ -10,7 +10,7 @@ const Impacto = () => {
           <p className='letter-impact'>Donaciones</p>
         </div>
         <div>
-          <p className='number-impact'>160K</p>
+          <p className='number-impact' data-count='160'>160K</p>
           <p className='letter-impact'>Almuerzos<br /> Recaudados</p>
         </div>
         <div>

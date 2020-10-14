@@ -78,79 +78,102 @@ ol {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-} 
+}
+
+
 /* menu desplegable */
-.menu{
-  top: 85px;
-  right: 71.5%;
-  width: 215px;
-}
-.menu1{
-  top: 85px;
-  right: 56.5%;
-  width: 215px;
-}
-.menu, .menu1 {
-  background: #ffffff;
-  border-radius: 0 0 8px 8px;
-  position: absolute;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-20px);
-  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+
+.menu {
+    top: 85px;
+    right: 71.5%;
+    width: 215px;
 }
 
-.menu.active, .menu1.active {
-  opacity: 90%;
-  visibility: visible;
-  transform: translateY(0);
+.menu1 {
+    top: 85px;
+    right: 56.5%;
+    width: 215px;
 }
 
-.menu ul, .menu1 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.menu,
+.menu1 {
+    background: #F25828;
+    color: #ffffff;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
 }
 
-.menu li, .menu1 li {
-  border-bottom: 1px solid #dddddd;
+.menu.active,
+.menu1.active {
+    opacity: 100%;
+    visibility: visible;
+    transform: translateY(0);
+}
+.menu li a, .menu1 li a{
+  color: #ffffff;
+}
+.menu.active li a, .menu1.active li a{
+  color: #ffffff;
 }
 
-.menu li a, .menu1 li a {
-  text-decoration: none;
-  color: #333333;
-  padding: 15px 20px;
-  display: block;
-}
-.menu-trigger, .menu1-trigger {
-  background: #ffffff;
-  border-radius: 90px;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4px 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  border: none;
-  vertical-align: middle;
-  transition: box-shadow 0.4s ease;
+.menu ul,
+.menu1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.menu-trigger:hover, .menu1-trigger:hover {
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+.menu li,
+.menu1 li {
+    border-bottom: 1px solid #dddddd;
 }
 
-.menu-trigger span, .menu1-trigger span{
-  font-weight: 700;
-  vertical-align: middle;
-  font-size: 14px;
-  margin: 0 10px;
+.menu li a,
+.menu1 li a {
+    text-decoration: none;
+    color: #333333;
+    padding: 15px 20px;
+    display: block;
 }
 
-.menu-trigger img, .menu1-trigger img {
-  border-radius: 90px;
+.menu-trigger,
+.menu1-trigger {
+    background: #ffffff;
+    border-radius: 90px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+    vertical-align: middle;
+    transition: box-shadow 0.4s ease;
 }
+
+.menu-trigger:hover,
+.menu1-trigger:hover {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu-trigger span,
+.menu1-trigger span {
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.menu-trigger img,
+.menu1-trigger img {
+    border-radius: 90px;
+}
+
 
 /* fin menu desplegable */
 
@@ -167,49 +190,16 @@ ol {
     color: #222;
 }
 
-.list li a:hover {
+.menu.active li a:hover, .menu.inactive li a, .menu1.active li a:hover, .menu1.inactive li a{
     text-decoration: none;
-    color: #2B292D;
+    color: #fcfcfc;
 }
 
-a:hover {
-    text-decoration: none;
-    color: #F25828;
-}
 
 .submenu {
     display: flex;
     flex-direction: column;
 }
-
-
-/* .hidden {
-    display: none;
-    background-color: #F25828;
-    height: 60px;
-    width: 130px;
-    padding: 2%;
-} */
-
-
-/* .hidden li ul {
-    display: flex;
-    flex-direction: column;
-    background-color: #F25828;
-    height: 60px;
-    width: 130px;
-    padding: 2%;
-} */
-
-
-/* .submenu {
-    display: flex;
-    flex-direction: column;
-    background-color: #F25828;
-    height: 60px;
-    width: 130px;
-    padding: 2%;
-} */
 
 .submenu.active {
     position: absolute;
@@ -537,26 +527,30 @@ p.radio {
     margin: 5%;
     width: 500px;
     height: 336px;
-
 }
+
 .ctn-campaigns {
     margin-top: 5%;
     display: flex;
     position: relative;
     justify-content: center;
 }
+
 .ctn-campaigns2 {
     padding: 4%;
     display: flex;
     position: relative;
     justify-content: center;
 }
+
 .previousCampaigns {
     display: flex;
     position: relative;
-    justify-content:flex-start;
+    justify-content: flex-start;
     margin: 5%;
 }
+
+
 /* Campaign */
 
 .img-impact {
@@ -602,7 +596,7 @@ p.radio {
     color: #F25828;
     text-decoration: underline;
     font-weight: 700;
-    margin-top: 8vw;
+    margin-top: 2vw;
 }
 
 .read-more:hover {
@@ -630,6 +624,7 @@ p.radio {
     width: 40vw;
     border-radius: 8px;
 }
+
 
 /* Section donate */
 
@@ -761,6 +756,7 @@ p.radio {
     bottom: 64%;
 }
 
+
 /* Contacto */
 
 .contactForm {
@@ -781,6 +777,7 @@ p.radio {
     flex-flow: row wrap;
     color: #fff;
 }
+
 
 /* Footer */
 
@@ -807,6 +804,7 @@ p.radio {
     justify-content: space-between;
     align-items: center;
 }
+
 
 /* Margin */
 
@@ -903,12 +901,12 @@ p.radio {
     .huertos {
         bottom: 74%;
     }
-    .menu{
-      right: 73.5%;
-      width: 270px;
+    .menu {
+        right: 73.5%;
+        width: 270px;
     }
-    .menu1{
-      right: 62.5%;
-      width: 227px;
+    .menu1 {
+        right: 62.5%;
+        width: 227px;
     }
 }
