@@ -47,7 +47,18 @@
   flex-flow: row wrap;
 }
 
+.campaignImg {
+  background-image: url('../images/Campañas/Portada_Campaña.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 798px;
+  color: #FFFFFF;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
 
+}
 
 .gardenDiv {
   display: flex;
