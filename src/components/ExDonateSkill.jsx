@@ -9,9 +9,10 @@ const ExDonateSkill = () => {
       <img src={Camila} className="person" alt="" />
         <img className='comillas1' src={Comillas} alt='comillas' />
         <div>
-          <p className='cite' >Entregué mis conocimientos en informática, ayudando de tiempo parcial en la página web</p>
+          <p className='cite' >Entregué mis conocimientos en informática,
+          ayudando de tiempo parcial en la página web</p>
           <p>Camila Contreras ya hizo su aporte</p>
-          <p>10/06//2020</p>
+          <p>10/06/2020</p>
         </div>
         <img className='comillas2' src={ComillasCierre} alt='comillas' />
       </div>

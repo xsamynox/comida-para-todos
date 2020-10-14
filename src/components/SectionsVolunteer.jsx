@@ -7,7 +7,7 @@ import Voluntario2 from '../images/voluntario2.jpg'
 const SectionVolunteer = () => {
     return (
       <section className="volunteer">
-      <section className="textContainer-volunteer">
+      <section className="textContainer-volunteer2">
           <h2>¡Forma Parte!¡Hazte Voluntario!</h2>
           <p className="paragraph3">
             Nuestro voluntariado busca personas que deseen ayudar y aportar a la comunidad

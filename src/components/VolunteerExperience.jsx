@@ -10,7 +10,7 @@ const VolunteerExperience = () => {
         <img className='comillas1' src={Comillas} alt='comillas' />
         <div>
           <p className='cite' >Tu donación ayuda a que más personas puedan tener un alimento de calidad</p>
-          <p>Claudio Palma ya hizo su aporte</p>
+          <p>Alejandra ya hizo su aporte</p>
           <p>28/09/2020.</p>
         </div>
         <img className='comillas2' src={ComillasCierre} alt='comillas' />
