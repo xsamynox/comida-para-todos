@@ -16,8 +16,8 @@ const CarrouselSchool = () => {
   return (
     <div id="carousel-example-2" className="carousel slide carousel-fade" data-ride="carousel">
 
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <ol className="carousel-indicators indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" className="active"></li>
         <li data-target="#carousel-example-2" data-slide-to="1"></li>
         <li data-target="#carousel-example-2" data-slide-to="2"></li>
         <li data-target="#carousel-example-2" data-slide-to="3"></li>

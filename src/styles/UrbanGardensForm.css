@@ -97,12 +97,15 @@
     position: relative;
     width: 100%;
 }
-@media (min-width: 1920px) and (max-width: 2560px) 
+@media (min-width: 1920px) and (max-width: 2560px)
 {
     .form{
-        height: 54vh;
+        height: 21vh;
         background-color: #F2F2F2;
         left: 71.7vw;
     }
 }
+.ctn-modal{
+    padding: 50px 30px;
+    }
 

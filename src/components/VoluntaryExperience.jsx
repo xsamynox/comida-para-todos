@@ -3,6 +3,7 @@ import Eduardo from '../images/Voluntario3.png'
 import Comillas from '../images/iconos/comillas.png'
 import ComillasCierre from '../images/iconos/comilla-cierre.png'
 
+
 const VoluntaryExperience = () => {
     return (
       <div className="ctn-collaboration div-order">

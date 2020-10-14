@@ -69,7 +69,7 @@ const FoodsForm = () => {
         <div>
           <div className="items">
             <img src={Plant} className="icons" alt="icon" />
-            <label className='lbl-form' for="meters">Tipo de Alimento<span className='cat'>*</span></label>
+            <label className='lbl-form' htmlFor="meters">Tipo de Alimento<span className='cat'>*</span></label>
             <input
               type="text"
               placeholder="Ej: Legumbres"
@@ -80,7 +80,7 @@ const FoodsForm = () => {
 
           <div className="items">
             <img src={Avatar} className="icons" /* style={{ width: "25px", height:"25px" }} */ alt="" />
-            <label className='lbl-form' for="name">Nombre Completo<span className='cat'>*</span></label>
+            <label className='lbl-form' htmlFor="name">Nombre Completo<span className='cat'>*</span></label>
             <input
               type="text"
               placeholder="Ej: Camila Fernanda Sepúlveda Carrasco"
@@ -91,7 +91,7 @@ const FoodsForm = () => {
 
           <div className="items">
             <img src={Mail} className="icons" alt="" />
-            <label className='lbl-form' for="mail">Correo Electrónico<span className='cat'>*</span></label>
+            <label className='lbl-form' htmlFor="mail">Correo Electrónico<span className='cat'>*</span></label>
             <input
               type="email"
               placeholder="Ej: camila.sepulveda@gmail.com"
@@ -101,7 +101,7 @@ const FoodsForm = () => {
           </div>
           <div className="items">
             <img src={Phone} className="icons" alt="" />
-            <label className='lbl-form' for="phone">Teléfono<span className='cat'>*</span></label>
+            <label className='lbl-form' htmlFor="phone">Teléfono<span className='cat'>*</span></label>
             <input
               type="text"
               placeholder="Ej: +569 39425756"
@@ -112,7 +112,7 @@ const FoodsForm = () => {
           </div>
           <div className="items">
             <img src={Direction} className="icons" alt="" />
-            <label className='lbl-form' for="direction">Dirección<span className='cat'>*</span></label>
+            <label className='lbl-form' htmlFor="direction">Dirección<span className='cat'>*</span></label>
             <input
               type="text"
               placeholder="Ej: Litoral #320, Peñalolen"

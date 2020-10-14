@@ -13,7 +13,7 @@ import twitter from '../images/iconos/twitter.png';
 import logo from '../images/Donate-Food/logo.png';
 
 
-const VolunteerForm= () => {
+const VolunteerForm = () => {
     const [meters, setMeters] = React.useState('');
     const [name, setName] = React.useState('');
     const [mail, setMail] = React.useState('');
@@ -68,7 +68,7 @@ const VolunteerForm= () => {
                 </div>
                 <div className="items">
                     <img src={Plant} className="icons" alt="icon" />
-                    <label className='lbl-form' for="meters">Nombre Completo<span className='cat'>*</span></label>
+                    <label className='lbl-form' htmlFor="meters">Nombre Completo<span className='cat'>*</span></label>
                     <input
                         type="text"
                         placeholder="Ej: Camila Fernanda Sepulveda Carrasco"
@@ -79,7 +79,7 @@ const VolunteerForm= () => {
                 </div>
                 <div className="items">
                     <img src={Avatar} className="icons" /* style={{ width: "25px", height:"25px" }} */ alt="" />
-                    <label className='lbl-form' for="name">Edad<span className='cat'>*</span></label>
+                    <label className='lbl-form' htmlFor="name">Edad<span className='cat'>*</span></label>
                     <input
                         type="text"
                         placeholder="Ej: 23 años"
@@ -91,7 +91,7 @@ const VolunteerForm= () => {
                 <div className="items">
                     <img src={Mail} className="icons" alt="" />
 
-                    <label className='lbl-form' for="mail">Correo Electrónico<span className='cat'>*</span></label>
+                    <label className='lbl-form' htmlFor="mail">Correo Electrónico<span className='cat'>*</span></label>
                     <input
 
                         type="email"
@@ -102,7 +102,7 @@ const VolunteerForm= () => {
                     /></div>
                 <div className="items">
                     <img src={Phone} className="icons" alt="" />
-                    <label className='lbl-form' for="phone">Teléfono<span className='cat'>*</span></label>
+                    <label className='lbl-form' htmlFor="phone">Teléfono<span className='cat'>*</span></label>
                     <input
                         type="text"
                         placeholder="Ej: +569 39425756"
@@ -113,7 +113,7 @@ const VolunteerForm= () => {
                 </div>
                 <div className="items">
                     <img src={Direction} className="icons" alt="" />
-                    <label className='lbl-form' for="direction">Dirección<span className='cat'>*</span></label>
+                    <label className='lbl-form' htmlFor="direction">Dirección<span className='cat'>*</span></label>
                     <input
                         type="text"
                         placeholder="Ej: Litoral #320, Peñalolen"
@@ -135,22 +135,22 @@ const VolunteerForm= () => {
                                     <div>
                                         <img className='logo-cpt' src={logo} alt='logo-cpt' />
                                     </div>
-                                        <div className='margin-modal'>
-                                            <h2>¡Gracias, futuro voluntario!</h2>
-                                            <p><strong>Nos comunicaremos contigo por medio de tu correo para que formes parte de nuestro equipo. </strong></p>
-                                            <div className='rrss'>
-                                                <h4>Comparte en tus Redes Sociales</h4>
-                                                <a href="https://www.instagram.com/comida_para_todos_cl/" target="_blank" rel="noopener noreferrer">
-                                                    <img src={instagram} className="instagram" alt="instagram " />
-                                                    </a>
-                                                    <a href="https://www.facebook.com/Comida-para-Todos-100133851719302" target="_blank" rel="noopener noreferrer">
-                                                        <img src={facebook} className="facebook" alt="logo-facebook" />
-                                                        </a>
-                                                        <a href="https://twitter.com/ChileComida" target="_blank" rel="noopener noreferrer">
-                                                            <img src={twitter} className="twitter" alt="logo-twitter" />
-                                                        </a>
-                                            </div>
+                                    <div className='margin-modal'>
+                                        <h2>¡Gracias, futuro voluntario!</h2>
+                                        <p><strong>Nos comunicaremos contigo por medio de tu correo para que formes parte de nuestro equipo. </strong></p>
+                                        <div className='rrss'>
+                                            <h4>Comparte en tus Redes Sociales</h4>
+                                            <a href="https://www.instagram.com/comida_para_todos_cl/" target="_blank" rel="noopener noreferrer">
+                                                <img src={instagram} className="instagram" alt="instagram " />
+                                            </a>
+                                            <a href="https://www.facebook.com/Comida-para-Todos-100133851719302" target="_blank" rel="noopener noreferrer">
+                                                <img src={facebook} className="facebook" alt="logo-facebook" />
+                                            </a>
+                                            <a href="https://twitter.com/ChileComida" target="_blank" rel="noopener noreferrer">
+                                                <img src={twitter} className="twitter" alt="logo-twitter" />
+                                            </a>
                                         </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

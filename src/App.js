@@ -28,18 +28,18 @@ function App() {
           render={() => <Home />}
         />
         <Route
-          exact path="/aboutus/aboutus"
+          exact path="/aboutus/team"
           render={() => <AboutUs />}
         />
-          <Route
-          exact path="/aboutus/aboutus2"
+        <Route
+          exact path="/aboutus/aboutus"
           render={() => <AboutUs2 />}
         />
         <Route
-          exact path="/projects"
+          exact path="/projects/foodbank"
           render={() => <Projects />}
         />
-         <Route
+        <Route
           exact path="/projects/schoolproj"
           render={() => <SchoolProj />}
         />
@@ -63,7 +63,7 @@ function App() {
           exact path="/donate"
           render={() => <Donate />}
         />
-          <Route
+        <Route
           exact path="/donate/bevolunteer"
           render={() => <BeVolunteer />}
         />
