@@ -10,6 +10,7 @@
         "normalize.css": "^8.0.1",
         "origen-react-instagram-feed": "0.0.3",
         "react": "^16.13.1",
+        "react-countup": "^4.3.3",
         "react-dom": "^16.13.1",
         "react-hook-form": "^6.8.6",
         "react-instagram-embed": "^1.5.0",

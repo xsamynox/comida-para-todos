@@ -12,24 +12,24 @@ const PaymentsMethods = () => {
       <div className='pay'>
         <div className='pay'>
           <div className='radio-btn-pay'>
-            <input type="radio" name="WebPay" value="WebPay" />
+            <input type="radio" name="payments" value="WebPay" />
             <p className='p-radio'>Pago con tarjeta de Débito o Crédito</p>
             <img className='img-pay' src={Webpay} alt="" />
           </div>
           <div className='radio-btn-pay'>
-            <input type="radio" name="OnePay" value="OnePay" />
+            <input type="radio" name="payments" value="OnePay" />
             <p className='p-radio'>Pago con tarjeta de crédito sin cuotas</p>
             <img className='img-pay' src={OnePay} alt="" />
           </div>
         </div>
         <div className='pay'>
           <div className='radio-btn-pay'>
-            <input type="radio" name="Match" value="Mach" />
+            <input type="radio" name="payments" value="Mach" />
             <p className='p-radio'>Pago a través de Mach</p>
             <img className='img-mach' src={Mach} alt="" />
           </div>
           <div className='radio-btn-pay'>
-            <input type="radio" name="Transferencia" value="Transferencia" />
+            <input type="radio" name="payments" value="Transferencia" />
             <p className='p-radio'>Transferencia Bancaria</p>
           </div>
         </div>

@@ -12,26 +12,26 @@ const Payments = () => {
       <form className='ctn-pay pay ctn-pay2'>
         <div className='pay'>
           <div className='radio-btn'>
-            <input type="radio" name="mensual" value="Mensual" />
+            <input type="radio" name="pay" value="Mensual" />
             <label htmlFor="Mensual"><p>Mensual</p></label>
           </div>
           <div className='radio-btn'>
-            <input type="radio" name="Solo-esta-vez" value="Solo-esta-vez" />
+            <input type="radio" name="pay" value="Solo-esta-vez" />
             <label htmlFor="Solo-esta-vez"><p>Sólo esta vez</p></label>
           </div>
         </div>
 
         <div className='pay'>
           <div className='radio-btn'>
-            <input type="radio" value="3000" />
+            <input type="radio" value="3000" name="price" />
             <label htmlFor="3000"><p>$3000</p>1 Almuerzo</label>
           </div>
           <div className='radio-btn'>
-            <input type="radio" value="15000" />
+            <input type="radio" value="15000" name="price" />
             <label htmlFor="15000"><p>$15000</p>5 Almuerzos</label>
           </div>
           <div className='radio-btn'>
-            <input type="radio" value="30000" />
+            <input type="radio" value="30000" name="price" />
             <label htmlFor="30000"><p>$30000</p>10 Almuerzos</label>
           </div>
         </div>

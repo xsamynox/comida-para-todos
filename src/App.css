@@ -78,79 +78,102 @@ ol {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-} 
+}
+
+
 /* menu desplegable */
-.menu{
-  top: 85px;
-  right: 71.5%;
-  width: 215px;
-}
-.menu1{
-  top: 85px;
-  right: 56.5%;
-  width: 215px;
-}
-.menu, .menu1 {
-  background: #ffffff;
-  border-radius: 0 0 8px 8px;
-  position: absolute;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-20px);
-  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+
+.menu {
+    top: 85px;
+    right: 71.5%;
+    width: 215px;
 }
 
-.menu.active, .menu1.active {
-  opacity: 90%;
-  visibility: visible;
-  transform: translateY(0);
+.menu1 {
+    top: 85px;
+    right: 56.5%;
+    width: 215px;
 }
 
-.menu ul, .menu1 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.menu,
+.menu1 {
+    background: #F25828;
+    color: #ffffff;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
 }
 
-.menu li, .menu1 li {
-  border-bottom: 1px solid #dddddd;
+.menu.active,
+.menu1.active {
+    opacity: 100%;
+    visibility: visible;
+    transform: translateY(0);
+}
+.menu li a, .menu1 li a{
+  color: #ffffff;
+}
+.menu.active li a, .menu1.active li a{
+  color: #ffffff;
 }
 
-.menu li a, .menu1 li a {
-  text-decoration: none;
-  color: #333333;
-  padding: 15px 20px;
-  display: block;
-}
-.menu-trigger, .menu1-trigger {
-  background: #ffffff;
-  border-radius: 90px;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4px 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  border: none;
-  vertical-align: middle;
-  transition: box-shadow 0.4s ease;
+.menu ul,
+.menu1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.menu-trigger:hover, .menu1-trigger:hover {
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+.menu li,
+.menu1 li {
+    border-bottom: 1px solid #dddddd;
 }
 
-.menu-trigger span, .menu1-trigger span{
-  font-weight: 700;
-  vertical-align: middle;
-  font-size: 14px;
-  margin: 0 10px;
+.menu li a,
+.menu1 li a {
+    text-decoration: none;
+    color: #333333;
+    padding: 15px 20px;
+    display: block;
 }
 
-.menu-trigger img, .menu1-trigger img {
-  border-radius: 90px;
+.menu-trigger,
+.menu1-trigger {
+    background: #ffffff;
+    border-radius: 90px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+    vertical-align: middle;
+    transition: box-shadow 0.4s ease;
 }
+
+.menu-trigger:hover,
+.menu1-trigger:hover {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu-trigger span,
+.menu1-trigger span {
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.menu-trigger img,
+.menu1-trigger img {
+    border-radius: 90px;
+}
+
 
 /* fin menu desplegable */
 
@@ -167,49 +190,18 @@ ol {
     color: #222;
 }
 
-.list li a:hover {
+.menu.active li a:hover, .menu.inactive li a, .menu1.active li a:hover, .menu1.inactive li a{
     text-decoration: none;
-    color: #2B292D;
+    color: #fcfcfc;
 }
-
-a:hover {
-    text-decoration: none;
-    color: #F25828;
+.menu.active li:hover, .menu.inactive li, .menu1.active li:hover, .menu1.inactive li{
+  background-color: #D93400;
 }
 
 .submenu {
     display: flex;
     flex-direction: column;
 }
-
-
-/* .hidden {
-    display: none;
-    background-color: #F25828;
-    height: 60px;
-    width: 130px;
-    padding: 2%;
-} */
-
-
-/* .hidden li ul {
-    display: flex;
-    flex-direction: column;
-    background-color: #F25828;
-    height: 60px;
-    width: 130px;
-    padding: 2%;
-} */
-
-
-/* .submenu {
-    display: flex;
-    flex-direction: column;
-    background-color: #F25828;
-    height: 60px;
-    width: 130px;
-    padding: 2%;
-} */
 
 .submenu.active {
     position: absolute;
@@ -422,8 +414,7 @@ h4 {
 span {
     color: #F25828;
     font-weight: 400;
-    font-size: 2em;
-    /* font-family: 'BebasNeue-Regular'; */
+    font-size: 1.5em;
 }
 
 .span1 {
@@ -537,26 +528,30 @@ p.radio {
     margin: 5%;
     width: 500px;
     height: 336px;
-
 }
+
 .ctn-campaigns {
     margin-top: 5%;
     display: flex;
     position: relative;
     justify-content: center;
 }
+
 .ctn-campaigns2 {
     padding: 4%;
     display: flex;
     position: relative;
     justify-content: center;
 }
+
 .previousCampaigns {
     display: flex;
     position: relative;
-    justify-content:flex-start;
+    justify-content: flex-start;
     margin: 5%;
 }
+
+
 /* Campaign */
 
 .img-impact {
@@ -585,9 +580,10 @@ p.radio {
 }
 
 .number-impact {
-    font-size: 7.5em;
+  color: #F2F2F2;
+    font-size: 6.5em;
     font-weight: 400;
-    font-family: 'Bebas Neue';
+    font-family: 'Be Vietnam';
     text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
 }
 
@@ -602,7 +598,7 @@ p.radio {
     color: #F25828;
     text-decoration: underline;
     font-weight: 700;
-    margin-top: 8vw;
+    margin-top: 2vw;
 }
 
 .read-more:hover {
@@ -625,24 +621,6 @@ p.radio {
     border: 1px solid black;
     border-radius: 8px;
 }
-
-
-/* .textContainer {
-    padding-left: 6%;
-    padding-top: 3%;
-    text-align: left;
-    width: 40vw;
-} */
-
-
-/* .paragraph {
-    padding-top: 37px;
-    padding-right: 6.3vw;
-    text-align: left;
-    width: 603px;
-    height: 99px;
-    line-height: 26.5px;
-} */
 
 .hands {
     width: 40vw;
@@ -694,6 +672,19 @@ p.radio {
     display: flex;
     flex-wrap: wrap;
     margin-top: 1%;
+    margin-bottom: 48px;
+}
+
+/* HOVER */
+
+.pay input:checked + label {
+	color: #F25828;
+    box-shadow: none;
+}
+
+.pay input:checked + p{
+    color: #F25828;
+    box-shadow: none;
 }
 
 .payments {
@@ -735,13 +726,13 @@ p.radio {
     justify-content: space-around;
 }
 
-.radio-btn:active {
+/* .radio-btn:active {
     background-color: #1F5C70;
 }
 
 .radio-btn:focus {
     background-color: #1F5C70;
-}
+} */
 
 .radio-btn-pay {
     width: 38vw;
@@ -867,7 +858,6 @@ p.radio {
     .paragraph1 {
         width: 54vw;
         font-size: 1.5em;
-        /* padding-right: 15%; */
     }
     .ctn-otherdnt {
         margin-top: 20px;
@@ -924,5 +914,13 @@ p.radio {
     }
     .huertos {
         bottom: 74%;
+    }
+    .menu {
+        right: 73.5%;
+        width: 270px;
+    }
+    .menu1 {
+        right: 62.5%;
+        width: 227px;
     }
 }
