@@ -14,7 +14,7 @@ import Sust11 from '../images/ProyEscuela/sustentable_17.png';
 
 const CarrouselSchool = () => {
   return (
-    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carousel-example-2" className="carousel slide carousel-fade" data-ride="carousel">
 
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -29,80 +29,80 @@ const CarrouselSchool = () => {
         <li data-target="#carousel-example-2" data-slide-to="9"></li>
         <li data-target="#carousel-example-2" data-slide-to="10"></li>
       </ol>
-      <div class="carousel-inner" role="listbox">
+      <div className="carousel-inner" role="listbox">
 
-        <div class="carousel-item active">
-          <div class="img-carObj">
+        <div className="carousel-item active">
+          <div className="img-carObj">
             <img className='img-carouselO' src={Sust1}
               alt="Objetivo Sustentable" />
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="img-carObj">
+        <div className="carousel-item">
+          <div className="img-carObj">
             <img className='img-carouselO' src={Sust2}
               alt="Objetivo Sustentable" />
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="img-carObj">
+        <div className="carousel-item">
+          <div className="img-carObj">
             <img className='img-carouselO' src={Sust3}
               alt="Objetivo Sustentable" />
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="img-carObj">
+        <div className="carousel-item">
+          <div className="img-carObj">
             <img className='img-carouselO' src={Sust4}
               alt="Objetivo Sustentable" />
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="img-carObj">
+        <div className="carousel-item">
+          <div className="img-carObj">
             <img className='img-carouselO' src={Sust5}
               alt="Objetivo Sustentable" />
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="img-carObj">
+        <div className="carousel-item">
+          <div className="img-carObj">
             <img className='img-carouselO' src={Sust6}
               alt="Objetivo Sustentable" />
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="img-carObj">
+        <div className="carousel-item">
+          <div className="img-carObj">
             <img className='img-carouselO' src={Sust7}
               alt="Objetivo Sustentable" />
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="img-carObj">
+        <div className="carousel-item">
+          <div className="img-carObj">
             <img className='img-carouselO' src={Sust8}
               alt="Objetivo Sustentable" />
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="img-carObj">
+        <div className="carousel-item">
+          <div className="img-carObj">
             <img className='img-carouselO' src={Sust9}
               alt="Objetivo Sustentable" />
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="img-carObj">
+        <div className="carousel-item">
+          <div className="img-carObj">
             <img className='img-carouselO' src={Sust10}
               alt="Objetivo Sustentable" />
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="img-carObj">
+        <div className="carousel-item">
+          <div className="img-carObj">
             <img className='img-carouselO' src={Sust11}
               alt="Objetivo Sustentable" />
           </div>
