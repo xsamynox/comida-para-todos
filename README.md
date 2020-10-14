@@ -103,7 +103,7 @@ Las herramientas usadas fueron:
 
 Éste proyecto fue realizado en conjunto por alumnas de la generación 014 de Santiago, Chile de Laboratoria.
 
-* **Iara Carrillo** 📝✨ - Front-end Developer
+* **Iara Carrillo** 📝✨ - UX/UI Designer
 * **Jeniffer Genoves** [GitHub](https://github.com/JenifferGenoves) :octocat: - Front-end Developer
 * **Anelisse Acevedo** [GitHub](https://github.com/aneacevedo) :octocat: - Front-end Developer
-* **Samantha Moreno** [GitHub](https://github.com/xsamynox) :octocat: - UX/UI Designer
+* **Samantha Moreno** [GitHub](https://github.com/xsamynox) :octocat: - Front-end Developer
