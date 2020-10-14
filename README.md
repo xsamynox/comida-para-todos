@@ -42,6 +42,10 @@ Puedes ver aca nuestra webapp implentada : https://comida-paratodos.web.app/
 - Análisis Heurístico.
 - Benchmark.
 - Entrevista con Usuarios.
+    - [Anne Carrere](https://drive.google.com/file/d/1PecRQcU9cwgfxkNmqEYRPWdkKLkxk8r5/view)
+    - [Daniel Alfonzo](https://drive.google.com/file/d/1TSiZQgKV1YDS8qR3Uh9BWe2yYANnCpTw/view)
+    - [Matias Carrasco](https://drive.google.com/file/d/1qgdxpoAPZppx7yUh1mZcpMoqlnWHeG0w/view)
+    -
 
 
 
