@@ -12,7 +12,7 @@ const VoluntaryExperience = () => {
         <div>
           <p className='cite' >Me siento feliz ver como entre vecinos nos ayudamos en tener un Chile más sano</p>
           <p>Eduardo Gómez - Beneficiario</p>
-          <p>28/09/2020</p>
+          <p className="date">28/09/2020</p>
         </div>
         <img className='comillas2' src={ComillasCierre} alt='comillas' />
       </div>
