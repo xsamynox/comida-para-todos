@@ -6,13 +6,14 @@
 * [2. Comenzando a usarla.](#2-Comenzando-a-usarla)
 * [3. Investigación.](#3-Investigación)
 * [4. Proceso de prototipado y diseño.](#4-Proceso-de-Prototipado-y-diseño)
-* [5. Despliegue.](#8-Despliegue)
-* [6. Herramientas.](#9-Herramientas)
-* [7. Autoras.](#10-Autoras)
+* [5. Aportes.](#5-Aportes)
+* [6. Despliegue.](#10-Despliegue)
+* [7. Herramientas.](#7-Herramientas)
+* [8. Autoras.](#8-Autoras)
 
 ***
 
-![Logo](src/images/Readme/portada.png)
+![Logo](src/images/Readme/3.png)
 
 ## 1. Comida Para Todos.
 
@@ -95,12 +96,14 @@ Las herramientas usadas fueron:
 * [Trello](https://trello.com/b/15mYPGhr/comida-para-todos) – Para la planificación.
 * [Firebase](https://firebase.google.com) – Para el hosting.
 * [Git y GitHub](https://github.com/xsamynox/comida-para-todos) – Para el trabajo colaborativo.
+* [Boostrap](https://getbootstrap.com/) - Para caruseles y algunos elementos simples.
 
-## 7. Autoras ✒️
+
+## 8. Autoras ✒️
 
 Éste proyecto fue realizado en conjunto por alumnas de la generación 014 de Santiago, Chile de Laboratoria.
 
-* **Iara Carrillo** [GitHub](https://github.com/aneacevedo) :octocat: - Front-end Developer
+* **Iara Carrillo** 📝✨ - Front-end Developer
 * **Jeniffer Genoves** [GitHub](https://github.com/JenifferGenoves) :octocat: - Front-end Developer
 * **Anelisse Acevedo** [GitHub](https://github.com/aneacevedo) :octocat: - Front-end Developer
 * **Samantha Moreno** [GitHub](https://github.com/xsamynox) :octocat: - UX/UI Designer
