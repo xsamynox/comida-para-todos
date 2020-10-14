@@ -194,7 +194,9 @@ ol {
     text-decoration: none;
     color: #fcfcfc;
 }
-
+.menu.active li:hover, .menu.inactive li, .menu1.active li:hover, .menu1.inactive li{
+  background-color: #D93400;
+}
 
 .submenu {
     display: flex;
