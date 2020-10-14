@@ -1,68 +1,104 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Rediseño: Comida Para Todos
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+- [Comida para todos](#comida-para-todos)
 
-### `npm start`
+  - [1. Resumen del proyecto](#1-resumen-del-proyecto)
+  - [2. Producto final](#2-producto-final)
+  - [3. Planteamiento del Problema](#3-planteamiento-del-problema)
+    - [3.1 Investigación](#31-Investigación)
+    - [3.2 Creación de Prototipo de baja fidelidad](#22-creación-de-prototipo-de-baja-fidelidad)
+    - [3.3 Diagrama de flujo](#33-diagrama-de-flujo)
+    - [3.4 Creación de Prototipo de alta fidelidad](#34-creación-de-prototipo-de-alta-fidelidad)
+  - [4. Resolución del problema](#4-resolución-del-problema)
+    - [4.1 Aportes](#41-aportes)
+  - [5. Desiciones de diseño](#5-desiciones-de-diseño)
+    - [5.1 Inspiración](#51-inspiración)
+    - [5.2 Colores](#52-colores)
+    - [5.3 Tipografía](#52-tipografía)
+    - [5.4 Aspecto visual](#53-aspecto-visual)
+  - [6. Acerca de la aplicación](#6-acerca-de-la-aplicación)
+  - [7. Autores](#7-autores)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 1. Resumen del proyecto
 
-### `npm test`
+![Comidad Para Todos](/src/images/Portada.jpg)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Comida para todos es: 
 
-### `npm run build`
+## 2. Producto final.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Puedes ver aca nuestra webapp implentada : https://comida-paratodos.web.app/
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 3. Planteamiento del problema
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### 3.1 Investigación
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Entrevista con Cliente.
+- Análisis Heurístico.
+- Benchmark.
+- Entrevista con Usuarios.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 3.2 Creación de Prototipo de baja fidelidad
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 3.3 Diagrama de flujo
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+### 3.4 Creación de Prototipo de alta fidelidad
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Puedes ver aqui nuestro Prototipo de alta fidelidad Desktop:
+[Figma.](https://www.figma.com/file/05HHF7BKZ4ydeePsR6vgSm/Comida-Para-Todos?node-id=1153%3A3130)
 
-### Making a Progressive Web App
+## 4. Resolución del problema
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### 4.1 Aportes
 
-### Advanced Configuration
+- Interfaz limpia, simple y ordenada.
+- Navegación fluida a través de clicks.
+- Menús especificos para cada hora del día
+- Colores para categorizar las comidas, los acompañamientos y las bebidas.
+- Respectivos precios en cada producto.
+- Opción de eliminar o disminuir la cantidad seleccionada.
+- Posibilidad de ver cuanto sería el total de la orden.
+- Notificación cada vez que se envía un pedido a la cocina.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## 5. Desiciones de diseño
 
-### Deployment
+## 5.1 Inspiración
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
+## 5.2 Colores
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+A pesar de que nuestros principales objetivos al desarrollar esta plataforma, fueron los de una interfaz simple, quisimos rescatar la temática del restaurante y utilizar colores pasteles que hicieran alución al ambiente de las cafeterias de los años 50's
+
+![Paleta de colores](/src/imagesReadme/colors.png)
+
+### 5.3 Tipografía
+
+La fuente que utilizamos en la interfaz fue: **Be Vietnam**, aportando sentido y formalidad sin llegar a ser demasiado rigida.
+
+![Fuente]()
+
+### 5.4 Aspecto visual
+
+
+## 6. Acerca de la aplicación
+
+- Interfaz implementada en React-Hooks.
+- Uso de Hosting Firebase.
+
+## 7. Autores
+
+- Iara Carrillo - UX/UI Designer
+- Jeniffer Genoves - Front-end Developer
+- Anelisse Acevedo - Front-end Developer
+- Samantha Moreno - Front-end Developer

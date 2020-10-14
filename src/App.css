@@ -726,14 +726,6 @@ p.radio {
     justify-content: space-around;
 }
 
-/* .radio-btn:active {
-    background-color: #1F5C70;
-}
-
-.radio-btn:focus {
-    background-color: #1F5C70;
-} */
-
 .radio-btn-pay {
     width: 38vw;
     height: 128px;
@@ -743,11 +735,6 @@ p.radio {
     display: flex;
     align-items: center;
     flex-direction: initial;
-}
-
-.radio-btn-pay:active {
-    background-color: #1F5C70;
-    color: #FFFFFF;
 }
 
 .img-pay {
