@@ -672,6 +672,19 @@ p.radio {
     display: flex;
     flex-wrap: wrap;
     margin-top: 1%;
+    margin-bottom: 48px;
+}
+
+/* HOVER */
+
+.pay input:checked + label {
+	color: #F25828;
+    box-shadow: none;
+}
+
+.pay input:checked + p{
+    color: #F25828;
+    box-shadow: none;
 }
 
 .payments {
@@ -713,13 +726,13 @@ p.radio {
     justify-content: space-around;
 }
 
-.radio-btn:active {
+/* .radio-btn:active {
     background-color: #1F5C70;
 }
 
 .radio-btn:focus {
     background-color: #1F5C70;
-}
+} */
 
 .radio-btn-pay {
     width: 38vw;
