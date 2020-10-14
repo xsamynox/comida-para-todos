@@ -5,6 +5,7 @@ import arrowLeft from '../images/iconos/arrow-left.png'
 import ChocolatEggs from '../images/Campañas/SemanaSanta.png';
 import Mother from '../images/Campañas/DiaMadre.png';
 import Father from '../images/Campañas/DiaPadre.png';
+import '../styles/campaigns.css'
 
 
 const  CarrouselCamp = () => {
@@ -44,7 +45,7 @@ const  CarrouselCamp = () => {
                 <div className="card mb-2">
                   <a href="/donate/foods">
                     <p className='carousel-caption3'>Campaña Anterior</p>
-                    <h2 className='carousel-caption4'>#FelízDíaMamá</h2>
+                    <h2 className='carousel-caption4' style={{bottom:"70%"}}>#FelízDíaMamá</h2>
                     <img className="card-img-top" src={Mother} alt="Mother" />
                     <div className="carousel-caption5">
                       <p className="">¡Porqué las mamás se lo merecen! Queremos llevarles un almuerzo completo en su día especial.
@@ -63,7 +64,7 @@ const  CarrouselCamp = () => {
                 <div className="card mb-2">
                   <a href="/donate/urbanGarden">
                     <p className='carousel-caption3'>Campaña Anterior</p>
-                    <h2 className='carousel-caption4'>#FelízDíaPapá</h2>
+                    <h2 className='carousel-caption4'style={{bottom:"70%"}}>#FelízDíaPapá</h2>
                     <img className="card-img-top" src={Father} alt="Huertos Urbanos" />
                     <div className="carousel-caption5">
                       <p className="">Ayudanos a llevar un plato digno para los padres de nuestra activdad, súmate y forma parte de esta iniciativa... </p>
