@@ -175,6 +175,11 @@
     width: 30vw;
 }
 
+.arrow-dwld {
+    height: 20px;
+    margin-left: 3%;
+}
+
 @media (min-width: 1920px) and (max-width: 2560px) {
     .ctn-documents,
     .section-distribution,

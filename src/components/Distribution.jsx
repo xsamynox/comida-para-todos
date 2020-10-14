@@ -26,7 +26,7 @@ const Distribution = () => {
       </div>
       <div className='ctn-documents'>
         <h2>Descarga el documento completo</h2>
-        <button className='volBtn'>Descarga aqui<img src={descargar} alt='' /></button>
+        <button className='volBtn'>Descargar Aquí<img className='arrow-dwld' src={descargar} alt='' /></button>
       </div>
     </section>
   );
