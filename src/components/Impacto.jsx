@@ -1,4 +1,6 @@
 import React from 'react';
+import CountUp from 'react-countup';
+
 
 const Impacto = () => {
   return (
@@ -6,23 +8,23 @@ const Impacto = () => {
       <h2 className='impact'>Impacto</h2>
       <div className='ctn-impact' style={{ color: "white" }}>
         <div>
-          <p className='number-impact'>46M</p>
+          <CountUp className='number-impact' start={-100} end={46} duration={6} suffix='M' />
           <p className='letter-impact'>Donaciones</p>
         </div>
         <div>
-          <p className='number-impact' data-count='160'>160K</p>
+          <CountUp className='number-impact' end={160} duration={6} start={-100} suffix='K' />
           <p className='letter-impact'>Almuerzos<br /> Recaudados</p>
         </div>
         <div>
-          <p className='number-impact'>72</p>
+          <CountUp className='number-impact' end={72} duration={6} start={-100} />
           <p className='letter-impact'>Puestos<br /> de Trabajo</p>
         </div>
         <div>
-          <p className='number-impact'>12</p>
+          <CountUp className='number-impact' end={12} duration={6} start={-100} />
           <p className='letter-impact'>Comunas</p>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 export default Impacto;

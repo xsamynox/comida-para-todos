@@ -414,8 +414,7 @@ h4 {
 span {
     color: #F25828;
     font-weight: 400;
-    font-size: 2em;
-    /* font-family: 'BebasNeue-Regular'; */
+    font-size: 1.5em;
 }
 
 .span1 {
@@ -581,9 +580,10 @@ p.radio {
 }
 
 .number-impact {
-    font-size: 7.5em;
+  color: #F2F2F2;
+    font-size: 6.5em;
     font-weight: 400;
-    font-family: 'Bebas Neue';
+    font-family: 'Be Vietnam';
     text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
 }
 
@@ -845,7 +845,6 @@ p.radio {
     .paragraph1 {
         width: 54vw;
         font-size: 1.5em;
-        /* padding-right: 15%; */
     }
     .ctn-otherdnt {
         margin-top: 20px;
