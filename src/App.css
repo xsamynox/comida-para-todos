@@ -484,8 +484,6 @@ p.radio {
     font-family: 'Be Vietnam';
     padding-right: 11%;
 }
-
-
 /* container campaña */
 
 .container-campaign {
@@ -598,8 +596,14 @@ p.radio {
     color: #F25828;
     text-decoration: underline;
     font-weight: 700;
-    margin-top: 2vw;
+    margin-top: 5vw;
 }
+.read-more2 {
+    color: #F25828;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 
 .read-more:hover {
     color: #D93400;

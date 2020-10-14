@@ -14,14 +14,15 @@ const SectionClass = () => {
         <div className="textContainer">
           <p>Conoce más sobre el Proyecto</p>
           <h2>Escuela</h2>
-          <p className="paragraph">
+          <p className="paragraphc">
             Las Escuelas de Comida para Todos, desarrollarán talleres de formación en
-            cocina, alimentación saludable, entre otros temas, además de entregar un espacio para los emprendedores de
+            cocina, alimentación saludable, entre otros temas, además de entregar un
+            espacio para los emprendedores de
             lo que aprendan en nuestras clases.
           </p>
           <Router>
             <Link to='/donate'>
-              <p className='read-more'>Leer Más</p>
+              <p className='read-more2'>Leer Más</p>
             </Link>
           </Router>
         </div>
