@@ -60,6 +60,39 @@
 
 }
 
+.volunteer {
+  background-color: #F2F2F2;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.volunteer-img {
+  width: 500px;
+  height: 338px;
+
+}
+
+.textContainer-volunteer {
+  font-family: Be Vietnam;
+  font-weight: 600;
+  padding: 2%;
+  text-align: justify;
+}
+.paragraph3 {
+  padding: 3%;
+  text-align: justify;
+}
+.container-volunteer {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+.container-volunteer1{
+  display: flex;
+  position: relative;
+  justify-content:center;
+}
 .gardenDiv {
   display: flex;
   flex-direction: column;
@@ -131,7 +164,7 @@
 }
 
 .paragraph {
-  padding-top: 37px;
+  padding-top: 15px;
   text-align: left;
   width: 42vw;
   height: 99px;
@@ -152,6 +185,10 @@
     .paragraph{
       width: 46vw;
     }
+    .volunteer {
+      height: 45vmax;
+    }
+    
 }
 
 

@@ -470,7 +470,12 @@ p.radio {
     position: relative;
     justify-content: center;
 }
-
+.ctn-campaigns2 {
+    padding: 4%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
 .previousCampaigns {
     display: flex;
     position: relative;

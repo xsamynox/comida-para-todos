@@ -6,6 +6,7 @@ import ImgVolunteer from '../components/ImgVolunteer';
 import VolunteerForm from '../components/VolunteerForm';
 import VoluntaryExperience from '../components/VoluntaryExperience';
 import SectionVolunteer from '../components/SectionsVolunteer';
+import Video from '../images/HazteVol/CocinarEsAmar.mp4'
 
 
 
@@ -25,6 +26,11 @@ function volunteerView () {
             </div>
             <VolunteerForm />
             </div>
+            <div className='ctn-campaigns2'>
+        <video width="1100" controls>
+          <source src={Video} type="video/mp4" />
+        </video>
+      </div>
             <div className="containerFooter">
                 <Footer />
             </div>

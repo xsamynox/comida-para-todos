@@ -11,22 +11,21 @@ const PreviousCampaigns = () => {
         <Fragment>
             <div className='ctn-campaigns'>
         <video width="1100">
-          <source src={Video} type="video/mp4"/>
+            <source src={Video} type="video/mp4"/>
         </video>
         </div>
             <div className='previousCampaigns'>
-              <h2>Campañas Anteriores</h2>
-                
+                <h2>Campañas Anteriores</h2>
             </div>
-           <div className='container-camp'>
-           <CarrouselCamp />
+            <div className='container-camp'>
+                <CarrouselCamp />
             {/* <img src={ChocolatEggs} className="camfimg" alt="Beneficiarios" />
             <img src={Mother} className="camfimg" alt="Beneficiarios" /> */}
             </div>
             </Fragment>
-            
-            
-      );
+
+
+    );
 }
 
 export default PreviousCampaigns;
