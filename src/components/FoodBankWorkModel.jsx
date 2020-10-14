@@ -4,7 +4,7 @@ import shipping from '../images/FoodBank/envios.png';
 import transport from '../images/FoodBank/transporte.png';
 import olla from '../images/FoodBank/olla.png';
 import family from '../images/FoodBank/familia.png';
-import arrow from '../images/Transparency/arrow.png';
+import arrow from '../images/transparency/arrow.png';
 
 const FoodBankWorkModel = () => {
   return (

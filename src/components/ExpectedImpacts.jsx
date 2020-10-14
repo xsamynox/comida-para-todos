@@ -1,5 +1,5 @@
 import React from 'react';
-import descargar from '../images/Transparency/descargar.png'
+import descargar from '../images/transparency/descargar.png'
 
 const ExpectedImpacts = () => {
   return (
