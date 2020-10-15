@@ -1,21 +1,51 @@
 * {
-  font-family: 'Be Vietnam', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+@font-face {
+    font-family: Verlag;
+    src: url('./font-bebas-neue/BebasNeue-Regular.otf')
+}
+
+
+/* Header */
 
 .headerBar {
     background-color: #1F5C70;
     height: 42px;
-    width: 100%;
-    display: flex;
     justify-content: flex-end;
+    padding-right: 80px;
+    width: 100vw;
+}
+
+.headerBar,
+.header {
+    display: flex;
     position: fixed;
+    width: 100vw;
+}
+
+.container-header {
+    width: 100vw;
+    padding-top: 45px;
 }
 
 .header {
     background-color: rgba(255, 255, 255, 0.87);
-    display: flex;
-    flex-direction: column;
+    width: 100vw;
+    height: 18vh;
+    z-index: 2;
+    font-family: 'Be Vietnam';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.containerMenu {
+    width: 100vw;
+}
+
+
+/* Redes sociales */
 
 .instagram,
 .facebook,
@@ -24,25 +54,271 @@
     margin: 8px;
 }
 
-.menu {
-    display: block;
-    justify-content: space-between;
-    /* flex-direction: column; */
-    padding-top: 45px;
-}
-
 .logo {
     width: 69px;
     height: 71px;
 }
 
-.list {
+.vertLine {
+    width: 2px;
+    height: 45px;
+    background: #222;
+}
+
+ul,
+ol {
     list-style: none;
+}
+
+.list {
+    position: relative;
+    list-style: none;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* menu desplegable */
+
+.menu {
+    top: 85px;
+    right: 71.5%;
+    width: 215px;
+}
+
+.menu1 {
+    top: 85px;
+    right: 56.5%;
+    width: 215px;
+}
+
+.menu,
+.menu1 {
+    background: #F25828;
+    color: #ffffff;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.menu.active,
+.menu1.active {
+    opacity: 100%;
+    visibility: visible;
+    transform: translateY(0);
+}
+.menu li a, .menu1 li a{
+  color: #ffffff;
+}
+.menu.active li a, .menu1.active li a{
+  color: #ffffff;
+}
+
+.menu ul,
+.menu1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li,
+.menu1 li {
+    border-bottom: 1px solid #dddddd;
+}
+
+.menu li a,
+.menu1 li a {
+    text-decoration: none;
+    color: #333333;
+    padding: 15px 20px;
+    display: block;
+}
+
+.menu-trigger,
+.menu1-trigger {
+    background: #ffffff;
+    border-radius: 90px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+    vertical-align: middle;
+    transition: box-shadow 0.4s ease;
+}
+
+.menu-trigger:hover,
+.menu1-trigger:hover {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu-trigger span,
+.menu1-trigger span {
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.menu-trigger img,
+.menu1-trigger img {
+    border-radius: 90px;
+}
+
+
+/* fin menu desplegable */
+
+.list ul {
+    /* display: flex; */
+    align-items: center;
+}
+
+.list li a {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #222;
+}
+
+.menu.active li a:hover, .menu.inactive li a, .menu1.active li a:hover, .menu1.inactive li a{
+    text-decoration: none;
+    color: #fcfcfc;
+}
+.menu.active li:hover, .menu.inactive li, .menu1.active li:hover, .menu1.inactive li{
+  background-color: #D93400;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu.active {
+    position: absolute;
+    min-width: 140px;
+}
+
+.firstImg {
+    background-image: url('./images/Portada.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 88.4vh;
+    color: #FFFFFF;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.firstLine {
+    background: #FFFFFF;
+    width: 90px;
+    border: 0 none;
+    height: 2px;
+    margin-left: 0px;
+    margin-top: 85px;
+}
+
+.firstDiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.text-initial {
+    padding-top: 24px;
+    width: 617px;
+    height: 136px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25;
+    line-height: 26px;
+}
+
+.textButtons {
+    margin-top: 80px;
     display: flex;
 }
 
-.list li {
-    flex: 3;
+.volBtn {
+    background-color: #F25828;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 8px;
+    width: 190px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    text-decoration: underline;
+    background-color: #FFFFFF;
+    color: #F25828;
+    border: none;
+    width: 190px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.moreBtn {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    width: 190px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1.25em;
+    cursor: pointer;
+    margin-left: 80px;
+    background-color: transparent
+}
+
+.moreBtn:hover {
+    background-color: #F25828;
+    border: none;
+}
+
+
+/* Instagram */
+
+.container-ig {
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    /* width: 100px;
+    height: 457px; */
+    padding-top: 4%;
+}
+
+.ig {
+    margin-right: 3vw;
+    margin-left: 3vw;
+    border-radius: 8px;
+    align-items: center;
 }
 
 .list-footer {
@@ -71,39 +347,571 @@
     border-radius: 8px;
     width: 138px;
     height: 50px;
+    font-weight: 700;
+    font-size: 1.25em;
+    cursor: pointer;
+    font-family: 'Be Vietnam';
 }
-/* Titulos */
-h3{
-  font-weight: 800;
-  font-size: 2.5em;
+
+.btn-donate:hover {
+    background-color: #D93400;
+    text-decoration: none;
 }
+
+.containerBtn {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+
+.btn-cancel {
+    background-color: #ffffff;
+    color: #F25828;
+    border: none;
+    text-decoration: underline;
+    border-radius: 8px;
+    width: 138px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1.25em;
+    cursor: pointer;
+    font-family: 'Be Vietnam';
+}
+
+.volBtn:hover {
+    background-color: #D93400;
+}
+
+
+/* Titulos y letras*/
+
+h1 {
+    font-size: 3.75em;
+    font-weight: 800;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Be Vietnam';
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 2.6em;
+    font-family: 'Be Vietnam';
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 2.5em;
+    font-family: 'Be Vietnam';
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.875em;
+    font-family: 'Be Vietnam';
+}
+
+span {
+    color: #F25828;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.span1 {
+    color: #F25828;
+    font-weight: 600;
+    font-size: 1em;
+    font-family: 'Be Vietnam';
+}
+
+p {
+    font-weight: 500;
+    font-size: 1.25em;
+    font-family: 'Be Vietnam';
+    margin: 0;
+}
+
+.p-others {
+    padding: 10px 0 50px;
+    font-family: 'Be Vietnam';
+}
+
+p.radio {
+    font-size: 1.25em;
+    font-size: 600;
+}
+
+
+/* container donate price */
+
+.ctn-dnt-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F2F2F2;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    width: 100vw;
+    height: 170px;
+    font-family: 'BebasNeue-Regular';
+    z-index: 0;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+/* container other donate */
+
+.container-otherDnt {
+    display: flex;
+    padding-left: 5%;
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 75vh;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.ctn-otherdnt {
+    margin-top: 20px;
+    padding-left: 2%;
+    width: 50vw;
+}
+
+.paragraph1 {
+    width: 45vw;
+    font-weight: 500;
+    font-size: 1em;
+    font-family: 'Be Vietnam';
+    padding-right: 11%;
+}
+/* container campaña */
+
+.container-campaign {
+    padding-top: 5%;
+    width: 100vw;
+    height: 67vh;
+    padding-left: 5%;
+}
+
+.ctn-cmp {
+    display: flex;
+    width: 90vw;
+}
+
+.ctn-btns {
+    display: flex;
+    padding: 35px 0px 20px;
+}
+
+.ctn-btns a .btn-donate {
+    margin-right: 54px;
+}
+
+.ctn-video {
+    margin-left: 80px;
+}
+
+.video640 {
+    width: 603px;
+    height: 396px;
+}
+
+.container-camp {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.camfimg {
+    margin: 5%;
+    width: 500px;
+    height: 336px;
+}
+
+.ctn-campaigns {
+    margin-top: 5%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.ctn-campaigns2 {
+    padding: 4%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.previousCampaigns {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    margin: 5%;
+}
+
+
+/* Campaign */
+
+.img-impact {
+    background-image: url('./images/impact.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 557px;
+    background-size: cover;
+}
+
+.impact {
+    color: #fff;
+    padding-top: 80px;
+    width: 100vw;
+}
+
+.ctn-impact {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.ctn-impact2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.number-impact {
+  color: #F2F2F2;
+    font-size: 6.5em;
+    font-weight: 400;
+    font-family: 'Be Vietnam';
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.letter-impact {
+    font-weight: 600;
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.read-more {
+    color: #F25828;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-top: 5vw;
+}
+.read-more2 {
+    color: #F25828;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+
+.read-more:hover {
+    color: #D93400;
+}
+
+
+/* container collaborators  */
+
+.ctn-collaboration {
+    padding: 80px;
+}
+
+.CollaborationSection {
+    display: flex;
+    width: 100vw;
+}
+
+.img-clb {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.hands {
+    width: 40vw;
+    border-radius: 8px;
+}
+
+
+/* Section donate */
+
+.img-donate {
+    background-image: url('./images/Portada-dona-aqui.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 798px;
+    color: #FFFFFF;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.cnt-payment {
+    width: 87.5vw;
+    display: flex;
+    background-color: #fff;
+    color: #2B292D;
+    margin: 80px 80px 35px;
+    border-radius: 8px;
+    padding: 50px 50px 30px;
+    position: relative;
+    margin-top: -8%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ctn-pay {
+    width: 50%;
+    padding: 2%;
+}
+
+.ctn-pay3 {
+    width: 100%;
+}
+
+.ctn-pay2 {
+    padding-top: 31px;
+}
+
+.pay {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-bottom: 48px;
+}
+
+/* HOVER */
+
+.pay input:checked + label {
+	color: #F25828;
+    box-shadow: none;
+}
+
+.pay input:checked + p{
+    color: #F25828;
+    box-shadow: none;
+}
+
+.payments {
+    margin-top: 20%;
+    margin-left: -40vw;
+}
+
+.container-pay {
+    display: flex;
+    width: 36vw;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.btns-pay {
+    display: flex;
+    justify-content: flex-end;
+    padding: 80px 0 0;
+    width: 100%;
+}
+
+.other {
+    color: #BDBDBD;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 57px;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+.radio-btn {
+    width: 12vw;
+    height: 75px;
+    margin-left: -1px;
+    border: 1px solid #2B292D;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.radio-btn-pay {
+    width: 38vw;
+    height: 128px;
+    margin-left: -1px;
+    border: 1px solid #3A6270;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: initial;
+}
+
+.img-pay {
+    width: 160px;
+    height: auto;
+    margin-right: 2%;
+}
+
+.img-mach {
+    width: 157px;
+    height: auto;
+    margin-left: 4vw;
+}
+
+.radio-btn-pay input,
+.radio-btn input {
+    width: 10%;
+}
+
+.huertos {
+    bottom: 64%;
+}
+
+
+/* Contacto */
+
+.contactForm {
+    margin-top: -230px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+}
+
+.contact-Img {
+    background-image: url('./images/1copia.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 798px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    color: #fff;
+}
+
+
+/* Footer */
 
 .footer {
     color: #F2F2F2;
     background-color: #1F5C70;
-    position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 205px;
+    width: 100vw;
+    height: 25vh;
+    font-family: 'Be Vietnam';
 }
 
 .container-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 70px;
-    padding-left: 80px;
-    margin-top: 30px;
+    width: 100vw;
+    padding-top: 30px;
 }
+
 .container-footer2 {
+    width: 100vw;
     display: flex;
     justify-content: space-between;
-    padding-right: 70px;
-    padding-left: 80px;
     align-items: center;
 }
-hr {
+
+
+/* Margin */
+
+.container-footer2,
+.container-footer,
+.impact,
+.container-header,
+.ctn-dnt-price {
+    padding-right: 6.2%;
+    padding-left: 6.2%;
+}
+
+.footerLine {
     background: #F2F2F2;
     margin-right: 80px;
     margin-left: 80px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .header {
+        height: 12vh;
+    }
+    .firstImg {
+        height: 80vh;
+    }
+    h3 {
+        font-size: 4em;
+    }
+    span {
+        font-weight: 400;
+        font-size: 2em;
+    }
+    .paragraph1 {
+        width: 54vw;
+        font-size: 1.5em;
+    }
+    .ctn-otherdnt {
+        margin-top: 20px;
+        padding-left: 10%;
+        width: 50vw;
+    }
+    .container-otherDnt {
+        display: flex;
+        padding-left: 5%;
+        background-color: #F2F2F2;
+        width: 100vw;
+        height: 53vh;
+        padding-top: 5%;
+        padding-right: 5%;
+    }
+    .container-campaign {
+        height: 45vh;
+    }
+    p {
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+    .impact {
+        padding: 3% 2% 5% 10.5%;
+    }
+    .container-ig {
+        height: 80vh;
+    }
+    .App {
+        margin: 0% 10% 0% 10%;
+    }
+    .footer {
+        height: 28.7vh;
+    }
+    /* Media View Donate */
+    .container-footer2,
+    .container-footer,
+    .impact,
+    .container-header,
+    .ctn-dnt-price,
+    .headerBar,
+    .firstDiv {
+        padding-right: 5.55vw;
+        padding-left: 5.55vw;
+    }
+    .cnt-payment {
+        width: 89vw;
+        margin: 5.5vw;
+        position: relative;
+        margin-top: -8vh;
+    }
+    .img-mach {
+        margin-left: 8vw;
+    }
+    .huertos {
+        bottom: 74%;
+    }
+    .menu {
+        right: 73.5%;
+        width: 270px;
+    }
+    .menu1 {
+        right: 62.5%;
+        width: 227px;
+    }
 }

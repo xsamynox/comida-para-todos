@@ -1,120 +1,177 @@
 {
   "collaborators": [
     {
+      "num": 0,
       "name": "Cafe San Juan",
-      "img": "https://drive.google.com/file/d/1qVubrvMbxe4WK762HSc3woez6-4w6HoB/view"
+      "img": "https://i.imgur.com/Bhl6dpS.jpg",
+      "url": "https://www.instagram.com/cafesanjuansantiago_oficial/?hl=en"
     },
     {
+      "num": 1,
       "name": "La Caperucita y El Lobo",
-      "img": "https://drive.google.com/file/d/1Ts0eKPWhH--K4oggVZiXu_c7LYJkWLx4/view"
+      "img": "https://i.imgur.com/dNN4pSw.jpg",
+      "url": "http://www.lacaperucitayellobo.cl/"
     },
     {
+      "num": 2,
       "name": "Colab",
-      "img": "https://drive.google.com/file/d/14ylPU7BdsPKvJNP8wsskA34wFSJ_LbDr/view"
+      "img": "https://i.imgur.com/B2DApe4.jpg",
+      "url": "http://innovacionsocial.uc.cl/es/inicio/"
     },
     {
+      "num": 3,
       "name": "EcoPass",
-      "img": "https://drive.google.com/file/d/1HiY9dHyVPhUBqrLvCZDGOiVZyxeizJi5/view"
+      "img": "https://i.imgur.com/D8tT0Ef.jpg",
+      "url": "https://ecopass.cl/"
     },
     {
+      "num": 4,
       "name": "Foodies",
-      "img": "https://drive.google.com/file/d/1xQB__goE000Fo4muI-ejBh3_SKdwvNqX/view"
+      "img": "https://i.imgur.com/SDOa4sV.png",
+      "url": "https://foodies.cl/store/index.php"
     },
     {
+      "num": 5,
       "name": "Fundación Gastronomía Social",
-      "img": "https://drive.google.com/file/d/12rgLONf6s2wQYY13HJf1xaIcDyROIlaV/view"
+      "img": "https://i.imgur.com/62Lv4y6.jpg",
+      "url": "https://www.gastronomia.social/"
     },
     {
+      "num": 6,
       "name": "99",
-      "img": "https://drive.google.com/file/d/16dDeCfN8RjPHWSb2YeNcvp2Iojb7hwNy/view"
+      "img": "https://i.imgur.com/asDdnrq.jpg",
+      "url": "https://99restaurante.com/"
     },
     {
+      "num": 7,
       "name": "Municipalidad Antofagasta",
-      "img": "https://drive.google.com/file/d/1BiT1IknNDA6x7FrSX8OkZ5u8bRfqXAbP/view"
+      "img": "https://i.imgur.com/RAKnvs6.jpg",
+      "url": "municipalidaddeantofagasta.cl"
     },
     {
+      "num": 8,
       "name": "BOA",
-      "img": "https://drive.google.com/file/d/1O8Xd1rjS9YOZnLx_VRcZgaj5H-qYBicZ/view"
+      "img": "https://i.imgur.com/m7V3NEg.jpg",
+      "url": "https://boasantiago.cl/"
     },
     {
+      "num": 9,
       "name": "Contenedor",
-      "img": "https://drive.google.com/file/d/1dJq65rLkoGr-x3eRaqn_ywDM_9PQTien/view"
+      "img": "https://i.imgur.com/emLnOzc.jpg"
     },
     {
+      "num": 10,
       "name": "Estudio Enoki",
-      "img": "https://drive.google.com/file/d/1LgN_40H1nXeqvzMRcdmYDmuFEarx0xBC/view"
+      "img": "https://i.imgur.com/r8DtWx1.jpg",
+      "url": "https://www.behance.net/estudioenoki/"
     },
     {
+      "num": 11,
       "name": "Fundación Cultiva",
-      "img": "https://drive.google.com/file/d/14vozbBjUc2XU81XMJJiEhLdFPDP4Myg_/view"
+      "img": "https://i.imgur.com/YUDNcV5.jpg",
+      "url": "https://www.cultiva.cl/"
     },
     {
+      "num": 12,
       "name": "La cava del sommelier",
-      "img": "https://drive.google.com/file/d/1ex_OCMGihNS-DVR6yIScdIxaOZRQiqfE/view"
+      "img": "https://i.imgur.com/Tpfd6Af.jpg",
+      "url": "https://cavadelsommelier.cl/"
     },
     {
+      "num": 13,
       "name": "Corporación Gastronómica La Chimba",
-      "img": "https://drive.google.com/file/d/1ylnievzVhxv8CDkKtF6hGkYMRa4hPePD/view"
+      "img": "https://i.imgur.com/K3lQgcg.jpg",
+      "url": "https://lachimba.org/"
     },
     {
+      "num": 14,
       "name": "Con Todos La Pintana",
-      "img": "https://drive.google.com/file/d/1WBVFNJgPG60o7f9mtKlVZounkJdpWhm3/view"
+      "img": "https://i.imgur.com/B0lLR5H.jpg",
+      "url": "https://www.pintana.cl/"
     },
     {
+      "num": 15,
       "name": "LAND",
-      "img": "https://drive.google.com/file/d/1CjXJgKepPqI749LUrA-VSNjJ8kOM9IQ7/view"
+      "img": "https://i.imgur.com/MP4va5s.jpg",
+      "url": "https://agencia.land/"
     },
     {
+      "num": 16,
       "name": "Las Condenadas",
-      "img": "https://drive.google.com/file/d/1c4iCUmcfsCrEco3Gwa_70HMN4j_O1KLa/view"
+      "img": "https://i.imgur.com/pnyZSY1.jpg",
+      "url": "https://www.instagram.com/lascondenadas/"
     },
     {
+      "num": 17,
       "name": "ñam",
-      "img": "https://drive.google.com/file/d/12j-3fPhH6bwQoj4pLl_JbZIcI2SONngp/view"
+      "img": "https://i.imgur.com/ttB9VVB.jpg",
+      "url": "http://niam.cl/"
     },
     {
+      "num": 18,
       "name": "Nosso Prato",
-      "img": "https://drive.google.com/file/d/1URIGDzgWvR1Lwt9YIoztoMJI23N5UGhI/view"
+      "img": "https://i.imgur.com/AIQDnmt.jpg",
+      "url": "https://www.nossoprato.org/"
     },
     {
+      "num": 19,
       "name": "Social Gastronomy",
-      "img": "https://drive.google.com/file/d/1rdO1TZjnUN79N0zzaEIzT7LjbQ7mOUWh/view"
+      "img": "https://i.imgur.com/ezCOtZI.jpg",
+      "url": "https://www.socialgastronomy.org/"
     },
     {
+      "num": 20,
       "name": "Mano de Chef",
-      "img": "https://drive.google.com/file/d/1LuHsq83n7em-4zJydOSV8FInPLaMkEBb/view"
+      "img": "https://i.imgur.com/KqxMagk.jpg",
+      "url": "https://www.manodechef.cl/"
     },
     {
+      "num": 21,
       "name": "Pebre",
-      "img": "https://drive.google.com/file/d/1iT7jlVx9tVfqMGBfE0F3-7lVtyIZTV0i/view"
+      "img": "https://i.imgur.com/EjaOKox.jpg",
+      "url": "http://www.pebrechile.cl/"
     },
     {
+      "num": 22,
       "name": "Puerto Claro",
-      "img": "https://drive.google.com/file/d/1b-BTeApS9wiuHkriSdq2P6CNU_6UD4YG/view"
+      "img": "https://i.imgur.com/v0fvnwC.jpg",
+      "url": "http://www.puertoclarovalpo.cl/"
     },
     {
+      "num": 23,
       "name": "Comedor Común Provisiones",
-      "img": "https://drive.google.com/file/d/1olNBWVnHWNdeYzTMvnMBE7lKgSLT-Olm/view"
+      "img": "https://i.imgur.com/p5EOFX3.png",
+      "url": "https://comedorcomun.cl/"
     },
     {
+      "num": 24,
       "name": "Rossonero",
-      "img": "https://drive.google.com/file/d/1gBYS96sW4htkAsW_nlR0FwmVHM5n5K18/view"
+      "img": "https://i.imgur.com/0P1Nyue.jpg",
+      "url": "https://www.rossonerofoods.com/en"
     },
     {
+      "num": 25,
       "name": "13 Radios",
-      "img": "https://drive.google.com/file/d/1PN2ws0PcD_I_86J0M_1eMDB_IIboJhWw/view"
+      "img": "https://i.imgur.com/zrHlI8c.png",
+      "url": "https://www.tele13radio.cl/"
     },
     {
-      "name": "Taller Mecera",
-      "img": "https://drive.google.com/file/d/1ACvJp5NSwNSwc_Xba1l9vvK-59HgYr6_/view"
+      "num": 26,
+      "name": "Taller Macera",
+      "img": "https://i.imgur.com/u5RsE3V.jpg",
+      "url": "https://www.instagram.com/tallermacera/?hl=en"
     },
     {
+      "num": 27,
       "name": "Ambrosia Bistro",
-      "img": "https://drive.google.com/file/d/14l1x2eJgUqcZBwGDeiyx9kqpLYX4ml2g/view"
+      "img": "https://i.imgur.com/LoVsxZo.jpg",
+      "url": "https://www.ambrosiabistro.cl/"
     },
     {
+      "num": 28,
       "name": "Aurora",
-      "img": "https://drive.google.com/file/d/1Vc9Ayli5pRiaAsxiZJeNzUPYWQrTySW3/view"
+      "img": "https://i.imgur.com/63Mjxdj.jpg",
+      "url": "http://www.auroracocina.cl/"
     }
   ]
 }

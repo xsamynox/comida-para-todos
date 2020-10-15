@@ -2,34 +2,87 @@ import React from 'react';
 import {
   BrowserRouter as Router, Switch, Route
 } from "react-router-dom";
-import Home from '../src/views/home'
-import aboutUs from '../src/views/aboutUs'
-import campaigns from '../src/views/campaigns'
-import collaborators from '../src/views/collaborators'
-import contact from '../src/views/contact'
-import donate from '../src/views/donate'
-import transparency from '../src/views/transparency'
+import Home from './views/home';
+import AboutUs from './views/aboutUs';
+import Projects from './views/projects';
+import Campaigns from './views/campaigns';
+import Collaborators from './views/collaborators';
+import Contact from './views/contact';
+import Donate from './views/donate';
+import Transparency from './views/transparency';
 import './App.css';
+import UrbanGardens from './views/urbanGardens';
+import Foods from './views/foods';
+import Class from './views/class';
+import Skills from './views/skill'
+import AboutUs2 from './views/aboutUs2';
+import BeVolunteer from './views/beVolunteer';
+import SchoolProj from './views/schoolProject';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/aboutUs">
-        </Route>
-        <Route exact path="/projects">
-        </Route>
-        <Route exact path="/campaings">
-        </Route>
-        <Route exact path="/collaborators">
-        </Route>
-        <Route exact path="/transparency">
-        </Route>
-        <Route exact path="/contact">
-        </Route>
+        <Route
+          exact path="/"
+          render={() => <Home />}
+        />
+        <Route
+          exact path="/aboutus/team"
+          render={() => <AboutUs />}
+        />
+        <Route
+          exact path="/aboutus/aboutus"
+          render={() => <AboutUs2 />}
+        />
+        <Route
+          exact path="/projects/foodbank"
+          render={() => <Projects />}
+        />
+        <Route
+          exact path="/projects/schoolproj"
+          render={() => <SchoolProj />}
+        />
+        <Route
+          exact path="/campaings"
+          render={() => <Campaigns />}
+        />
+        <Route
+          exact path="/collaborators"
+          render={() => <Collaborators />}
+        />
+        <Route
+          exact path="/transparency"
+          render={() => <Transparency />}
+        />
+        <Route
+          exact path="/contact"
+          render={() => <Contact />}
+        />
+        <Route
+          exact path="/donate"
+          render={() => <Donate />}
+        />
+        <Route
+          exact path="/donate/bevolunteer"
+          render={() => <BeVolunteer />}
+        />
+        <Route
+          exact path="/donate/urbangarden"
+          render={() => <UrbanGardens />}
+        />
+        <Route
+          exact path="/donate/foods"
+          render={() => <Foods />}
+        />
+        <Route
+          exact path="/donate/class"
+          render={() => <Class />}
+        />
+        <Route
+          exact path="/donate/hability"
+          render={() => <Skills />}
+        />
       </Switch>
     </Router >
   );

@@ -1,0 +1,264 @@
+.img-transparency {
+    background-image: url('../images//transparency/portada.png');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 800px;
+    color: #FFFFFF;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.section-transparency {
+    padding: 80px;
+    background-color: #F2F2F2;
+}
+
+.icon-trn {
+    width: 160px;
+    height: auto;
+}
+
+.arrow-work {
+    margin: 7px;
+}
+
+.ctn-transparency {
+    display: flex;
+    margin-top: 70px;
+}
+
+.ctn-arrow {
+    margin-top: 5%;
+}
+
+.ctn-transparency p {
+    font-style: normal;
+    font-size: 1.25em;
+    line-height: 26px;
+    width: 163px;
+}
+
+.transparency {
+    width: 512px;
+    height: 361px;
+    border-radius: 8px;
+}
+
+.section-work {
+    padding: 80px 80px 0;
+    display: flex;
+}
+
+.textWork {
+    margin-left: 80px;
+}
+
+.section-distribution {
+    padding: 60px 80px 80px 80px;
+    background-color: #F2F2F2;
+    display: flex;
+}
+
+.circulo1,
+.circulo2,
+.circulo3,
+.circulo4,
+.circulo5 {
+    height: 20px;
+    width: 20px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.circulo1 {
+    background: #F25828;
+}
+
+.circulo2 {
+    background: #F2994A;
+}
+
+.circulo3 {
+    background: #F2C94C;
+}
+
+.circulo4 {
+    background: #1F5C70;
+}
+
+.circulo5 {
+    background: #2DA9C5;
+}
+
+.titlecrc {
+    margin-left: 200%;
+    font-weight: bold;
+    padding-top: -40%;
+}
+
+.ctn-distribution {
+    padding-right: 80px;
+}
+
+.ctn-documents {
+    display: flex;
+    height: 230px;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.chartimg {
+    width: 38vw;
+    cursor: pointer;
+}
+
+
+/* Carousel transparency */
+
+.view {
+    background-color: #1F5C70;
+    border-radius: 8px;
+    display: flex;
+    width: 530px;
+    height: 232px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.view2 {
+    background-color: #F25828;
+    border-radius: 8px;
+    display: flex;
+    width: 530px;
+    height: 232px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.icon-carousel {
+    width: 100%;
+    height: auto;
+}
+
+.icon-carousel2 {
+    width: 160px;
+    height: auto;
+}
+
+.font-trp-crs {
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.carousel-indicators li {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.list-distribution {
+    margin-top: 5%;
+    display: flex;
+    margin-left: 5%;
+    columns: 2;
+}
+
+.Column1,
+.Column2 {
+    width: 50%;
+}
+
+/* Popover styling */
+
+a {
+  text-decoration: none;
+}
+
+.popover__wrapper {
+  position: relative;
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+.popover__content {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  left: 9vw;
+  top: 19vw;
+  transform: translate(0, 10px);
+  background-color: #fffefe;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  width: 12vw;
+}
+.popover__content:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  right: calc(50% - 10px);
+  top: -8px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #fffefe transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.popover__wrapper:hover .popover__content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -20px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .ctn-documents,
+    .section-distribution,
+    .section-work,
+    .section-transparency {
+        padding-right: 5.55vw;
+        padding-left: 5.55vw;
+    }
+    .transparency {
+        width: 87vw;
+        height: 27.5vw;
+    }
+    .icon-carousel {
+        width: 43vw;
+    }
+    .icon-trn {
+        width: 254px;
+    }
+    .arrow-work {
+        width: 25px;
+    }
+}
+
+.ctn-distribution {
+    padding-right: 80px;
+}
+
+.ctn-documents {
+    display: flex;
+    height: 230px;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.chartimg {
+    width: 30vw;
+}
+
+.arrow-dwld {
+    height: 20px;
+    margin-left: 3%;
+}
