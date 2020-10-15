@@ -110,15 +110,19 @@ ol {
 
 .menu.active,
 .menu1.active {
-    opacity: 100%;
+    opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
-.menu li a, .menu1 li a{
-  color: #ffffff;
+
+.menu li a,
+.menu1 li a {
+    color: #ffffff;
 }
-.menu.active li a, .menu1.active li a{
-  color: #ffffff;
+
+.menu.active li a,
+.menu1.active li a {
+    color: #ffffff;
 }
 
 .menu ul,
@@ -190,12 +194,19 @@ ol {
     color: #222;
 }
 
-.menu.active li a:hover, .menu.inactive li a, .menu1.active li a:hover, .menu1.inactive li a{
+.menu.active li a:hover,
+.menu.inactive li a,
+.menu1.active li a:hover,
+.menu1.inactive li a {
     text-decoration: none;
     color: #fcfcfc;
 }
-.menu.active li:hover, .menu.inactive li, .menu1.active li:hover, .menu1.inactive li{
-  background-color: #D93400;
+
+.menu.active li:hover,
+.menu.inactive li,
+.menu1.active li:hover,
+.menu1.inactive li {
+    background-color: #D93400;
 }
 
 .submenu {
@@ -484,6 +495,8 @@ p.radio {
     font-family: 'Be Vietnam';
     padding-right: 11%;
 }
+
+
 /* container campaña */
 
 .container-campaign {
@@ -578,7 +591,7 @@ p.radio {
 }
 
 .number-impact {
-  color: #F2F2F2;
+    color: #F2F2F2;
     font-size: 6.5em;
     font-weight: 400;
     font-family: 'Be Vietnam';
@@ -598,12 +611,12 @@ p.radio {
     font-weight: 700;
     margin-top: 5vw;
 }
+
 .read-more2 {
     color: #F25828;
     text-decoration: underline;
     font-weight: 700;
 }
-
 
 .read-more:hover {
     color: #D93400;
@@ -679,14 +692,15 @@ p.radio {
     margin-bottom: 48px;
 }
 
+
 /* HOVER */
 
-.pay input:checked + label {
-	color: #F25828;
+.pay input:checked+label {
+    color: #F25828;
     box-shadow: none;
 }
 
-.pay input:checked + p{
+.pay input:checked+p {
     color: #F25828;
     box-shadow: none;
 }
