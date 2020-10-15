@@ -38,7 +38,7 @@ const Benef = () => {
       </div>
       <div className='div-goTeam'>
         <p className='titleGo'>Conoce a nuestro Equipo</p>
-        <a href='/aboutus/team'><button className='volBtn'>Ir a Nuestro Equipo</button></a>
+        <a href='/team'><button className='volBtn'>Ir a Nuestro Equipo</button></a>
       </div>
     </Fragment>
   )

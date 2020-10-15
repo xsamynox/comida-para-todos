@@ -28,16 +28,16 @@ const Header = () => {
             <li className='submenu' onMouseOver={onMenu} onMouseOut={outMenu} onClick={onClick}><a>Sobre Nosotros</a>
               <nav ref={dropdownRef} className={`menu ${isActive ? 'active' : 'inactive'}`}>
                 <ul >
-                  <li onMouseLeave={outMenu}><a href="/aboutus/aboutus">Sobre Nosotros</a></li>
-                  <li onMouseLeave={outMenu}><a href="/aboutus/team">Equipo</a></li>
+                  <li onMouseLeave={outMenu}><a href="/aboutus">Sobre Nosotros</a></li>
+                  <li onMouseLeave={outMenu}><a href="/team">Equipo</a></li>
                 </ul>
               </nav>
             </li>
             <li onMouseOver={onMenu1} onMouseOut={outMenu1} onClick={onClick1}><a>Proyectos</a>
               <nav ref={dropdownRef} className={`menu1 ${isActive1 ? 'active' : 'inactive'}`}>
                 <ul>
-                  <li onMouseLeave={outMenu1}><a href="/projects/foodbank" >Banco de Alimentos</a></li>
-                  <li onMouseLeave={outMenu1}><a href="/projects/schoolproj">Escuela</a></li>
+                  <li onMouseLeave={outMenu1}><a href="/foodbank" >Banco de Alimentos</a></li>
+                  <li onMouseLeave={outMenu1}><a href="/schoolproj">Escuela</a></li>
                 </ul>
               </nav>
             </li>
