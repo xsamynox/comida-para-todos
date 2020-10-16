@@ -2,7 +2,6 @@
     "name": "my-app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://xsamynox.github.io/comida-para-todos",
     "dependencies": {
         "-": "0.0.1",
         "@testing-library/jest-dom": "^4.2.4",
